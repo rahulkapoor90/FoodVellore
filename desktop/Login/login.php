@@ -17,7 +17,7 @@
 			<form name="login" action="auth.php" method="post" class="container">
 				<span><?php echo $_SESSION['login_err']; ?></span>
 				<br />
-				<h4>Username</h4>
+				<h4>Username!</h4>
 				<input type="text" name="username" placeholder="Enter the Username" required />
 				<h4>Password</h4>
 				<input type="password" name="password" placeholder="Enter your password" required />
