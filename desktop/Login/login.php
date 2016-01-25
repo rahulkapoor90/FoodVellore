@@ -1,6 +1,3 @@
-<?php
-$_SESSION['login_err'] = "";
-?>
 <!Doctype html>
 <html>
 <head lang="en-us">
