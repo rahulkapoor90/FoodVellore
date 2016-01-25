@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="col s12 m12 l4 offset-l4 z-depth-5 container login_box">
 			<form name="login" action="auth.php" method="post" class="container">
-				<span><?php echo $_SESSION['login_err']; ?></span>
+				<span></span>
 				<br />
 				<h4>Username!</h4>
 				<input type="text" name="username" placeholder="Enter the Username" required />
@@ -24,9 +24,8 @@
 				<br />
 				<div class="row">
 					<div class="col l4 offset-l4 s12">
-				      <button type="submit" class="btn waves-effect waves-light z-depth-2 login_submit" name="login_submit">LogIn
+				      <input type="submit" class="btn waves-effect waves-light z-depth-2 login_submit"  value="LogIn" name="login_submit">
 				      <i class="material-icons right">send</i>
-				      </button>
 				    </div>
 				</div>
 			</form>

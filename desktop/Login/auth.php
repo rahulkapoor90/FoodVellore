@@ -12,7 +12,7 @@ if(isset($_POST['login_submit'])){
 	}
 	else if(mysqli_num_rows($result)>0){
 		$pass = mysqli_fetch_assoc($result);
-		if(md5($password)==$pass['password']){
+		if($password==$pass['password']){
 			$_SESSION['user_login'] = $username;
 			header('Location:../index.php');
 		}

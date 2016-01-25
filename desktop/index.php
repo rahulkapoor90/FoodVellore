@@ -1,9 +1,4 @@
-<<<<<<< Updated upstream
-<!DOCTYPDE html>
-=======
-
 <!DOCTYPE html>
->>>>>>> Stashed changes
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -13,7 +8,6 @@
 <title>FoodVellore</title>
 <link rel="stylesheet" href="stylesheets/style.css" type="text/css"/>
  <meta charset="utf-8"/>
- <meta content="noodp,noydir" name="robots"/>
  <meta content="FoodVellore is a great platform for simplicity and Transparency." name="description"/>
 <link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico"/>
   <!-- Compiled and minified JavaScript -->
@@ -23,21 +17,9 @@
 </head>
 <body>
   <nav>
-<<<<<<< Updated upstream
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo">FoodVellore</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-=======
   <ul class="right hide-on-med-and-down">
     <li><a href="#!">Home</a></li>
     <li><a href="#!">Contact Us</a></li>
@@ -81,7 +63,6 @@
         </div>
       </li>
     </ul>
->>>>>>> Stashed changes
     </div>
     <footer class="page-footer">
           <div class="container">
