@@ -1,14 +1,10 @@
 <?php
-define("HOST", "localhost");
-define("USER", "foodvellore");
-define("PASSWORD","foodvellore");
-define("DATABASE","foodvellore");
-
-try{
-	$mysqli = new mysqli(HOST,USER,PASSWORD,DATABASE);
-} catch(Exception $e) {
-	echo "Service unavailable";
-	echo "messsge: " . $e->message;
-	exit;
+$server_name="localhost";
+$user="root";
+$password="";
+$database="foodvellore";
+$conn=mysqli_connect($server_name,$user,$password,$database);
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 ?>
