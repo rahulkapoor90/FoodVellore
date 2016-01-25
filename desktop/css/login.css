@@ -1,0 +1,29 @@
+body{
+	background-color: #418bbc;
+}
+.login_box{
+	background-color:#c4c4c4;
+	margin:0 auto;
+	height:300px;
+}
+h4{
+	color:#418bbc;
+	font-weight: 0;
+	font-size: 20px;
+}
+.btn{
+	background-color: #418bbc;
+	text-align: center;
+	position: relative;
+	left:;
+	margin: 0 auto;
+}
+.btn:hover{
+	background-color: #418bbc;
+}
+@media screen and (min-width: 1000px) {
+    .login_box{
+        position: relative;
+        top:150px;
+    }
+}
