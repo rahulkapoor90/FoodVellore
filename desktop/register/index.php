@@ -77,7 +77,7 @@ header("Location: ../login");
 <html lang="en">
 <head>
 <title>Food Vellore | Register</title>
-<LINK rel="stylesheet" href="../stylesheets/reg_style.css" type="text/css">
+<link rel="stylesheet" href="../stylesheets/reg_style.css" type="text/css">
 </head>
 <body class="foodvellore" role="document">
 <div id="main" class="main_authentication" role="main">
