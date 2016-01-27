@@ -1,7 +1,14 @@
 <?php
-$conn = mysqli_connect("localhost","root","","foodvellore") or die(mysql_error());
-if(!$conn){
-	echo "Unable to connect to database.";
+$user = "root";
+$password = "";
+$database_name = "foodvellore";
+$hostname = "localhost";
+$dsn = 'mysql:dbname=' . $database_name . ';host=' . $hostname;
+try{
+$conn = new PDO($dsn, $user, $password);
+array(PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+} catch(PDOException $e){
+	echo "An error occured with the connection";
 }
 session_start();
 if (isset($_SESSION['user_login'])) {
@@ -15,7 +22,7 @@ if (!isset($_SESSION["user_login"])) {
 }
 else
 {
-    echo "fuck off.";	
+    echo "<meta http-equiv=\"refresh\" content=\"0; url=../home.php\">";	
 }
 ?>
 <?php
@@ -29,19 +36,19 @@ $email = strip_tags(@$_POST['email']);
 $pswd = strip_tags(@$_POST['password']);
 $username = strip_tags(@$_POST['username']);
 if($reg) {
-$e_check = mysqli_query($conn,"SELECT email FROM users WHERE email='$email'");
-//Count the number of rows returned
-$email_check = mysqli_num_rows($e_check);	
-$u_check = mysqli_query($conn,"SELECT username FROM users WHERE username='$username'");
+$e_check = $conn->prepare("SELECT email FROM users WHERE email=:email");
+$e_check->bindParam(':email', $email);
+$u_check = $conn->prepare("SELECT username FROM users WHERE username=:username");
+$u_check->bindParam(':username', $username);
 // Count the amount of rows where username = $un
-$check = mysqli_num_rows($u_check);
+
 if(empty($name) || empty($email) || empty($username) || empty($pswd)){
 	echo "Please fill all the fields.";
 }
-else if($email_check == 1){
+else if($e_check->rowCount() == 1){
 	echo "That email Address also exists";
 }
-else if($check == 1) {
+else if($u_check->rowCount() == 1) {
 	echo "Username already exists.";
 }
 else if(strlen($username) <5){
@@ -51,12 +58,18 @@ else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
 	echo "Invalid Email Address";
 }
 else if(!preg_match("/^[a-zA-Z ]*$/",$name)){
-	echo "Only letters and white spaces allowed.";
+	echo "Only letters and white spaces allowed for name.";
 }
 else {
 $pswd = md5($pswd);
-$query = mysqli_query($conn,"INSERT INTO users VALUES ('','$username','$name','$email','$pswd','')");
-header("Location: ../index.php");
+$query = $conn->prepare("INSERT INTO users(id,username,name,email,password,contact_number) VALUES ('',:username,:name,:email,:pswd,'')");
+$query->bindParam(':name', $name);
+$query->bindParam(':username', $username);
+$query->bindParam(':email', $email);
+$query->bindParam(':pswd', $pswd);
+ 
+$query->execute();
+header("Location: ../login");
 }
 }
 ?>

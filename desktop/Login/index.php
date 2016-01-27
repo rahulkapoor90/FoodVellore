@@ -1,5 +1,15 @@
 <?php
-$conn = mysqli_connect("localhost","root","","foodvellore") or die(mysql_error());
+$user = "root";
+$password = "";
+$database_name = "foodvellore";
+$hostname = "localhost";
+$dsn = 'mysql:dbname=' . $database_name . ';host=' . $hostname;
+try{
+$conn = new PDO($dsn, $user, $password);
+array(PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+} catch(PDOException $e){
+	echo "An error occured with the connection";
+}
 session_start();
 if (isset($_SESSION['user_login'])) {
 $user = $_SESSION["user_login"];
@@ -18,14 +28,16 @@ else
 <?php
 //Login Script
 if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
-    $user_login = preg_replace('#[^A-Za-z0-9]#i', '', $_POST["user_login"]); // filter everything but numbers and letters
-    $password_login = preg_replace('#[^A-Za-z0-9]#i', '', $_POST["password_login"]); // filter everything but numbers and letters
+    $user_login = strip_tags(@$_POST['user_login']); // filter everything but numbers and letters
+    $password_login = strip_tags(@$_POST['password_login']); // filter everything but numbers and letters
     $md5password_login = md5($password_login);
-    $sql = mysqli_query($conn, "SELECT id FROM users WHERE username='$user_login' LIMIT 1"); // query the person
+    $sql = $conn->prepare("SELECT id FROM users WHERE username=:userlogin LIMIT 1"); 
+	$sql->bindParam(':userlogin', $user_login);
     //Check for their existance
-    $userCount = mysqli_num_rows($sql); //Count the number of rows returned
+    $userCount = $sql->rowCount(); //Count the number of rows returned
+	echo $userCount;
     if ($userCount == 1) {
-        while($row = mysqli_fetch_array($sql,MYSQLI_ASSOC)) {
+        while($row = $sql->fetch()) {
              $rahul = $row["id"];
         }
         $_SESSION["id"] = $rahul;
