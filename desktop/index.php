@@ -25,12 +25,14 @@
     <li><a href="#!">Contact Us</a></li>
     <li><a href="login/login.php">Login</a></li>
     <li><a href="register/index.php">SignUp</a></li>
+    <li><a href="explore/events.html">Explore</a></li>
   </ul>
   <ul id="slide-out" class="side-nav">
     <li><a href="#!">Home</a></li>
     <li><a href="#!">Contact Us</a></li>
     <li><a href="login/login.php">Login</a></li>
     <li><a href="register/index.php">SignUp</a></li>
+    <li><a href="explore/events.html">Explore</a></li>
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 </nav>

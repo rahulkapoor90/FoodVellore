@@ -1,0 +1,81 @@
+<div  ng-init="setup()"></div>
+<div class="row" style="padding: 0;margin-top: -5%">
+    <div class="col-md-4 col-md-offset-4">
+        <h2>{{category}}</h2>
+    </div>
+    <div class="input-lg">
+        <input placeholder="Search {{category}}" ng-model="query.name" />
+    </div>
+</div>
+<div ng-if="err">
+    {{err}}
+</div>
+
+<div class="row" >
+    <div class="col-md-4" ng-repeat="d in data| filter: query" style="margin-bottom: 2%; min-height:380px">
+        <a href="javascript:void()" class="thumbnail home-thumb" data-toggle="modal" data-target=".{{d.id}}">
+            <img class="img-width-max" src="{{d.poster}}" alt="Restaurant Speciality">
+        </a>
+        <h3>{{d.name}}</h3>
+
+        <a href="javascript:void()" class="btn btn-danger"  data-toggle="modal" data-target=".{{d.id}}">View</a>
+        <div class="modal fade {{d.id}}" id="{{d.id}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">x</span>
+                        </button>
+                        <h3>{{d.name}}</h3>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                    <img src="{{d.poster}}" alt="Restaurant Speciality">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover">
+                                            <tr>
+                                                <td>
+                                                    <b>Coordinator :</b>
+                                                </td>
+                                                <td>
+                                                    {{d.Coordinator}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Contact :</b>
+                                                </td>
+                                                <td>
+                                                    {{d.Contact}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Registration Fee per Person :</b>
+                                                </td>
+                                                <td>
+                                                    &#8377;{{d.Fee}}
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                            </div>
+                            <div class="col-md-4">
+                                    <div class="text-center">
+                                        <p style="text-align:left;padding: 4%;margin-top:2%;white-space: pre-wrap ">{{d.Description}}
+
+                                        </p>
+
+                                    </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
