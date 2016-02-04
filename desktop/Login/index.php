@@ -22,20 +22,20 @@ if (!isset($_SESSION["user_login"])) {
 }
 else
 {
-    echo "<meta http-equiv=\"refresh\" content=\"0; url=../home.php\">";	
+    echo "<meta http-equiv=\"refresh\" content=\"0; url=../dashboard\">";	
 }
 ?>
 <?php
 //Login Script
 if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
-    $user_login = strip_tags(@$_POST['user_login']); // filter everything but numbers and letters
+    $user_login = strip_tags($_POST['user_login']); // filter everything but numbers and letters
     $password_login = strip_tags(@$_POST['password_login']); // filter everything but numbers and letters
     $md5password_login = md5($password_login);
     $sql = $conn->prepare("SELECT id FROM users WHERE username=:userlogin LIMIT 1"); 
 	$sql->bindParam(':userlogin', $user_login);
+	$sql->execute();
     //Check for their existance
     $userCount = $sql->rowCount(); //Count the number of rows returned
-	echo $userCount;
     if ($userCount == 1) {
         while($row = $sql->fetch()) {
              $rahul = $row["id"];
@@ -43,7 +43,7 @@ if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
         $_SESSION["id"] = $rahul;
         $_SESSION["user_login"] = $user_login;
         $_SESSION["password_login"] = $password_login;
-        // exit("<meta http-equiv=\"refresh\" content=\"0\">");
+        exit("<meta http-equiv=\"refresh\" content=\"0\">");
     } else {
         echo 'That information is incorrect, try again';
         exit();
@@ -54,7 +54,7 @@ if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
 <html>
 <head lang="en-us">
 	  <meta charset="utf-8">
-	  <title>Food Vellore | Register</title>
+	  <title>FoodONZ | Log In</title>
 	  <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -66,7 +66,7 @@ if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
 <div id="main" class="main_authentication" role="main">
 <header class="header">
 <a href="/">
-<p>Food Vellore</p>
+<p>FoodONZ</p>
 </a>
 <h1 style="text-align: center;">Log In to get started.</h1>
 </header>
@@ -81,7 +81,7 @@ if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
 </div>
 </fieldset>
 <footer class="form__actions">
-<input class="" type="submit" value="Register" name="reg">
+<input class="" type="submit" value="Log In" name="reg">
 </footer>
 </form>
 </div>
