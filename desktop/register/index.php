@@ -31,6 +31,7 @@ $name = "";
 $email = "";
 $pswd = "";
 $username = "";
+$error = "";
 $name = strip_tags(@$_POST['name']);
 $email = strip_tags(@$_POST['email']);
 $pswd = strip_tags(@$_POST['password']);
@@ -38,27 +39,53 @@ $username = strip_tags(@$_POST['username']);
 if($reg) {
 $e_check = $conn->prepare("SELECT email FROM users WHERE email=:email");
 $e_check->bindParam(':email', $email);
+$e_check->execute();
 $u_check = $conn->prepare("SELECT username FROM users WHERE username=:username");
 $u_check->bindParam(':username', $username);
+$u_check->execute();
 // Count the amount of rows where username = $un
 
 if(empty($name) || empty($email) || empty($username) || empty($pswd)){
-	echo "Please fill all the fields.";
+	$error =  "<div style='width:80%;
+	background-color: #d9534f;
+  padding:10px;
+  margin:10px auto;
+  font-size: 16px;'>Please fill all the fields.</div>";
 }
 else if($e_check->rowCount() == 1){
-	echo "That email Address also exists";
+	$error = "<div style='width:80%;
+	background-color: #d9534f;
+  padding:10px;
+  margin:10px auto;
+  font-size: 16px;'>That email Address already exists.</div>";
 }
 else if($u_check->rowCount() == 1) {
-	echo "Username already exists.";
+	$error = "<div style='width:80%;
+	background-color: #d9534f;
+  padding:10px;
+  margin:10px auto;
+  font-size: 16px;'>Username already exists.</div>";
 }
 else if(strlen($username) <5){
-	echo "Username length must be more than 5 characters.";
+	$error = "<div style='width:80%;
+	background-color: #d9534f;
+  padding:10px;
+  margin:10px auto;
+  font-size: 16px;'>Username length must be more than 5 characters.</div>";
 }
 else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-	echo "Invalid Email Address";
+	$error = "<div style='width:80%;
+	background-color: #d9534f;
+  padding:10px;
+  margin:10px auto;
+  font-size: 16px;'>Invalid Email Address</div>";
 }
 else if(!preg_match("/^[a-zA-Z ]*$/",$name)){
-	echo "Only letters and white spaces allowed for name.";
+	$error = "<div style='width:80%;
+	background-color: #d9534f;
+  padding:10px;
+  margin:10px auto;
+  font-size: 16px;'>Only letters and white spaces allowed for name.</div>";
 }
 else {
 $pswd = md5($pswd);
@@ -76,16 +103,27 @@ header("Location: ../login");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Food Vellore | Register</title>
+<title>FoodOnz | Register</title>
 <link rel="stylesheet" href="../stylesheets/reg_style.css" type="text/css">
+<link href="../stylesheets/login_nav.css" rel="stylesheet">
 </head>
 <body class="foodvellore" role="document">
+<div id="navbar">
+  <div id="navwrap">
+    <ul>
+	<li><a href="www.foodonz.com">FoodONZ</a></li>
+      <li><a href="../login">Log In</a></li>
+      <li><a href="../register">Register</a></li>
+    </ul>
+  </div>
+</div>
 <div id="main" class="main_authentication" role="main">
 <header class="header">
 <a href="/">
-<p>Food Vellore</p>
+<p>FoodONZ</p>
 </a>
 <h1>Food in Vellore hasn't been simpler than this.</h1>
+<?php echo $error; ?>
 </header>
 <div id="authview">
 <form id="new_user" class="simple_form authform js-new-session-form" role="form" novalidate="novalidate" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" accept-charset="UTF-8" autocomplete="off">
