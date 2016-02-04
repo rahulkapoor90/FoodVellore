@@ -1,18 +1,53 @@
+<?php
+$user = "root";
+$password = "";
+$database_name = "foodvellore";
+$hostname = "localhost";
+$dsn = 'mysql:dbname=' . $database_name . ';host=' . $hostname;
+try{
+$conn = new PDO($dsn, $user, $password);
+array(PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+} catch(PDOException $e){
+	echo "An error occured with the connection";
+}
+session_start();
+if (isset($_SESSION['user_login'])) {
+$user = $_SESSION["user_login"];
+}
+else {
+$user = "";
+}
+if (!isset($_SESSION["user_login"])) {
+    echo "<meta http-equiv=\"refresh\" content=\"0; url=../index.php\">";	
+}
+else
+{
+}
+?>
+<?php
+$name = $conn->prepare("SELECT name,username FROM users WHERE username=:user");
+$name->bindParam(':user', $user);
+$name->execute();
+$row = $name->fetch();
+$name = $row['name'];
+$username = $row['username'];
+
+?>
 <!DOCTYPE html>
 <html ng-app="events" lang="en-US">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gravitas'15</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>FoodONZ | Dashboard</title>
+   <!-- <link href="css/bootstrap.min.css" rel="stylesheet">-->
     <link href="css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
     <script src="js/bower_components/angular/angular.min.js"></script>
     <script src="js/bower_components/angular-route/angular-route.min.js"></script>
     <script src="js/angular-app.js"></script>
     <script src="js/router.js"></script>
-    <style>
+    <style type="text/css">
         body{
             text-align: center;
             overflow-x: hidden;
@@ -41,11 +76,83 @@
             .body_set{ width: 1349px;
                 padding-left: 200px;}
         }
-
-
-    </style>
+@import url('http://fonts.googleapis.com/css?family=Quicksand');
+#foodbar{
+  background-color:#ED8C1C;
+  height:45px;
+  width:100%;
+  top:0;left:0;right:0;
+  position:fixed;
+  border-bottom:#CE6C1B 5px solid;
+  font-family:'Quicksand', sans-serif !important;
+  color:#fff;
+ -webkit-box-shadow: inset 0px -4px 13px 0px rgba rgb(237,140,28);
+  -moz-box-shadow:    inset 0px -4px 13px 0px rgb(237,140,28);
+  box-shadow:         inset 0px -4px 13px 0px rgb(237,140,28);
+  z-index:999;
+}
+#foodbar a{
+  color:#fff;
+  text-decoration:none;
+}
+#foodbar ul{
+  list-style-type:none;
+  float:left;
+  padding:0;
+  margin:0;
+}
+#foodbar ul li{
+  display:inline-block;
+  padding-top:0px;
+  font-size:16px;
+  padding-left:8px;
+  padding-right:8px;
+}
+#foodbar li ul{
+  display:none;
+  background-color:#ED8C1C;
+  border:#111 1px solid;
+  position:absolute;
+  padding-right:25px;
+  z-index:9991;
+}
+#foodbar li:hover ul{
+  display:block;
+}
+#foodbar li ul li{
+  display:block;
+  margin-top:-6px;
+  margin-left:-30px;
+  padding:7px;
+  font-size:16px;
+}
+#navwrap{
+  margin-top:16px;
+}
+.element_avatar.tiny img{
+  width:24px;
+  height:24px;
+}
+#enjin-bar .right{
+  position:fixed;
+  font-size: 24px;
+  font-family: 'Quicksand', sans-serif;
+  top: 30px;
+  z-index:99999;
+}
+</style>
 </head>
 <body class="body_set">
+<div id="foodbar">
+  <div id="navwrap">
+    <ul>
+	<li><a href="/dashboard">FoodONZ</a></li>
+      <li><a href="/dashboard"><?php echo $name; ?></a></li>
+      <li><a href="/settings">Settings</a></li>
+      <li><a href="/foodvellore/desktop/logout">Logout</a></li>
+    </ul>
+  </div>
+</div>
 <div class="navbar navbar-default navbar-fixed-top mobile-only" role="navigation" style="overflow-x:hidden ">
     <div class="container">
         <div class="navbar-header">
