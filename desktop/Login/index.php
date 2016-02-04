@@ -61,12 +61,22 @@ if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
       <!--Let browser know website is optimized for mobile-->
       <link type="text/css" rel="stylesheet" href="../stylesheets/reg_style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <link href="../stylesheets/login_nav.css" rel="stylesheet">
 </head>
 <body class="foodvellore" role="document">
+<div id="navbar">
+  <div id="navwrap">
+    <ul>
+	<li><a href="www.foodonz.com">FoodONZ</a></li>
+      <li><a href="/dashboard">Log In</a></li>
+      <li><a href="../register">Register</a></li>
+    </ul>
+  </div>
+</div>
 <div id="main" class="main_authentication" role="main">
 <header class="header">
-<a href="/">
-<p>FoodONZ</p>
+<a href="http://www.foodonz.com">
+<p><img src="http://i.imgur.com/IlmMTcn.png" width="180px" height="180px"></img></p>
 </a>
 <h1 style="text-align: center;">Log In to get started.</h1>
 </header>

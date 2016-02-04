@@ -57,7 +57,7 @@ $(window).load(function(){
 	<li><a href="/dashboard">FoodONZ</a></li>
       <li><a href="/dashboard"><?php echo $name; ?></a></li>
       <li><a href="/settings">Settings</a></li>
-      <li><a href="/foodvellore/desktop/logout">Logout</a></li>
+      <li><a href="/foodonz-desktop/desktop/logout">Logout</a></li>
     </ul>
   </div>
 </div>
