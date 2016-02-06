@@ -76,7 +76,7 @@ if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
 <div id="main" class="main_authentication" role="main">
 <header class="header">
 <a href="http://www.foodonz.com">
-<p><img src="http://i.imgur.com/IlmMTcn.png" width="180px" height="180px"></img></p>
+<p><img src="http://i.imgur.com/PzeOPHi.png" width="200px" height="180px"></img></p>
 </a>
 <h1 style="text-align: center;">Log In to get started.</h1>
 </header>
