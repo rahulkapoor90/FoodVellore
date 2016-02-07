@@ -68,9 +68,9 @@ $(window).load(function(){
   <div id="navwrap">
   <a href="/dashboard"><img src="http://i.imgur.com/PrhpUCC.png" width="160px" height="50px" id="logo_main"></img></a>
     <ul>
-     <!--<li><a href="#"><?php echo $name; ?></a></li>
+     <li><a href="#"><?php echo $name; ?></a></li>
       <li><a href="/foodonz-desktop/settings">Settings</a></li>
-      <li><a href="/foodonz-desktop/desktop/logout">Logout</a></li>-->
+      <li><a href="/foodonz-desktop/desktop/logout">Logout</a></li>
     </ul>
   </div>
 </div><br><br><br>

@@ -60,16 +60,18 @@ if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
       <!--Import materialize.css-->
       <!--Let browser know website is optimized for mobile-->
       <link type="text/css" rel="stylesheet" href="../stylesheets/reg_style.css">
+	  <link type="image/x-icon" rel="shortcut icon" href="http://i.imgur.com/xl1WjhW.png"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	  <link href="../stylesheets/login_nav.css" rel="stylesheet">
 </head>
 <body class="foodvellore" role="document">
+<div class="container">
 <div id="navbar">
   <div id="navwrap">
+  <a href="http://www.foodonz.com"><img src="http://i.imgur.com/PrhpUCC.png" width="160px" height="50px" id="logo_main"></img></a>
     <ul>
-	<li><a href="www.foodonz.com">FoodONZ</a></li>
-      <li><a href="/dashboard">Log In</a></li>
-      <li><a href="../register">Register</a></li>
+      <li><a href="/foodonz-desktop/desktop/login">Log In</a></li>
+      <li><a href="/foodonz-desktop/desktop/register">Register</a></li>
     </ul>
   </div>
 </div>

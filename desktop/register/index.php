@@ -106,14 +106,15 @@ header("Location: ../login");
 <title>FoodOnz | Register</title>
 <link rel="stylesheet" href="../stylesheets/reg_style.css" type="text/css">
 <link href="../stylesheets/login_nav.css" rel="stylesheet">
+ <link type="image/x-icon" rel="shortcut icon" href="http://i.imgur.com/xl1WjhW.png"/>
 </head>
 <body class="foodvellore" role="document">
 <div id="navbar">
   <div id="navwrap">
+  <a href="http://www.foodonz.com"><img src="http://i.imgur.com/PrhpUCC.png" width="160px" height="50px" id="logo_main"></img></a>
     <ul>
-	<li><a href="www.foodonz.com">FoodONZ</a></li>
-      <li><a href="../login">Log In</a></li>
-      <li><a href="../register">Register</a></li>
+      <li><a href="/foodonz-desktop/desktop/login">Log In</a></li>
+      <li><a href="/foodonz-desktop/desktop/register">Register</a></li>
     </ul>
   </div>
 </div>
