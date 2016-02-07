@@ -7,7 +7,7 @@ $_SESSION['restaurant'] = "apna_dhaba";
 <link rel="stylesheet" href="../materialize/css/materialize.min.css">
  <link type="image/x-icon" rel="shortcut icon" href="http://i.imgur.com/xl1WjhW.png"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="../angular/angular.min.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <title>FoodONZ | Order Food in Vellore</title>
