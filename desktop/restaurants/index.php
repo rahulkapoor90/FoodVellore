@@ -29,6 +29,7 @@ $_SESSION['rname']= "apna";
 			<p>category:{{item.category}}</p>
 			<p>price:INR {{item.price}} /-</p>
 			<br/>
+			<input type="number" ng-hide="item.added" placeholder="enter quantity" ng-model="item.quantity" required>
 			<button ng-hide="item.added"  ng-click="process(item)">Add</button>
 			<button ng-show="item.added" ng-click="rprocess(item)" class="ng-cloak">Remove</button>
 		</div>

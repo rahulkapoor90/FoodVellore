@@ -5,11 +5,11 @@ myApp.controller('restaurantController',['$scope','$http', function($scope, $htt
     });
    
     $scope.process = function(item){
-    	$scope.total = parseInt($scope.total) + parseInt(item.price);
+    	$scope.total = parseInt($scope.total) + item.quantity*parseInt(item.price);
     	item.added=true;
     }
     $scope.rprocess = function(item){
-    	$scope.total = parseInt($scope.total) - parseInt(item.price);
+    	$scope.total = parseInt($scope.total) - item.quantity*parseInt(item.price);
     	item.added=false;
     }
 }]);
