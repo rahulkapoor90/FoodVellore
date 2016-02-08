@@ -1,5 +1,5 @@
 var myApp = angular.module('myApp',[]);
-myApp.controller('restaurantController',['$scope','$http', function($scope, $http){
+myApp.controller('restaurantController', function($scope, $http){
     $http.get('apna.json').success(function (data){
         $scope.items = data;
     });
@@ -8,8 +8,4 @@ myApp.controller('restaurantController',['$scope','$http', function($scope, $htt
     	$scope.total = parseInt($scope.total) + parseInt(item.price);
     	item.added=true;
     }
-    $scope.rprocess = function(item){
-    	$scope.total = parseInt($scope.total) - parseInt(item.price);
-    	item.added=false;
-    }
-}]);
+});

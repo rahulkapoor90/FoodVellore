@@ -1,5 +1,5 @@
 <?php
-$_SESSION['restaurant'] = "apna_dhaba";
+$_SESSION['rname']= "apna";
 ?>
 <html lang="en-us">
 <head>
@@ -20,7 +20,7 @@ $_SESSION['restaurant'] = "apna_dhaba";
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
 </head>
 <body ng-app="myApp">
-	<div ng-controller="restaurantController" ng-init="total=0" clas="container">
+	<div ng-controller="restaurantController" ng-init="total=0;something='<?php echo $_SESSION['rname'] ?>'" class="container">
 		<div class="col l4 s4 container">
 		<label>Search</label>    <input type="text" ng-model="search.name">
 	</div>
@@ -29,7 +29,8 @@ $_SESSION['restaurant'] = "apna_dhaba";
 			<p>category:{{item.category}}</p>
 			<p>price:INR {{item.price}} /-</p>
 			<br/>
-			<button ng-click="process(item.name,item.price)">Add</button>
+			<button ng-hide="item.added"  ng-click="process(item)">Add</button>
+			<button ng-show="item.added" ng-click="rprocess(item)" class="ng-cloak">Remove</button>
 		</div>
 		<h1>Total:<span ng-model="total">{{total}}</span></h1>
 	</div>
