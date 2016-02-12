@@ -74,72 +74,42 @@ $(window).load(function(){
     </ul>
   </div>
 </div><br><br><br>
-			  <div class="main">
-				    <div class="div_right">
-					<span class="first"> 
-Restaurant's in Vellore
+<div class="main">
+<div class="div_right">
+<span class="first"> 
+Valley Junction's Menu
 </span>
-<ul class="timeline">
-<li>
 <?php
-//If the user is logged in
-$getrests = $conn->prepare("SELECT * FROM restaurants ORDER BY id ASC"); 
-$getrests->execute();
-$posts = $getrests->rowCount();
-if($posts == 0){
-	echo "Sorry, Some error might have occured!";
-}
-else {
-while ($row = $getrests->fetch()) {
-						$id = $row['id'];
-						$rest_name = $row['rest_name'];	
-						$rest_desc = $row['rest_desc'];
-						$rest_image = $row['rest_image'];
-                        if ($rest_image == "") {
-                        $rest_image1 = "images/default_hootpile.png";
-                        }
-                        else
-                        {
-                        $rest_image1 = "http://www.imgur.com/".$rest_image;
-                       }
-	 echo "
-	 <div class='avatar'>
-<img src='$rest_image1' alt='$name' title='$name'>
-</div>
-<div class='bubble-container'>
-<div class='bubble'>
-<h3>$rest_name</h3><br/>
-$rest_desc
-<div class='over-bubble'>
-<a id='hover_link' href='/foodonz-desktop/desktop/favorites/index.php?u=$id'><div class='icon-star'></div></a>
-<a id='hover_link' href='/foodonz-desktop/desktop/book/index.php?u=$id'><i class='fa fa-check'></i> Book</a>
-</div>
-</div>
-<div class='arrow'></div>
-</div>";
-	 }
+$string = file_get_contents("./rest_info.json");
+$jfo = json_decode($string);
+$posts = $jfo->rest_info;
+foreach ($posts as $post) {
+    echo $post->foodname;
+	echo "<br>";
+	echo $post->price;
+	echo "<br>";
+	echo $post->type;
+	echo "<br>";
+	echo "<br>";
 }
 ?>
-</li>
+</div>
+<div class="side">
+<nav class="dr-menu dr-menu-open">
+<div class="dr-trigger">
+<a class="dr-label">Account</a>
+</div>
+<ul>
+<li><a class="dr-icon dr-icon-user" href="#"><?php echo $name; ?></a></li>
+<li><a class="dr-icon dr-icon-heart" href="/foodonz-desktop/desktop/favorites">Favorites</a></li>
+<li><a class="dr-icon dr-icon-bullhorn" href="/foodonz-desktop/desktop/share">Coupons</a></li>
+<li><a class="dr-icon dr-icon-settings" href="/foodonz-desktop/desktop/settings">Settings</a></li>
+<li><a class="dr-icon dr-icon-switch" href="/foodonz-desktop/desktop/logout">Logout</a></li>
 </ul>
-					
-					</div>
-				    <div class="side">
-					      <nav class="dr-menu dr-menu-open">
-						        <div class="dr-trigger">
-          <a class="dr-label">Account</a>
-        </div>
-						        <ul>
-							          <li><a class="dr-icon dr-icon-user" href="#"><?php echo $name; ?></a></li>
-							          <li><a class="dr-icon dr-icon-heart" href="/foodonz-desktop/desktop/favorites">Favorites</a></li>
-							          <li><a class="dr-icon dr-icon-bullhorn" href="/foodonz-desktop/desktop/share">Coupons</a></li>
-							          <li><a class="dr-icon dr-icon-settings" href="/foodonz-desktop/desktop/settings">Settings</a></li>
-							          <li><a class="dr-icon dr-icon-switch" href="/foodonz-desktop/desktop/logout">Logout</a></li>
-						        </ul>
-					      </nav>
-				    </div>
-			  </div>
-		</div>
+</nav>
+</div>
+</div>
+</div>
 <footer>
   
 </footer>

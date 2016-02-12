@@ -1,0 +1,899 @@
+{
+  "rest_info": [
+  {
+    "foodname":"Aloo Tomato Curry",
+    "price":55,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Aloo Mutter",
+    "price":60,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Punjabi Aloo Dum",
+    "price":60,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Kashmiri Aloo Dum",
+    "price":60,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Aloo Ghobi(Mixed/Dry)",
+    "price":60,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Mix Veg Masala",
+    "price":70,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Kadhai Veg",
+    "price":70,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Veg JhalFurzi",
+    "price":70,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Aloo Jeera Fry",
+    "price":40,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Spicy Aloo Bhindi(Dry)",
+    "price":50,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Spicy Bhindi Fry",
+    "price":45,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Kaju Curry",
+    "price":95,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Chana Masala",
+    "price":70,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Rajma Masala",
+    "price":70,
+    "type":"Veg Curry"
+  },
+  {
+    "foodname":"Paneer Keema Masala",
+    "price":95,
+    "type":"Paneer"
+  },
+  {
+    "foodname":"Paneer Hariyali Masala",
+    "price":95,
+    "type":"Paneer"
+  },
+  {
+    "foodname":"Paneer Jhalfurji",
+    "price":90,
+    "type":"Paneer"
+  },
+  {
+    "foodname":"Paneer Bhurji",
+    "price":85,
+    "type":"Paneer"
+  },
+  {
+    "foodname":"Kadhai Paneer",
+    "price":90,
+    "type":"Paneer"
+  },
+  {
+    "foodname":"Kaju Paneer(White/Red)",
+    "price":120,
+    "type":"Paneer"
+  },
+  {
+    "foodname":"Paneer Pasanda",
+    "price":90,
+    "type":"Paneer"
+  },
+  {
+    "foodname":"Malai Kofta",
+    "price":95,
+    "type":"Kofta"
+  },
+  {
+    "foodname":"Nargis Kofta",
+    "price":85,
+    "type":"Kofta"
+  },
+  {
+    "foodname":"Palak Paneer Ka Kofta",
+    "price":95,
+    "type":"Kofta"
+  },
+  {
+    "foodname":"Dal Fry",
+    "price":45,
+    "type":"Dal"
+  },
+  {
+    "foodname":"Dal Tadka",
+    "price":50,
+    "type":"Dal"
+  },
+  {
+    "foodname":"Dal Makhni",
+    "price":65,
+    "type":"Dal"
+  },
+  {
+    "foodname":"Sweet Of Tomato Soup",
+    "price":60,
+    "type":"Soup(Veg)"
+  },
+  {
+    "foodname":"Sweet Corn Soup",
+    "price":50,
+    "type":"Soup(Veg)"
+  },
+  {
+    "foodname":"Hot & Sour Soup",
+    "price":50,
+    "type":"Soup(Veg)"
+  },
+  {
+    "foodname":"Ta-Lu Mein Soup",
+    "price":50,
+    "type":"Soup(Veg)"
+  },
+  {
+    "foodname":"Mushroom Soup",
+    "price":50,
+    "type":"Soup(Veg)"
+  },
+  {
+    "foodname":"Chicken Clear Soup",
+    "price":50,
+    "type":"Soup(Veg)"
+  },
+  {
+    "foodname":"Aloo Paratha",
+    "price":25,
+    "type":"Paratha/Kulcha"
+  },
+  {
+    "foodname":"Paneer Kulcha",
+    "price":40,
+    "type":"Paratha/Kulcha"
+  },
+  {
+    "foodname":"Masala Kulcha",
+    "price":30,
+    "type":"Paratha/Kulcha"
+  },
+  {
+    "foodname":"Lachha Paratha",
+    "price":30,
+    "type":"Paratha/Kulcha"
+  },
+  {
+    "foodname":"Gobhi Paratha",
+    "price":30,
+    "type":"Paratha/Kulcha"
+  },
+  {
+    "foodname":"Cream Of Tomato Soup",
+    "price":60,
+    "type":"Soup(Non-Veg)"
+  },
+  {
+    "foodname":"Sweet Corn Soup",
+    "price":60,
+    "type":"Soup(Non-Veg)"
+  },
+  {
+    "foodname":"Hot & Sour Soup",
+    "price":60,
+    "type":"Soup(Non-Veg)"
+  },
+  {
+    "foodname":"Ta-Lu Mein Soup",
+    "price":60,
+    "type":"Soup(Non-Veg)"
+  },
+  {
+    "foodname":"Mushroom Soup",
+    "price":60,
+    "type":"Soup(Non-Veg)"
+  },
+  {
+    "foodname":"Chicken Clear Soup",
+    "price":45,
+    "type":"Soup(Non-Veg)"
+  },
+  {
+    "foodname":"Paneer Tikka Kabab",
+    "price":90,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Chicken Afgani",
+    "price":90,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Paneer Hariyali Kebab",
+    "price":90,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Chicken Tikka Chicken Reshmi",
+    "price":120,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Chicken Malai",
+    "price":120,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Chicken Hariyali",
+    "price":130,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Chicken Tangri",
+    "price":120,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Tandoori Chicken(Full)",
+    "price":290,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Tandoori Chicken(Half)",
+    "price":150,
+    "type":"Tandoori Items"
+  },
+  {
+    "foodname":"Finger Chips",
+    "price":40,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Veg Spring Roll",
+    "price":55,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Honey Chilli Potato",
+    "price":65,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Honey Chilli Paneer",
+    "price":90,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Crispy Chilli Babycorn",
+    "price":85,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Crispy Chilli Mushroom",
+    "price":85,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Mushroom Salt & Pepper",
+    "price":85,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Pan Fried Chilli Paneer",
+    "price":90,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Paneer Salt & Pepper",
+    "price":90,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Red Pepper Paneer",
+    "price":90,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Veg Manchurian",
+    "price":70,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Gobhi Manchurian",
+    "price":75,
+    "type":"Starters(Veg)"
+  },
+  {
+    "foodname":"Chicken Roganjosh",
+    "price":80,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Mughlai",
+    "price":95,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Handi",
+    "price":95,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Kassa",
+    "price":95,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Punjabi Chicken",
+    "price":95,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Do Pyaja",
+    "price":95,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Kadhai Chicken",
+    "price":95,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Keema Masala",
+    "price":100,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Bharta",
+    "price":100,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Hyderabad Chicken",
+    "price":110,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Tikka Masala",
+    "price":110,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Butter Masala",
+    "price":110,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Reshmi Chicken Masala",
+    "price":130,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Chicken Tengri Masala",
+    "price":130,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Tandoori Chicken Masala",
+    "price":130,
+    "type":"Non-Veg Gravy"
+  },
+  {
+    "foodname":"Veg Biryani",
+    "price":80,
+    "type":"Biryani"
+  },
+  {
+    "foodname":"Egg Biryani",
+    "price":90,
+    "type":"Biryani"
+  },
+  {
+    "foodname":"Chicken Biryani",
+    "price":120,
+    "type":"Biryani"
+  },
+  {
+    "foodname":"Chicken Spring Roll",
+    "price":65,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Pan Fried Chilli Chicken",
+    "price":110,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Red Pepper Chicken",
+    "price":110,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Crispy Chilli Chicken",
+    "price":110,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Honey Pepper Chicken",
+    "price":120,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Taipal Chicken",
+    "price":110,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Dragon Chicken",
+    "price":110,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Chicken Pepper & Salt",
+    "price":110,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Chicken Lollipop",
+    "price":100,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Garlic Pepper Chicken",
+    "price":120,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Drums Of Heaven",
+    "price":120,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Pan Fried Chilli Prawn",
+    "price":150,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Hot Garlic Prawn",
+    "price":150,
+    "type":"Starters(Non-Veg)"
+  },
+  {
+    "foodname":"Tawa Roti",
+    "price":6,
+    "type":"Roti/Nan"
+  },
+  {
+    "foodname":"Tandoori Roti",
+    "price":10,
+    "type":"Roti/Nan"
+  },
+  {
+    "foodname":"Tandoori Roti(Butter)",
+    "price":12,
+    "type":"Roti/Nan"
+  },
+  {
+    "foodname":"Plain Nan",
+    "price":18,
+    "type":"Roti/Nan"
+  },
+  {
+    "foodname":"Butter Nan",
+    "price":22,
+    "type":"Roti/Nan"
+  },
+  {
+    "foodname":"Cheese Nan",
+    "price":40,
+    "type":"Roti/Nan"
+  },
+  {
+    "foodname":"Garlic Butter Nan",
+    "price":35,
+    "type":"Roti/Nan"
+  },
+  {
+    "foodname":"Plain Curd",
+    "price":20,
+    "type":"Raita/Salad"
+  },
+  {
+    "foodname":"Bundi Raita",
+    "price":40,
+    "type":"Raita/Salad"
+  },
+  {
+    "foodname":"Veg Raita",
+    "price":40,
+    "type":"Raita/Salad"
+  },
+  {
+    "foodname":"Onion Raita",
+    "price":40,
+    "type":"Raita/Salad"
+  },
+  {
+    "foodname":"Green Salad",
+    "price":25,
+    "type":"Raita/Salad"
+  },
+  {
+    "foodname":"Onion Salad",
+    "price":20,
+    "type":"Raita/Salad"
+  },
+  {
+    "foodname":"Roast Papad",
+    "price":10,
+    "type":"Raita/Salad"
+  },
+  {
+    "foodname":"Masala Papad",
+    "price":25,
+    "type":"Raita/Salad"
+  },
+  {
+    "foodname":"Veg Pasta",
+    "price":100,
+    "type":"Pasta Veg"
+  },
+  {
+    "foodname":"Spaghetti Marina",
+    "price":120,
+    "type":"Pasta Veg"
+  },
+  {
+    "foodname":"Spaghetti Nepolitana",
+    "price":120,
+    "type":"Pasta Veg"
+  },
+  {
+    "foodname":"Chicken Pasta ",
+    "price":110,
+    "type":"Pasta Non-Veg"
+  },
+  {
+    "foodname":"Spaghetti Bolognese",
+    "price":135,
+    "type":"Pasta Non-Veg"
+  },
+  {
+    "foodname":"Spaghetti Cordinate",
+    "price":135,
+    "type":"Pasta Non-Veg"
+  },
+  {
+    "foodname":"Egg Bhurji",
+    "price":35,
+    "type":"Egg Items"
+  },
+  {
+    "foodname":"Egg Masala",
+    "price":55,
+    "type":"Egg Items"
+  },
+  {
+    "foodname":"Plain Omelet",
+    "price":25,
+    "type":"Egg Items"
+  },
+  {
+    "foodname":"Masala Omelet",
+    "price":30,
+    "type":"Egg Items"
+  },
+  {
+    "foodname":"Cheese Omelet",
+    "price":40,
+    "type":"Egg Items"
+  },
+  {
+    "foodname":"Boiled Egg(2 pc.)",
+    "price":20,
+    "type":"Egg Items"
+  },
+  {
+    "foodname":"Steam Rice",
+    "price":35,
+    "type":"Rice/Pulao"
+  },
+  {
+    "foodname":"Ghee Rice",
+    "price":45,
+    "type":"Rice/Pulao"
+  },
+  {
+    "foodname":"Jeera Rice",
+    "price":45,
+    "type":"Rice/Pulao"
+  },
+  {
+    "foodname":"Veg Pulao",
+    "price":65,
+    "type":"Rice/Pulao"
+  },
+  {
+    "foodname":"Paneer Pulao",
+    "price":70,
+    "type":"Rice/Pulao"
+  },
+  {
+    "foodname":"Soft Drink(200 ml)",
+    "price":15,
+    "type":"Beverage"
+  },
+  {
+    "foodname":"Mineral Water(1 ltr.)",
+    "price":22,
+    "type":"Beverage"
+  },
+  {
+    "foodname":"Masala Cold Drink",
+    "price":25,
+    "type":"Beverage"
+  },
+  {
+    "foodname":"Sweet Lassi",
+    "price":35,
+    "type":"Beverage"
+  },
+  {
+    "foodname":"Butter Milk",
+    "price":35,
+    "type":"Beverage"
+  },
+  {
+    "foodname":"Fresh Lime Soda",
+    "price":30,
+    "type":"Beverage"
+  },
+  {
+    "foodname":"Fresh Lime Water",
+    "price":25,
+    "type":"Beverage"
+  },
+  {
+    "foodname":"Veg Hakka Noodles",
+    "price":60,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Egg Hakka Noodles",
+    "price":70,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Chicken Hakka Noodles",
+    "price":80,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Prawn Hakka Noodles",
+    "price":100,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Mixed Hakka Noodles",
+    "price":120,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Singapore Chicken Noodles",
+    "price":90,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Veg Schezwan Noodles",
+    "price":70,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Chicken Schezwan Noodles",
+    "price":90,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Veg Chilli Garlic Noodles",
+    "price":70,
+    "type":"Noodles"
+  },
+  {
+    "foodname":"Veg Fried Rice",
+    "price":65,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Veg Mushroom Rice",
+    "price":75,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Egg Fried Rice",
+    "price":75,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Chicken Fried Rice",
+    "price":85,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Prawn Fried Rice",
+    "price":110,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Mixed Fried Rice(N.V.)",
+    "price":130,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Veg Schezwan Fried Rice",
+    "price":75,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Chicken Schezwan Fried Rice",
+    "price":95,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Singapore Chicken Fried Rice",
+    "price":95,
+    "type":"Fried Rice"
+  },
+  {
+    "foodname":"Veg Steak Sizzler",
+    "price":100,
+    "type":"Sizzler"
+  },
+  {
+    "foodname":"Chicken Steak Sizzler",
+    "price":130,
+    "type":"Sizzler"
+  },
+  {
+    "foodname":"Veg Manchurian",
+    "price":70,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Gobhi Manchurian",
+    "price":75,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Chilli Paneer",
+    "price":90,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Paneer Manchurian",
+    "price":90,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Hot Garlic Paneer",
+    "price":90,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Chilli Mushroom",
+    "price":85,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Hot Garlic Mushroom",
+    "price":85,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Mushroom Manchurian",
+    "price":85,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Chilli Babycorn Hot",
+    "price":85,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Hot Garlic Babycorn",
+    "price":85,
+    "type":"Veg Gravy"
+  },
+  {
+    "foodname":"Sweet & Sour Chicken",
+    "price":100,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Chilli Chicken",
+    "price":100,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Hot Garlic Chicken",
+    "price":100,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Chicken Manchurian",
+    "price":100,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Ginger Chicken",
+    "price":100,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Chicken Schezwan",
+    "price":100,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Chicken Cashewnut",
+    "price":120,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Hunan Chicken",
+    "price":100,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Lemon Chicken",
+    "price":100,
+    "type":"Chicken Gravy"
+  },
+  {
+    "foodname":"Prawn Chilli",
+    "price":150,
+    "type":"Prawn Gravy"
+  },
+  {
+    "foodname":"Hot Garlic Prawn",
+    "price":150,
+    "type":"Prawn Gravy"
+  },
+  {
+    "foodname":"Prawn Manchurian",
+    "price":150,
+    "type":"Prawn Gravy"
+  },
+  {
+    "foodname":"Ginger Prawn",
+    "price":150,
+    "type":"Prawn Gravy"
+  },
+  {
+    "foodname":"Prawn Schezwan",
+    "price":150,
+    "type":"Prawn Gravy"
+  }
+]
+}
