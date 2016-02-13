@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 27, 2016 at 07:11 PM
+-- Generation Time: Feb 13, 2016 at 05:54 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -34,14 +34,16 @@ CREATE TABLE IF NOT EXISTS `users` (
   `password` varchar(30) NOT NULL,
   `contact_number` int(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `username`, `name`, `email`, `password`, `contact_number`) VALUES
-(9, 'rahulkapoor', 'rahul kapoor', 'rahulkapoorbbps@outlook.com', '242ceb62198cf9e66e6887ffd5edbc', 0);
+(9, 'rahulkapoor', 'rahul kapoor', 'rahulkapoorbbps@outlook.com', '242ceb62198cf9e66e6887ffd5edbc', 0),
+(10, 'sdsads', 'rahul kapoor', 'rahulkapoorhooting@gmail.com', '1ab9def9830ecad32a2b18c2830410', 0),
+(11, 'rahulkapoor90', 'Rahul Kapoor', 'rasdasdasdsa@gmail.com', '242ceb62198cf9e66e6887ffd5edbc', 0);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
