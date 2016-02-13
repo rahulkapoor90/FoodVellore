@@ -1,5 +1,6 @@
 <?php
-$_SESSION['rname']= "apna.json";
+$res= "apna";
+$_SESSION['rname'] = $res.'.json';
 ?>
 <html lang="en-us">
 <head>
@@ -19,7 +20,7 @@ $_SESSION['rname']= "apna.json";
    <!-- Site's designed for mobile -->
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
 </head>
-<body ng-app="myApp" ng-init="total=0;something='<?php echo $_SESSION['rname'] ?>'">
+<body ng-app="myApp" ng-init="norder=false;total=0;something='<?php echo $_SESSION['rname'] ?>'">
 	<div ng-controller="restaurantController"  class="container">
 		<div class="col l4 s4 container">
 		<label>Search</label>    <input type="text" ng-model="search.name">
@@ -34,12 +35,28 @@ $_SESSION['rname']= "apna.json";
 			<button ng-show="item.added" ng-click="rprocess(item)" class="ng-cloak">Remove</button>
 		</div>
 		<h1>Total:<span ng-model="total">{{total}}</span></h1>
+		<button data-target="modal1" class="btn modal-trigger">Your Orders</button>
+		<div id="modal1" class="modal bottom-sheet">
+        <div class="modal-content">
+        	<h1 ng-show="norder">Your have ordered</h1>
+        	<p ng-hide="norder">You have not ordered anything</p>
 		<div class="container" ng-repeat="order in orders">
 			<h3>{{order.name}}</h3>
+			<p>Price:{{order.price}}</p>
+			<p>Quantity:{{order.quantity}}</p>
 		</div>
+		<h3 ng-show="norder">Bill Amount:{{total}}</h3>
+	</div>
+</div>
 	</div>
 	<script src="../angular/app.js"></script>
 	<script src="../angular/restaurantController.js"></script>
 	<script src="../materialize/js/materialize.min.js"></script>
+	<script>
+	$(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+	</script>
 </body>
 </html>

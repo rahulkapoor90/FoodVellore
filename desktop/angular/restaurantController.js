@@ -4,7 +4,9 @@ myApp.controller('restaurantController',['$scope','$http', function($scope, $htt
         $scope.items = data;
     });
     $scope.orders = [];
+    $scope.norder=false;
     $scope.process = function(item){
+        $scope.norder = true;
         if(isNaN(item.quantity)){
             alert("please enter the quantity");
         }
@@ -16,11 +18,15 @@ myApp.controller('restaurantController',['$scope','$http', function($scope, $htt
         curItem.price = item.quantity*parseInt(item.price);
         curItem.quantity = item.quantity;
         $scope.orders.push(curItem);
-        console.log(JSON.stringify($scope.orders));
     }
     }
     $scope.rprocess = function(item){
     	$scope.total = parseInt($scope.total) - item.quantity*parseInt(item.price);
     	item.added=false;
+        for(var i=0;i<$scope.orders.length;i++){
+            if(($scope.orders[i].name).match(item.name)){
+                ($scope.orders).splice(i,1);
+            }
+        }
     }
 }]);
