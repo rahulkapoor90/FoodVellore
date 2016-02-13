@@ -11,9 +11,12 @@ myApp.controller('restaurantController',['$scope','$http', function($scope, $htt
         else{
     	$scope.total = parseInt($scope.total) + item.quantity*parseInt(item.price);
     	item.added=true;
-        var cart = '{"name":"'+item.name+'","price":"'+item.quantity*parseInt(item.price)+'","quantity":"'+item.quantity+'"}';
-        $scope.orders.push(cart);
-        console.log($scope.orders);
+        var curItem  = {};
+        curItem.name = item.name;
+        curItem.price = item.quantity*parseInt(item.price);
+        curItem.quantity = item.quantity;
+        $scope.orders.push(curItem);
+        console.log(JSON.stringify($scope.orders));
     }
     }
     $scope.rprocess = function(item){

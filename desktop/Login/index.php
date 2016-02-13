@@ -37,6 +37,7 @@ if (isset($_POST["user_login"]) && isset($_POST["password_login"])) {
     //Check for their existance
     $userCount = $sql->rowCount(); //Count the number of rows returned
     if ($userCount == 1) {
+        echo "Yo";
         while($row = $sql->fetch()) {
              $rahul = $row["id"];
         }
