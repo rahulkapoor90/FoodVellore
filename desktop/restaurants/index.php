@@ -1,5 +1,5 @@
 <?php
-$_SESSION['rname']= "apna";
+$_SESSION['rname']= "apna.json";
 ?>
 <html lang="en-us">
 <head>
@@ -19,8 +19,8 @@ $_SESSION['rname']= "apna";
    <!-- Site's designed for mobile -->
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
 </head>
-<body ng-app="myApp">
-	<div ng-controller="restaurantController" ng-init="total=0;something='<?php echo $_SESSION['rname'] ?>'" class="container">
+<body ng-app="myApp" ng-init="total=0;something='<?php echo $_SESSION['rname'] ?>'">
+	<div ng-controller="restaurantController"  class="container">
 		<div class="col l4 s4 container">
 		<label>Search</label>    <input type="text" ng-model="search.name">
 	</div>
@@ -34,6 +34,9 @@ $_SESSION['rname']= "apna";
 			<button ng-show="item.added" ng-click="rprocess(item)" class="ng-cloak">Remove</button>
 		</div>
 		<h1>Total:<span ng-model="total">{{total}}</span></h1>
+		<div class="container" ng-repeat="order in orders">
+			<h3>{{order.name}}</h3>
+		</div>
 	</div>
 	<script src="../angular/app.js"></script>
 	<script src="../angular/restaurantController.js"></script>
