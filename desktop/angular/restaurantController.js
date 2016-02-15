@@ -30,12 +30,13 @@ myApp.controller('restaurantController',['$scope','$http', function($scope, $htt
     }
     $scope.checkout = function(){
          $http({
-         url:"../restaurants/checkout.php",
+         url:"../restaurants/middleware.php",
          method : 'POST',
          data :{
-            'total':$scope.total
+            total : $scope.total
         }
     }).success(function(data, status, headers, config) {
+        console.log(data);
         window.location.href = '../restaurants/checkout.php'
     }).error(function(data, status, headers, config) {
        console.log("not done");

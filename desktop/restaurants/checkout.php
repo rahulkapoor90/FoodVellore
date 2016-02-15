@@ -1,4 +1,6 @@
 <?php
-echo "hello";
-
+session_start()
+?>
+<?php
+echo $_SESSION["total"];
 ?>
