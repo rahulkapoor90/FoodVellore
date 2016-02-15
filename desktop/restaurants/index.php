@@ -14,7 +14,7 @@ $_SESSION['rname'] = $res.'.json';
 <title>FoodONZ | Order Food in Vellore</title>
  <meta charset="utf-8"/>
  <meta content="FoodVellore is a great platform for simplicity and Transparency." name="description"/>
-<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico"/>
+<link type="image/x-icon" rel="shortcut icon" href="../images/favicon.ico"/>
   <!-- Compiled and minified JavaScript -->
  
    <!-- Site's designed for mobile -->
@@ -48,6 +48,7 @@ $_SESSION['rname'] = $res.'.json';
 		<h3 ng-show="norder">Bill Amount:{{total}}</h3>
 	</div>
 </div>
+        <button class="btn waves-light" ng-show="norder" ng-click="checkout()">Book</button>
 	</div>
 	<script src="../angular/app.js"></script>
 	<script src="../angular/restaurantController.js"></script>

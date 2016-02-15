@@ -1,4 +1,3 @@
-var myApp = angular.module('myApp',[]);
 myApp.controller('restaurantController',['$scope','$http', function($scope, $http){
     $http.get($scope.something).success(function (data){
         $scope.items = data;
@@ -28,5 +27,18 @@ myApp.controller('restaurantController',['$scope','$http', function($scope, $htt
                 ($scope.orders).splice(i,1);
             }
         }
+    }
+    $scope.checkout = function(){
+         $http({
+         url:"../restaurants/checkout.php",
+         method : 'POST',
+         data :{
+            'total':$scope.total
+        }
+    }).success(function(data, status, headers, config) {
+        window.location.href = '../restaurants/checkout.php'
+    }).error(function(data, status, headers, config) {
+       console.log("not done");
+});
     }
 }]);

@@ -1,5 +1,4 @@
-{
-  "rest_info": [
+[
   {
     "foodname":"Aloo Tomato Curry",
     "price":55,
@@ -896,4 +895,3 @@
     "type":"Prawn Gravy"
   }
 ]
-}

@@ -34,7 +34,7 @@ $username = $row['username'];
 
 ?>
 <!DOCTYPE html>
-<html ng-app="events" lang="en-US">
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,12 +49,13 @@ $username = $row['username'];
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
 <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 </head>
-<body>
+<body ng-app="events">
 <!--
 <div id="dvLoading"></div>
 <script>
@@ -95,6 +96,7 @@ while ($row = $getrests->fetch()) {
 						$rest_name = $row['rest_name'];	
 						$rest_desc = $row['rest_desc'];
 						$rest_image = $row['rest_image'];
+						$rest_jname = $row['res_jname'];
                         if ($rest_image == "") {
                         $rest_image1 = "images/default_hootpile.png";
                         }
@@ -111,8 +113,8 @@ while ($row = $getrests->fetch()) {
 <h3>$rest_name</h3><br/>
 $rest_desc
 <div class='over-bubble'>
-<a id='hover_link' href='/foodonz-desktop/desktop/favorites/index.php?u=$id'><div class='icon-star'></div></a>
-<a id='hover_link' href='/foodonz-desktop/desktop/book/index.php?u=$id'><i class='fa fa-check'></i> Book</a>
+<a id='hover_link' href='/foodonz-desktop/desktop/favorites/index.php?u=$rest_jname'><div class='icon-star'></div></a>
+<a id='hover_link' href='/foodonz-desktop/desktop/book/index.php?u=$rest_jname'><i class='fa fa-check'></i> Book</a>
 </div>
 </div>
 <div class='arrow'></div>
