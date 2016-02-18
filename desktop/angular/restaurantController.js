@@ -33,11 +33,12 @@ myApp.controller('restaurantController',['$scope','$http', function($scope, $htt
          url:"../restaurants/middleware.php",
          method : 'POST',
          data :{
-            total : $scope.total
+            total : JSON.stringify($scope.orders),
+            amount : $scope.total
         }
     }).success(function(data, status, headers, config) {
         console.log(data);
-        window.location.href = '../restaurants/checkout.php'
+        window.location.href = '../restaurants/checkout.php';
     }).error(function(data, status, headers, config) {
        console.log("not done");
 });
