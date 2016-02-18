@@ -96,7 +96,6 @@ while ($row = $getrests->fetch()) {
 						$rest_name = $row['rest_name'];	
 						$rest_desc = $row['rest_desc'];
 						$rest_image = $row['rest_image'];
-						$rest_jname = $row['res_jname'];
                         if ($rest_image == "") {
                         $rest_image1 = "images/default_hootpile.png";
                         }
@@ -113,8 +112,8 @@ while ($row = $getrests->fetch()) {
 <h3>$rest_name</h3><br/>
 $rest_desc
 <div class='over-bubble'>
-<a id='hover_link' href='/foodonz-desktop/desktop/favorites/index.php?u=$rest_jname'><div class='icon-star'></div></a>
-<a id='hover_link' href='/foodonz-desktop/desktop/book/index.php?u=$rest_jname'><i class='fa fa-check'></i> Book</a>
+<a id='hover_link' href='/foodonz-desktop/desktop/favorites/index.php?u=$id'><div class='icon-star'></div></a>
+<a id='hover_link' href='/foodonz-desktop/desktop/book/index.php?u=$id'><i class='fa fa-check'></i> Book</a>
 </div>
 </div>
 <div class='arrow'></div>
