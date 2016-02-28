@@ -1,34 +1,11 @@
-[
-      {
-        "name": "MasalaPapad",
-        "category": "starter",
-        "price": "25",
-        "value": "25"
-      },
-      {
-        "name": "MasalaPapad",
-        "category": "starter",
-        "price": "25",
-        "value": "25"
-      },
-      {
-        "name": "MasalaPapad",
-        "category": "starter",
-        "price": "25",
-        "value": "25"
-      },
-      {
-        "name": "MasalaPapad",
-        "category": "starter",
-        "price": "25",
-        "value": "25"
-      },
-      {
-        "name": "MasalaPapad",
-        "category": "starter",
-        "price": "25",
-        "value": "25"
-      }
-]
-
-                
+[{
+    "type": 'Starter',
+    "options": [{
+            "name": "Papad",
+            "price": "25"
+                              },
+        {
+            "name": "Chilly Paneer",
+            "price": "60"
+                              }]
+                }]

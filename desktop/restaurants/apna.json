@@ -1,32 +1,11 @@
-[ {
-        "name": "MasalaPapad",
-        "category": "starter",
-        "price": "25"
-      },
-      {
-        "name": "ChillyPaneer",
-        "category": "starter",
-        "price": "90"
-        
-      },
-      {
-        "name": "GobiManchurian",
-        "category": "starter",
-        "price": "100"
-   
-      },
-      {
-        "name": "TandooriRoti",
-        "category": "MainCourse",
-        "price": "20"
-       
-      },
-      {
-        "name": "PaneerButterMasala",
-        "category": "MainCourse",
-        "price": "130"
-      }
-]
-
-
-                
+[{
+    "type": 'Starter',
+    "options": [{
+            "name": "Papad",
+            "price": "25"
+                              },
+        {
+            "name": "Chilly Paneer",
+            "price": "60"
+                              }]
+                }]
