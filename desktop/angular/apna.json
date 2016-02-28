@@ -1,11 +1,15 @@
-[{
-    "type": 'Starter',
-    "options": [{
-            "name": "Papad",
-            "price": "25"
-                              },
-        {
-            "name": "Chilly Paneer",
-            "price": "60"
-                              }]
-                }]
+[
+   {
+      "type":"Starter",
+      "options":[
+         {
+            "name":"Papad",
+            "price":"25"
+         },
+         {
+            "name":"Chilly Paneer",
+            "price":"60"
+         }
+      ]
+   }
+]

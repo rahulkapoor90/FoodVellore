@@ -30,12 +30,10 @@ $_SESSION['rname'] = $res.'.json';
             <div class="container">
                 <li ng-repeat="user in items">
                     <p>{{user.type}}</p>
-                    <ul ng-repeat="option in user.options">
-                        <li ng-repeat="item in option">
+                    <ul ng-repeat="item in user.options">
+                        <li>
                             <p>{{item.name}}</p>
                             <p>{{item.price}}</p>
-
-
                             <br/>
                             <input type="number" ng-hide="item.added" placeholder="enter quantity" ng-model="item.quantity" required>
                             <button ng-hide="item.added" ng-click="process(item)">Add</button>
