@@ -1,14 +1,76 @@
 [
-   {
-      "type":"Starter",
-      "options":[
-         {
-            "name":"Papad",
-            "price":"25"
+    {
+        "type": "Starter",
+        "options": [
+            {
+                "name": "Papad",
+                "price": "25"
          },
-         {
-            "name":"Chilly Paneer",
-            "price":"60"
+            {
+                "name": "Chilly Paneer",
+                "price": "60"
+         },
+            {
+                "name": "Gobi Manchurian",
+                "price": "25"
+         },
+            {
+                "name": "BabyCorn Manchurian",
+                "price": "25"
+         },
+            {
+                "name": "Sizzler",
+                "price": "25"
+         }
+      ]
+   },
+    {
+        "type": "MainCourse",
+        "options": [
+            {
+                "name": "nmnmnm",
+                "price": "25"
+         },
+            {
+                "name": "kubkukuhu",
+                "price": "60"
+         },
+            {
+                "name": "kubkuhkhk",
+                "price": "25"
+         },
+            {
+                "name": "kugkugkugku",
+                "price": "25"
+         },
+            {
+                "name": "Sizzler",
+                "price": "25"
+         }
+      ]
+   },
+    {
+        "type": "Desert",
+        "options": [
+            {
+                "name": "Papad",
+                "price": "25"
+         },
+            {
+                "name": "Chilly Paneer",
+                "price": "60"
+         },
+            {
+                "name": "Gobi Manchurian",
+                "price": "25"
+         },
+            {
+                "name": "BabyCorn Manchurian",
+                "price": "25"
+         },
+            {
+                "name": "Sizzler",
+                "price": "25"
          }
       ]
    }
