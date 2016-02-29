@@ -23,27 +23,15 @@ $_SESSION['rname'] = $res.'.json';
         <!-- Compiled and minified JavaScript -->
 
         <!-- Site's designed for mobile -->
-        <style>
-            .form-control {
-                border-color: inherit;
-                -webkit-box-shadow: none;
-                box-shadow: none;
-            }
-            
-            input.form-control:disabled {
-                background-color: white;
-            }
-            
-            input[type=number]::-webkit-inner-spin-button,
-            input[type=number]::-webkit-outer-spin-button {
-                -webkit-appearance: none;
-                margin: 0;
-            }
-        </style>
+
     </head>
 
     <body ng-app="myApp" ng-init="norder=false;total=0;something='<?php echo $_SESSION['rname'] ?>'">
         <div ng-controller="restaurantController" class="container">
+            <div class="col-lg-12 col-sm-12 container">
+                <label>Search</label>
+                <input type="text" ng-model="search.name">
+            </div>
             <br />
             <div class="panel-group" id="accordion">
                 <div ng-repeat="user in items" class="panel panel-default">
@@ -62,26 +50,17 @@ $_SESSION['rname'] = $res.'.json';
                                 <div class="col-sm-12 col-lg-3">
                                     <p>{{item.price}}</p>
                                 </div>
-                                <div class="col-sm-6 col-lg-6">
-                                    <div class="row">
-                                        <div class="col-sm-1">
-                                            <a href ng-click="rprocess(item)"><span class="glyphicon glyphicon-minus"></span></a>
-                                        </div>
-                                        <div class="col-sm-4 form-group">
-                                            <div class="col-xs-4">
-                                                <input type="number" min="0" placeholder="0" class="form-control" ng-model="item.quantity" style="border:0px;" required disabled>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-1">
-                                            <a href ng-click="process(item)"><span class="glyphicon glyphicon-plus"></span></a>
-                                        </div>
+                                <div class="col-sm-12 col-lg-3">
+                                    <a href ng-click="process(item)"><span class="glyphicon glyphicon-minus"></span></a>
+                                    <div clas="col-xs-1">
+                                        <input type="number" class="form-control" ng-hide="item.added" placeholder="enter quantity" ng-model="item.quantity" required>
                                     </div>
                                 </div>
-                                <!-- <div class="col-sm-12 col-lg-3">
+                                <div class="col-sm-12 col-lg-3">
 
                                     <!--<button ng-hide="item.added" ng-click="process(item)">Add</button>
-                                    <button ng-show="item.added" ng-click="rprocess(item)" class="ng-cloak">Remove</button>
-                                </div>-->
+                                    <button ng-show="item.added" ng-click="rprocess(item)" class="ng-cloak">Remove</button>-->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -104,7 +83,6 @@ $_SESSION['rname'] = $res.'.json';
             <button class="btn btn-primary" ng-show="norder" ng-click="checkout()">Book</button>
         </div>
         <script src="../angular/app.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
         <script src="../angular/restaurantController.js"></script>
 
     </body>
