@@ -1,5 +1,5 @@
 myApp.controller('restaurantController', ['$scope', '$http', function ($scope, $http) {
-    $http.get('apna.json').success(function (data) {
+    $http.get('biharidhaba.json').success(function (data) {
         $scope.items = data;
     }).error(function (data) {
         console.log(data);
@@ -17,14 +17,14 @@ myApp.controller('restaurantController', ['$scope', '$http', function ($scope, $
         item.added = true;
         if (item.quantity > 1) {
             for (var i = 0; i < $scope.orders.length; i++) {
-                if (($scope.orders[i].name).match(item.name)) {
+                if (($scope.orders[i].name).match(item.itemname)) {
                     ($scope.orders).splice(i, 1);
                     break;
                 }
             }
         }
         var curItem = {};
-        curItem.name = item.name;
+        curItem.name = item.itemname;
         curItem.price = item.quantity * parseInt(item.price);
         curItem.quantity = item.quantity;
         $scope.orders.push(curItem);
@@ -42,7 +42,7 @@ myApp.controller('restaurantController', ['$scope', '$http', function ($scope, $
                 }
                 item.quantity = item.quantity - 1;
                 for (var i = 0; i < $scope.orders.length; i++) {
-                    if (($scope.orders[i].name).match(item.name)) {
+                    if (($scope.orders[i].name).match(item.itemname)) {
                         if (item.quantity == 0) {
                             ($scope.orders).splice(i, 1);
                         } else if (item.quantity > 0) {
