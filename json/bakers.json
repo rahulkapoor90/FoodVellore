@@ -1,0 +1,13 @@
+{
+"Pizza":
+[
+{"itemname" : "Margarita", "price" : "150", "itemtype" : "veg" },
+{"itemname" : "Palak Paneer", "price" : "170", "itemtype" : "veg" },
+{"itemname" : "Veggie Delight", "price" : "160", "itemtype" : "veg" },
+{"itemname" : "Legumes Xtravaganza", "price" : "180", "itemtype" : "veg" },
+{"itemname" : "Mushroom Pizza", "price" : "160", "itemtype" : "veg" },
+{"itemname" : "Farm House Pizza", "price" : "190", "itemtype" : "veg" },
+{"itemname" : "Farm House Paneer", "price" : "200", "itemtype" : "veg" },
+{"itemtype" : "veg","itemname" : "Farm House Paneer", "price" : "200"}
+]
+}

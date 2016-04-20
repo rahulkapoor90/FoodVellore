@@ -1,0 +1,173 @@
+{
+    "chandinichowk": [
+        {
+            "name":"Chandini Chowk",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457788913/briyani-01_celtbp.jpg",
+            "tagline": "Chandini Chowk to China",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Chinese,Continental",
+            "menu_json": "chandnichowk",
+            "emoji": "pensive",
+            "address2": "PO BOX 632014",
+            "time":"8:00 AM to 10:30 PM",
+            "opening_time":"0800",
+            "closing_time":"2230"
+      }
+      ],
+"saleempunjabi": [
+        {
+            "name":"Saleem Punjabi",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1460335566/Saleem_jatyl3.jpg",
+            "tagline": "Chicken lovers! your perfect place",
+            "address1": "Opp. VIT Gate 3",
+            "type": "Indian,Chinese",
+            "menu_json": "saleem",
+            "emoji": "blush",
+            "address2": "PO BOX 632014",
+            "time":"11:30 AM to 10:00 PM",
+            "opening_time":"1130",
+            "closing_time":"2200"
+      }
+      ],
+      "lazeezkabab": [
+        {
+            "name":"Lazeez Kabab",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1457777091/limra_roll_yptc23.jpg",
+            "tagline": "restaurant's name says it all.",
+            "address1": "Opp. VIT Gate 3",
+            "type": "North Indian, Mughalai",
+            "menu_json": "lazeez",
+            "emoji": "grimacing",
+            "address2": "PO BOX 632014",
+            "time":"12:00 AM to 10:30 PM",
+            "opening_time":"1200",
+            "closing_time":"2230"
+      }
+      ],
+      "ChinaKitchen": [
+        {
+            "name":"China Kitchen",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457788914/momos-01_i1ohdd.jpg",
+            "tagline": "Momos here are the best in Vellore.",
+            "address1": "Next to Flo cafe",
+            "type": "Chinese, Continental",
+            "menu_json": "chinakitchen",
+            "emoji": "blush",
+            "address2": "PO BOX 632014",
+            "time":"11:30 AM to 9:30 PM",
+            "opening_time":"1130",
+            "closing_time":"2130"
+      }],
+      "Bakershub": [
+        {
+            "name":"Bakers Hub",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457792291/pastery-01_rpetok.jpg",
+            "tagline": "Satisfy your bakery needs here.",
+            "address1": "Opp to Aascar Theater",
+            "type": "Cakes, Lava Cake",
+            "menu_json": "bakershub",
+            "emoji": "dancers",
+            "address2": "PO BOX 632007",
+            "time":"10:00 AM to 11:00 PM",
+            "opening_time":"1000",
+            "closing_time":"2300"
+      }],
+      "GreensKitchen": [
+        {
+            "name":"Greens Kitchen",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457791876/baji-01_ikgvv2.jpg",
+            "tagline": "Go green.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Pure Veg, Indian",
+            "menu_json": "greenskitchen",
+            "emoji": "laughing",
+            "address2": "PO BOX 632014",
+            "time":"10:00 AM to 9:00 PM",
+            "opening_time":"1000",
+            "closing_time":"2100"
+      }],
+      "hartlounge": [
+        {
+            "name":"Hart Lounge",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1457797813/HART_lpvgds.jpg",
+            "tagline": "Finger licking good sizzlers.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Cafe, Tandoori, Shawarma",
+            "menu_json": "hartlounge",
+            "emoji": "dancer",
+            "address2": "PO BOX 632014",
+            "time":"11:00 AM to 10:10 PM",
+            "opening_time":"1100",
+            "closing_time":"2210"
+      }],
+      "apnadhaba": [
+        {
+            "name":"Apna Dhaba",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1460329867/apna_zgpx3z.jpg",
+            "tagline": "North Indian's go to place.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "North Indian, Tandoori",
+            "menu_json": "apnadhaba",
+            "emoji": "heart_eyes",
+            "address2": "PO BOX 632014",
+            "time":"11:30 AM to 10:00 PM",
+            "opening_time":"1130",
+            "closing_time":"2200"
+      }],
+      "TomsDiner": [
+        {
+            "name":"Toms Diner",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1460335556/tom_s_Diner_nk877r.jpg",
+            "tagline": "Have you tried cheese cake from here?",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Fast Food",
+            "menu_json": "tomsdiner",
+            "emoji": "fire",
+            "address2": "PO BOX 632014",
+            "time":"12:00 AM to 9:30 PM",
+            "opening_time":"1200",
+            "closing_time":"2130"
+      }],
+      "crispandcream": [
+        {
+            "name":"Crisp n Cream",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1457794857/crispncreme_bxxkpg.jpg",
+            "tagline": "Most affordable puffs.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Fast Food",
+            "menu_json": "crispandcream",
+            "emoji": "alien",
+            "address2": "PO BOX 632014",
+            "time":"10:00 AM to 11:00 PM",
+            "opening_time":"1000",
+            "closing_time":"2300"
+      }],
+      "BihariDhaba": [
+        {
+            "name":"Bihari Dhaba",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1460329867/Bihari_Dhaba_feshba.jpg",
+            "tagline": "Best North Indian Food around VIT.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Indian, Tandoori",
+            "menu_json": "biharidhaba",
+            "emoji": "scream_cat",
+            "address2": "PO BOX 632014",
+            "time":"12:00 AM to 10:30 PM",
+            "opening_time":"1200",
+            "closing_time":"2230"
+      }],
+      "Bangs": [
+        {
+            "name":"Bangs",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1457787521/bangs_sn06ek.jpg",
+            "tagline": "*Yummy!* fried chicken.",
+            "address1": "Megamart Complex",
+            "type": "Fast Food",
+            "menu_json": "bangs",
+            "emoji": "beer",
+            "address2": "Megamart Complex 632014",
+            "time":"10:00 AM to 11:00 PM",
+            "opening_time":"1000",
+            "closing_time":"2300"
+      }]
+}

@@ -1,0 +1,786 @@
+{
+    "Recommended": [
+        {
+            "itemname": "Chocolate Donut",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Cinnamon Twist",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Apple pie",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Choco Brownie",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Black Current",
+            "itemtype": "veg",
+            "price": "50"
+      }
+   ],
+    "Starters": [
+        {
+            "itemname": "French Fries",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Potato Wedges",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Veg Spring Roll",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Veg Nuggets",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Chicken Spring Roll",
+            "itemtype": "nonveg",
+            "price": "60"
+      },
+        {
+            "itemname": "Chicken Nuggets",
+            "itemtype": "nonveg",
+            "price": "70"
+      }
+   ],
+    "Veg_Pizza": [
+        {
+            "itemname": "Margarita",
+            "price": "150",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Palak Paneer",
+            "price": "170",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Veggie Delight",
+            "price": "160",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Legumes Xtravaganza",
+            "price": "180",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom Pizza",
+            "price": "160",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Farm House Pizza",
+            "price": "190",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Farm House Paneer",
+            "price": "200",
+            "itemtype": "veg"
+      }
+   ],
+    "Non_Veg_Pizza": [
+        {
+            "itemtype": "nonveg",
+            "price": "200",
+            "itemname": "Chettinadu Pizza"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "210",
+            "itemname": "Supreme Surprise Pizza"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "190",
+            "itemname": "Chicken Milanse Fume"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "200",
+            "itemname": "Barbecue Pizza"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "220",
+            "itemname": "Pisto Chicken Pizza"
+      }
+   ],
+    "Sandwiches": [
+        {
+            "itemname": "Hub's Veg Club",
+            "itemtype": "veg",
+            "price": "90"
+      },
+        {
+            "itemname": "Grill Cheese Tomato",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemtype": "veg",
+            "price": "90",
+            "itemname": "Hub's Veg Club"
+      },
+        {
+            "itemtype": "veg",
+            "price": "50",
+            "itemname": "Grill Veg Cheese"
+      },
+        {
+            "itemtype": "veg",
+            "price": "60",
+            "itemname": "Grill Cheese Tomato"
+      },
+        {
+            "itemtype": "veg",
+            "price": "80",
+            "itemname": "Gateway Deccan"
+      },
+        {
+            "itemtype": "veg",
+            "price": "70",
+            "itemname": "Jungle Grill Veg"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Hub's Club"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "80",
+            "itemname": "Chicken Cajun"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "60",
+            "itemname": "Egg Mayo Baguette"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "90",
+            "itemname": "Jungle Grill Chicken"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "60",
+            "itemname": "Grill Chicken"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "70",
+            "itemname": "Grill Chicken Cheese"
+      }
+   ],
+    "Burgers": [
+        {
+            "itemtype": "veg",
+            "itemname": "Veg Burger",
+            "price": "40"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chicken Burger",
+            "price": "60"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Veg Cheese Burger",
+            "price": "50"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chicken Cheese Burger",
+            "price": "70"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Fish Burger",
+            "price": "70"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Barbecue Burger",
+            "price": "70"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Supreme Burger",
+            "price": "70"
+      }
+   ],
+    "Get_Baked": [
+        {
+            "itemname": "Apple pie",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Cinnamon Twist",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Chocolate Croissant",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Vanilla Cookies",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Masala Bread",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Fruit Bread",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Garlic Cheese Bread",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Milk Bread",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Cashew Cookies",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Blueberry Muffin",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Choco Brownie",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "White Bread",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Plain Bread",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Butter Bread",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Custard Cookies",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Salt Cookies",
+            "itemtype": "veg",
+            "price": "40"
+      }
+   ],
+    "Cakes": [
+        {
+            "itemname": "Vanilla(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Vanilla(1kg)",
+            "itemtype": "nonveg",
+            "price": "400"
+      },
+        {
+            "itemname": "Pineapple(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Pineapple(1kg)",
+            "itemtype": "nonveg",
+            "price": "400"
+      },
+        {
+            "itemname": "Strawberry(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Strawberry(1kg)",
+            "itemtype": "nonveg",
+            "price": "400"
+      },
+        {
+            "itemname": "Mango(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Mango(1kg)",
+            "itemtype": "nonveg",
+            "price": "400"
+      },
+        {
+            "itemname": "Orange(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Orange(1kg)",
+            "itemtype": "nonveg",
+            "price": "400"
+      },
+        {
+            "itemname": "Black Current(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Black Current(1kg)",
+            "itemtype": "nonveg",
+            "price": "450"
+      },
+        {
+            "itemname": "Lychee(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Lychee(1kg)",
+            "itemtype": "nonveg",
+            "price": "450"
+      },
+        {
+            "itemname": "Kiwi(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "300"
+      },
+        {
+            "itemname": "Kiwi(1kg)",
+            "itemtype": "nonveg",
+            "price": "500"
+      },
+        {
+            "itemname": "Blueberry(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "300"
+      },
+        {
+            "itemname": "Blueberry(1kg)",
+            "itemtype": "nonveg",
+            "price": "500"
+      },
+        {
+            "itemname": "Butter Scotch(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Butter Scotch(1kg)",
+            "itemtype": "nonveg",
+            "price": "400"
+      },
+        {
+            "itemname": "Black Forest(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Black Forest(1kg)",
+            "itemtype": "nonveg",
+            "price": "380"
+      },
+        {
+            "itemname": "White Forest(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "White Forest(1kg)",
+            "itemtype": "nonveg",
+            "price": "450"
+      },
+        {
+            "itemname": "Irish Forest(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Irish Forest(1kg)",
+            "itemtype": "nonveg",
+            "price": "450"
+      },
+        {
+            "itemname": "Almond Honey(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Almond Honey(1kg)",
+            "itemtype": "nonveg",
+            "price": "450"
+      },
+        {
+            "itemname": "Fresh Fruit(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Fresh Fruit(1kg)",
+            "itemtype": "nonveg",
+            "price": "480"
+      },
+        {
+            "itemname": "Tentation(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "350"
+      },
+        {
+            "itemname": "Tentation(1kg)",
+            "itemtype": "nonveg",
+            "price": "700"
+      },
+        {
+            "itemname": "Date & Honey(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "Date & Honey(1kg)",
+            "itemtype": "nonveg",
+            "price": "450"
+      }
+   ],
+    "Chocolaty": [
+        {
+            "itemname": "Chocolate Truffle(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "350"
+      },
+        {
+            "itemname": "Chocolate Truffle(1kg)",
+            "itemtype": "nonveg",
+            "price": "700"
+      },
+        {
+            "itemname": "Choco Chips(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "300"
+      },
+        {
+            "itemname": "Choco Chips(1kg)",
+            "itemtype": "nonveg",
+            "price": "600"
+      },
+        {
+            "itemname": "Choco Nuts(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "300"
+      },
+        {
+            "itemname": "Choco Nuts(1kg)",
+            "itemtype": "nonveg",
+            "price": "600"
+      },
+        {
+            "itemname": "Choco Almond(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "300"
+      },
+        {
+            "itemname": "Choco Almond(1kg)",
+            "itemtype": "nonveg",
+            "price": "600"
+      },
+        {
+            "itemname": "Choco Hazelnut(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "350"
+      },
+        {
+            "itemname": "Choco Hazelnut(1kg)",
+            "itemtype": "nonveg",
+            "price": "700"
+      },
+        {
+            "itemname": "Double Chocolate(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "350"
+      },
+        {
+            "itemname": "Double Chocolate(1kg)",
+            "itemtype": "nonveg",
+            "price": "700"
+      },
+        {
+            "itemname": "Choco Velvette(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "300"
+      },
+        {
+            "itemname": "Choco Velvette(1kg)",
+            "itemtype": "nonveg",
+            "price": "600"
+      },
+        {
+            "itemname": "Choco Fudge(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "400"
+      },
+        {
+            "itemname": "Choco Fudge(1kg)",
+            "itemtype": "nonveg",
+            "price": "800"
+      },
+        {
+            "itemname": "White Choco Noughattine(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "350"
+      },
+        {
+            "itemname": "White Choco Noughattine(1kg)",
+            "itemtype": "nonveg",
+            "price": "700"
+      },
+        {
+            "itemname": "Choco Strawberry(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "300"
+      },
+        {
+            "itemname": "Choco Strawberry(1kg)",
+            "itemtype": "nonveg",
+            "price": "600"
+      },
+        {
+            "itemname": "Scotch Marble(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "350"
+      },
+        {
+            "itemname": "Scotch Marble(1kg)",
+            "itemtype": "nonveg",
+            "price": "700"
+      },
+        {
+            "itemname": "Chocolate Tart",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Oreo Donut",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Choco lava",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Chocolate Donut",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "German Black Forest(1/2kg)",
+            "itemtype": "nonveg",
+            "price": "250"
+      },
+        {
+            "itemname": "German Black Forest(1kg)",
+            "itemtype": "nonveg",
+            "price": "450"
+      }
+   ],
+    "Sundae": [
+        {
+            "price": "55",
+            "itemname": "Fruit Salad",
+            "itemtype": "veg"
+      },
+        {
+            "price": "75",
+            "itemname": "Fruit Salad With Ice Cream",
+            "itemtype": "veg"
+      },
+        {
+            "price": "120",
+            "itemname": "Trailogy",
+            "itemtype": "veg"
+      },
+        {
+            "price": "130",
+            "itemname": "Super Scooper",
+            "itemtype": "veg"
+      },
+        {
+            "price": "100",
+            "itemname": "Banana Split",
+            "itemtype": "veg"
+      },
+        {
+            "price": "80",
+            "itemname": "Cashew Fudge",
+            "itemtype": "veg"
+      },
+        {
+            "price": "100",
+            "itemname": "Almond Fudge",
+            "itemtype": "veg"
+      },
+        {
+            "price": "160",
+            "itemname": "Death By Chocolate",
+            "itemtype": "veg"
+      },
+        {
+            "price": "110",
+            "itemname": "Dew Drop Sundae",
+            "itemtype": "veg"
+      },
+        {
+            "price": "80",
+            "itemname": "Hot Chocolate Fudge",
+            "itemtype": "veg"
+      },
+        {
+            "price": "100",
+            "itemname": "Fudge Brownie Sundae",
+            "itemtype": "veg"
+      },
+        {
+            "price": "80",
+            "itemname": "Fudge & Cake",
+            "itemtype": "veg"
+      },
+        {
+            "price": "130",
+            "itemname": "Hot Brownie Sundae",
+            "itemtype": "veg"
+      }
+   ],
+    "Ice_Creams": [
+        {
+            "price": "55",
+            "itemname": "Vanilla",
+            "itemtype": "veg"
+      },
+        {
+            "price": "75",
+            "itemname": "Mango",
+            "itemtype": "veg"
+      },
+        {
+            "price": "120",
+            "itemname": "Black Current",
+            "itemtype": "veg"
+      },
+        {
+            "price": "130",
+            "itemname": "Chocolate",
+            "itemtype": "veg"
+      },
+        {
+            "price": "100",
+            "itemname": "Strawberry",
+            "itemtype": "veg"
+      },
+        {
+            "price": "80",
+            "itemname": "Butter Scotch",
+            "itemtype": "veg"
+      },
+        {
+            "price": "100",
+            "itemname": "Fig & honey",
+            "itemtype": "veg"
+      }
+   ],
+    "Shakes": [
+        {
+            "price": "80",
+            "itemname": "Butter Scotch",
+            "itemtype": "veg"
+      },
+        {
+            "price": "110",
+            "itemname": "Brownie",
+            "itemtype": "veg"
+      },
+        {
+            "price": "90",
+            "itemname": "BH SPL Banana",
+            "itemtype": "veg"
+      },
+        {
+            "price": "80",
+            "itemname": "Chocolate",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Strawberry",
+            "itemtype": "veg"
+      },
+        {
+            "price": "90",
+            "itemname": "Chocolate Malt",
+            "itemtype": "veg"
+      },
+        {
+            "price": "80",
+            "itemname": "Oreo Shake",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Cold Coffee",
+            "itemtype": "veg"
+      },
+        {
+            "price": "80",
+            "itemname": "Black Current",
+            "itemtype": "veg"
+      },
+        {
+            "price": "90",
+            "itemname": "Fig & Honey",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Banana",
+            "itemtype": "veg"
+      }
+   ]
+}

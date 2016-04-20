@@ -1,0 +1,21 @@
+RewriteEngine on
+Options -Indexes
+#RewriteEngine On
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+   RewriteCond %{SERVER_PORT} 80     
+         RewriteCond %{HTTP_HOST} ^foodonz\.com$ [OR]
+         RewriteCond %{HTTP_HOST} ^www\.foodonz\.com$
+         RewriteRule ^(.*)$ https://www.foodonz.com/$1 [R,L]
+
+RewriteCond %{HTTP_REFERER} !^http://foodonz.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://foodonz.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://test.foodonz.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://test.foodonz.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.foodonz.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.foodonz.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.test.foodonz.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.test.foodonz.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

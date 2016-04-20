@@ -1,0 +1,414 @@
+{
+    "Recommended": [
+        {
+            "itemtype": "nonveg",
+            "price": "300",
+            "itemname": "Chicken Shawarma"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "400",
+            "itemname": "BBQ Spicy Chicken"
+      }
+   ],
+    "Briyani": [
+        {
+            "itemtype": "nonveg",
+            "price": "70",
+            "itemname": "Chicken Biryani"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "60",
+            "itemname": "Egg Biryani"
+      }
+   ],
+    "Fried_Rice": [
+        {
+            "itemtype": "veg",
+            "price": "50",
+            "itemname": "Veg Fried Rice"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "60",
+            "itemname": "Egg Fried Rice"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "70",
+            "itemname": "Chicken Fried Rice"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "70",
+            "itemname": "Schezwan Egg Rice"
+      },
+        {
+            "itemtype": "veg",
+            "price": "60",
+            "itemname": "Schezwan Veg Rice"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "90",
+            "itemname": "Schezwan Chicken Fried Rice"
+      }
+   ],
+    "Shawarma": [
+        {
+            "itemname": "Chicken Shawarma Roll",
+            "price": "60",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Chicken Shawarma Plate",
+            "price": "70",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Mexican Shawarma Roll",
+            "price": "70",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Mexican Shawarma Plate ",
+            "price": "80",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Special Shawarma Roll",
+            "price": "80",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Special Shawarma Plate",
+            "price": "90",
+            "itemtype": "nonveg"
+      }
+   ],
+    "Arabian_Grills": [
+        {
+            "price": "200",
+            "itemtype": "nonveg",
+            "itemname": "Grill Schavaya Chicken(Half)"
+      },
+        {
+            "price": "380",
+            "itemtype": "nonveg",
+            "itemname": "Grill Schavaya Chicken(Full)"
+      },
+        {
+            "price": "210",
+            "itemtype": "nonveg",
+            "itemname": "BBQ Spicy Chicken(Half)"
+      },
+        {
+            "price": "400",
+            "itemtype": "nonveg",
+            "itemname": "BBQ Spicy Chicken(Full)"
+      },
+        {
+            "price": "220",
+            "itemtype": "nonveg",
+            "itemname": "Afgani BBQ Chicken(Half)"
+      },
+        {
+            "price": "410",
+            "itemtype": "nonveg",
+            "itemname": "Afgani BBQ Chicken(Full)"
+      },
+        {
+            "price": "220",
+            "itemtype": "nonveg",
+            "itemname": "Falafel Pepper BBQ(Half)"
+      },
+        {
+            "price": "410",
+            "itemtype": "nonveg",
+            "itemname": "Falafel Pepper BBQ(Full)"
+      },
+        {
+            "price": "210",
+            "itemtype": "nonveg",
+            "itemname": "Al Faham Dajaj(Half)"
+      },
+        {
+            "price": "400",
+            "itemtype": "nonveg",
+            "itemname": "Al Faham Dajaj(Full)"
+      }
+   ],
+    "Pizza": [
+        {
+            "price": "180",
+            "itemtype": "nonveg",
+            "itemname": "Spice Chettinadu"
+      },
+        {
+            "price": "190",
+            "itemtype": "nonveg",
+            "itemname": "Supreme Pizza"
+      },
+        {
+            "price": "180",
+            "itemtype": "nonveg",
+            "itemname": "Milanese Fume"
+      },
+        {
+            "price": "190",
+            "itemtype": "nonveg",
+            "itemname": "Pesto Chicken Pizza"
+      },
+        {
+            "price": "190",
+            "itemtype": "nonveg",
+            "itemname": "Mexican Pizza"
+      },
+        {
+            "itemtype": "veg",
+            "price": "150",
+            "itemname": "Margarita"
+      },
+        {
+            "itemtype": "veg",
+            "price": "170",
+            "itemname": "Paneer"
+      },
+        {
+            "itemtype": "veg",
+            "price": "160",
+            "itemname": "Veg. Delight"
+      },
+        {
+            "itemtype": "veg",
+            "price": "170",
+            "itemname": "Mixed Veg"
+      },
+        {
+            "itemtype": "veg",
+            "price": "160",
+            "itemname": "Mushroom"
+      }
+   ],
+    "Veg_Starter": [
+        {
+            "itemtype": "veg",
+            "price": "60",
+            "itemname": "Gobi Manchurian"
+      },
+        {
+            "itemtype": "veg",
+            "price": "60",
+            "itemname": "Mushroom"
+      },
+        {
+            "itemtype": "veg",
+            "price": "70",
+            "itemname": "Paneer Manchurian"
+      },
+        {
+            "itemtype": "veg",
+            "price": "50",
+            "itemname": "French Fries"
+      },
+        {
+            "itemtype": "veg",
+            "price": "40",
+            "itemname": "Potato Veggle"
+      }
+   ],
+    "Burger": [
+        {
+            "itemname": "Veg Burger",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Veg Cheese Burger",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Chicken Burger",
+            "price": "50",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Chicken Cheese Burger",
+            "price": "60",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Barbeque Burger",
+            "price": "70",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Supreme Burger Cheese",
+            "price": "70",
+            "itemtype": "nonveg"
+      }
+   ],
+    "Sandwiches": [
+        {
+            "itemname": "Grilled Veg",
+            "price": "50",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Grilled Tomato Cheese",
+            "price": "50",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Spice Veg",
+            "price": "50",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mexican Veg",
+            "price": "50",
+            "itemtype": "veg"
+      },
+        {
+            "price": "90",
+            "itemname": "Non-Veg Club ",
+            "itemtype": "nonveg"
+      },
+        {
+            "price": "70",
+            "itemname": "Spice Chicken Masala",
+            "itemtype": "nonveg"
+      },
+        {
+            "price": "70",
+            "itemname": "Salami Chicken Cheese",
+            "itemtype": "nonveg"
+      },
+        {
+            "price": "60",
+            "itemname": "Grilled Chicken",
+            "itemtype": "nonveg"
+      },
+        {
+            "price": "70",
+            "itemname": "Egg mayo",
+            "itemtype": "nonveg"
+      }
+   ],
+    "Pastas": [
+        {
+            "itemname": "Veg Spicy Arrabiata Pasta",
+            "itemtype": "veg",
+            "price": "100"
+      },
+        {
+            "itemname": "Veg Cream Cheese Pasta",
+            "itemtype": "veg",
+            "price": "120"
+      },
+        {
+            "itemname": "Chicken Spicy Arrabiata Pasta",
+            "price": "140",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Chicken Cream Cheese Pasta ",
+            "price": "160",
+            "itemtype": "nonveg"
+      }
+   ],
+    "Drinks": [
+        {
+            "price": "60",
+            "itemname": "vanilla Milkshakes",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Choco Milkshakes",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Strawberry Milkshakes",
+            "itemtype": "veg"
+      },
+        {
+            "price": "90",
+            "itemname": "Choco Malt Milkshakes ",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Black Current Milkshakes",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Oreo Shake",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Banana Shake",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Cold coffee",
+            "itemtype": "veg"
+      },
+        {
+            "price": "70",
+            "itemname": "Date's Milkshakes",
+            "itemtype": "veg"
+      },
+        {
+            "price": "50",
+            "itemname": "Appla",
+            "itemtype": "veg"
+      },
+        {
+            "price": "50",
+            "itemname": "Pomegranate",
+            "itemtype": "veg"
+      },
+        {
+            "price": "40",
+            "itemname": "Orange",
+            "itemtype": "veg"
+      },
+        {
+            "price": "40",
+            "itemname": "Sweet Lime",
+            "itemtype": "veg"
+      },
+        {
+            "price": "40",
+            "itemname": "Pineapple",
+            "itemtype": "veg"
+      },
+        {
+            "price": "20",
+            "itemname": "Fresh Lime",
+            "itemtype": "veg"
+      },
+        {
+            "price": "40",
+            "itemname": "Grape",
+            "itemtype": "veg"
+      },
+        {
+            "price": "50",
+            "itemname": "Carrots",
+            "itemtype": "veg"
+      },
+        {
+            "price": "45",
+            "itemname": "Dates",
+            "itemtype": "veg"
+      }
+   ]
+}

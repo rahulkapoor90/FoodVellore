@@ -1,0 +1,167 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.coupon-big .discount-part.Percentage .discount-container, .coupon-big .discount-part.Amount .discount-container {
+    border: 2px solid #3bc4b7 !important;
+}
+.coupon-big .discount-container {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 115px;
+    margin: 15px auto 15px 10px;
+    padding: 0;
+    width: 115px;
+}
+.coupon-big .discount-part.Percentage .discount-sec1, .coupon-big .discount-part.Amount .discount-sec1 {
+    color: #3bc4b7;
+}
+.coupon-big .discount-sec1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: bold;
+    height: 115px;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    word-break: break-all;
+}
+.coupon-big .discount-sec1 p {
+    margin-top: 0;
+}
+
+#offer-title {
+    color: #494a4a;
+    cursor: pointer;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: normal;
+	line-height: 1.42857;
+}
+.coupon-big .meta.offer-desc {
+    color: #494a4a;
+    font-size: 15px;
+    text-align: justify;
+}
+.coupon-list-item .coupon-type > span::before {
+    background-color: #a6ba89;
+    color: #fff;
+    content: "CODE";
+    display: block;
+    font-size: 12px;
+    margin: 12px -12px -12px;
+    padding: 2px;
+    text-align: center;
+}
+.panel-types{
+	    font-size: 14px;
+    font-weight: 500;
+
+	    background-color: #fdfdfd !important; 
+}
+.menu-buy{
+margin-top:10px;
+margin-left:10px;
+}
+#menu-link{
+	text-decoration:none;
+		border-bottom: 1px solid #e9e9e9 !important;
+}
+.inside-menu{
+	font-size: 15px;
+}
+.menu-items{
+    background-color: white;
+}
+.whole-menu{
+	margin-top:10px;
+}
+#menu-icon{
+	color: #E87E28;
+}
+.item-name{
+	color: #2d2d2d;
+    font-size: 1.09em;
+	font-weight:550;
+    padding-top: 2px;
+	display:inline;
+}
+.item-name span { display:inline;float:right;width:20%;margin-left:10px;}
+.order-name{
+	font-size:15px;
+	font-weight:bold;
+	display:inline;
+}
+.order-quantity{
+	font-size:15px;
+	display:inline;
+	
+}
+.order-price{
+	font-size:15px;
+	display:inline;
+}
+#product-list{
+	font-family:'Quicksand', sans-serif !important;
+}
+#final-msg{
+	font-size:15px;
+}
+.menu-panel {
+	background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05),0 1px 2px 0 rgba(0,0,0,.06);
+	    position: relative;
+    margin-bottom: 2.8em;
+    border-radius: 3px;
+	border: 1px solid #CCCCCC;
+    cursor: pointer;
+	
+}
+.checkout-btn {
+  width: 60%;
+  height: 34px;
+  
+  padding: 0;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid;
+  border-color: #1486f9 #0f7de9 #0d6acf;
+  background: #1993fb;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, #4cb1fe, #229afc 40%, #138df6);
+  background-image: -moz-linear-gradient(top, #4cb1fe, #229afc 40%, #138df6);
+  background-image: -o-linear-gradient(top, #4cb1fe, #229afc 40%, #138df6);
+  background-image: linear-gradient(to bottom, #4cb1fe, #229afc 40%, #138df6);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.checkout-btn:hover{
+	background: #1d94fc;
+	background-image: -webkit-linear-gradient(top, #4cb1fe, #229afc 40%, #138df6);
+  background-image: -moz-linear-gradient(top, #4cb1fe, #229afc 40%, #138df6);
+  background-image: -o-linear-gradient(top, #4cb1fe, #229afc 40%, #138df6);
+  background-image: linear-gradient(to bottom, #4cb1fe, #229afc 40%, #138df6);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.checkout-btn:active {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-color: #075bba #0c69d2 #0f7de9;
+  background-image: -webkit-linear-gradient(top, #1281dc, #1593fc);
+  background-image: -moz-linear-gradient(top, #1281dc, #1593fc);
+  background-image: -o-linear-gradient(top, #1281dc, #1593fc);
+  background-image: linear-gradient(to bottom, #1281dc, #1593fc);
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.5);
+}
+.menu-item{
+	width:40%;
+}
+.final-display{
+	position:relative;
+}
+#gg{
+	position:fixed;
+}

@@ -1,0 +1,940 @@
+{
+    "Veg_Starters": [
+        {
+            "itemname": "Veg Stick Sizzler",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Crispy Aloo",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Pepper Gobi",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Gobi 65",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Honey Chilli Potato",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Gobi Machurian",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Aloo 65",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Chilly Aloo",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Chilly Gobi",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Aloo Manchurian",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Singapore Gobi",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Singapore Aloo",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Crispy Chili Potato",
+            "itemtype": "veg",
+            "price": "65"
+      },
+        {
+            "itemname": "Andhra Paneer",
+            "itemtype": "veg",
+            "price": "80"
+      },
+        {
+            "itemname": "Veg Manchurian",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Chilli Paneer",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Paneer Manchurian",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Paneer 65",
+            "itemtype": "veg",
+            "price": "75"
+      },
+        {
+            "itemname": "Mysore Paneer",
+            "itemtype": "veg",
+            "price": "80"
+      },
+        {
+            "itemname": "Andhra Gobi",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Mysore Gobi",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Singapore Paneer",
+            "itemtype": "veg",
+            "price": "80"
+      },
+        {
+            "itemname": "Veg Crispy",
+            "itemtype": "veg",
+            "price": "75"
+      }
+   ],
+    "Non_Veg_Starters": [
+        {
+            "itemname": "Chicken Lolypop",
+            "itemtype": "nonveg",
+            "price": "70"
+      },
+        {
+            "itemname": "Lemon Chicken",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Chicken Manchurian",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Chicken 65",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Ginger Chicken",
+            "itemtype": "nonveg",
+            "price": "90"
+      },
+        {
+            "itemname": "Garlic Chicken",
+            "itemtype": "nonveg",
+            "price": "90"
+      }
+   ],
+    "Rice_and_Noodles": [
+        {
+            "itemname": "Plain Rice",
+            "itemtype": "veg",
+            "price": "20"
+      },
+        {
+            "itemname": "Curd Rice",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "Onion Rice",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Ghee Rice",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Jeera Rice",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Veg Fried Rice",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Schezwan Fried Rice",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Mushromm Fried Rice",
+            "itemtype": "veg",
+            "price": "65"
+      },
+        {
+            "itemname": "Veg Pulav",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Paneer Pulao",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Mixed Fried Rice",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Kaju Pulao",
+            "itemtype": "veg",
+            "price": "75"
+      },
+        {
+            "itemname": "Egg Fried Rice",
+            "itemtype": "nonveg",
+            "price": "55"
+      },
+        {
+            "itemname": "Egg Pulao",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Schezwan Egg Fried Rice",
+            "itemtype": "nonveg",
+            "price": "60"
+      },
+        {
+            "itemname": "Chicken Fried Rice",
+            "itemtype": "nonveg",
+            "price": "65"
+      },
+        {
+            "itemname": "Hakka Egg Fried Rice",
+            "itemtype": "veg",
+            "price": "65"
+      },
+        {
+            "itemname": "Schezwan Chicken Fried Rice",
+            "itemtype": "nonveg",
+            "price": "70"
+      },
+        {
+            "itemname": "Hakka Chicken Fried Rice",
+            "itemtype": "nonveg",
+            "price": "70"
+      },
+        {
+            "itemname": "Veg Noodles",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Egg Noodles",
+            "itemtype": "nonveg",
+            "price": "60"
+      },
+        {
+            "itemname": "Schezwan Veg Noodles",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Veg Hakka Noddles",
+            "itemtype": "veg",
+            "price": "65"
+      },
+        {
+            "itemname": "Schezwan Egg Noodles",
+            "itemtype": "nonveg",
+            "price": "65"
+      },
+        {
+            "itemname": "Chicken Noodles",
+            "itemtype": "nonveg",
+            "price": "65"
+      },
+        {
+            "itemname": "Egg Hakka Noodles",
+            "itemtype": "nonveg",
+            "price": "70"
+      },
+        {
+            "itemname": "Schezwan Chicken Noodles",
+            "itemtype": "nonveg",
+            "price": "70"
+      },
+        {
+            "itemname": "Mix Veg Noodles",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Mushroom Noodles",
+            "itemtype": "veg",
+            "price": "75"
+      },
+        {
+            "itemname": "Paneer Noodles",
+            "itemtype": "veg",
+            "price": "75"
+      },
+        {
+            "itemname": "Chicken Hakka Noodles",
+            "itemtype": "nonveg",
+            "price": "75"
+      }
+   ],
+    "Biryani": [
+        {
+            "itemname": "Veg Biryani",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Egg Biryani",
+            "itemtype": "nonveg",
+            "price": "65"
+      },
+        {
+            "itemname": "Mysore Veg Biryani",
+            "itemtype": "veg",
+            "price": "65"
+      },
+        {
+            "itemname": "Mysore Egg Biryani",
+            "itemtype": "nonveg",
+            "price": "70"
+      },
+        {
+            "itemname": "Hyderabad Chicken Biryani",
+            "itemtype": "nonveg",
+            "price": "100"
+      },
+        {
+            "itemname": "Punjabi Chicken Biryani",
+            "itemtype": "nonveg",
+            "price": "100"
+      },
+        {
+            "itemname": "Singapore Chicken Biryani",
+            "itemtype": "nonveg",
+            "price": "105"
+      },
+        {
+            "itemname": "Mysore Chicken Biryani",
+            "itemtype": "nonveg",
+            "price": "105"
+      },
+        {
+            "itemname": "Andhra Special Biryani",
+            "itemtype": "veg",
+            "price": "130"
+      }
+   ],
+    "Rolls": [
+        {
+            "itemname": "Veg Roll",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Mushroom Roll",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Paneer Roll",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "Chicken Egg Roll",
+            "itemtype": "nonveg",
+            "price": "55"
+      },
+        {
+            "itemname": "Chicken Roll",
+            "itemtype": "nonveg",
+            "price": "50"
+      },
+        {
+            "itemname": "Mix Veg Roll",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "Double Chicken Roll",
+            "itemtype": "nonveg",
+            "price": "55"
+      },
+        {
+            "itemname": "Gobi Roll",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Double Egg Roll",
+            "itemtype": "nonveg",
+            "price": "40"
+      },
+        {
+            "itemname": "Veg Egg Roll",
+            "itemtype": "nonveg",
+            "price": "40"
+      },
+        {
+            "itemname": "Aloo Egg Roll",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Gobi Egg Roll",
+            "itemtype": "nonveg",
+            "price": "40"
+      },
+        {
+            "itemname": "Paneer Egg Roll",
+            "itemtype": "nonveg",
+            "price": "50"
+      },
+        {
+            "itemname": "Mushroom Egg Roll",
+            "itemtype": "nonveg",
+            "price": "50"
+      },
+        {
+            "itemname": "Mix Egg Roll",
+            "itemtype": "nonveg",
+            "price": "50"
+      }
+   ],
+    "Basha": [
+        {
+            "itemname": "Veg Bashsa",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Aloo Basha",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Gobi Basha",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Mushroom Basha",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Paneer Basha",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Mix Veg Basha",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Double Egg Aloo Basha",
+            "itemtype": "nonveg",
+            "price": "55"
+      },
+        {
+            "itemname": "Double Egg Veg Basha",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Double Egg Gobi Basha",
+            "itemtype": "nonveg",
+            "price": "60"
+      },
+        {
+            "itemname": "Double Egg Paneer Basha",
+            "itemtype": "nonveg",
+            "price": "65"
+      },
+        {
+            "itemname": "Double Egg Mushroom Basha",
+            "itemtype": "nonveg",
+            "price": "65"
+      },
+        {
+            "itemname": "Double Egg Mix Veg Basha",
+            "itemtype": "nonveg",
+            "price": "65"
+      },
+        {
+            "itemname": "Double Egg Double Chicken Basha",
+            "itemtype": "nonveg",
+            "price": "70"
+      }
+   ],
+    "Main_Course_Veg": [
+        {
+            "itemname": "Aloo Dum",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Veg Keema",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Shahi Veg Masala",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "itemname": "Aloo Mutter Masala",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "itemname": "Kaju Paneer",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Mutter Paneer Masala",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Kaju Curry",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Kadhai Paneer",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Ghee Chilly Masala",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Paneer Butter Masala",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Mushroom Masala",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Shahi Paneer",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Mushroom Butter Masala",
+            "itemtype": "veg",
+            "price": "70"
+      },
+        {
+            "itemname": "Paneer Tikka Masala",
+            "itemtype": "veg",
+            "price": "75"
+      }
+   ],
+    "Main_Course_Nonveg": [
+        {
+            "itemname": "Kadhai Chicken",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Hyderabad Chicken",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Butter Chicken",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Chicken Jakal Fry",
+            "itemtype": "nonveg",
+            "price": "90"
+      },
+        {
+            "itemname": "Chicken Sahi Korma",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Punjabi Chicken",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Chicken Keema",
+            "itemtype": "nonveg",
+            "price": "90"
+      }
+   ],
+    "Curd_and_Raitas": [
+        {
+            "itemname": "Masala Curd",
+            "itemtype": "veg",
+            "price": "20"
+      },
+        {
+            "itemname": "Onion Raita",
+            "itemtype": "veg",
+            "price": "20"
+      },
+        {
+            "itemname": "Mixed Raita",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Onion Tomato Cucumber Raita",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Aloo Raita",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Boondi Raita",
+            "itemtype": "veg",
+            "price": "25"
+      }
+   ],
+    "Breads": [
+        {
+            "itemname": "Butter Roti",
+            "itemtype": "veg",
+            "price": "10"
+      },
+        {
+            "itemname": "Dhaniya Roti",
+            "itemtype": "veg",
+            "price": "20"
+      },
+        {
+            "itemname": "Pudina Roti",
+            "itemtype": "veg",
+            "price": "20"
+      },
+        {
+            "itemname": "Butter Naan",
+            "itemtype": "veg",
+            "price": "20"
+      },
+        {
+            "itemname": "Garlic Naan",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Dhaniya Naan",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Pudina Naan",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Gobi Naan",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Aloo Naan",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Ginger Naan",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Paneer Naan",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Aloo Gobi Paneer Naan",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Punjabi Lacchaa Paratha",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Dhaniya Paratha",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Pudina Paratha",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Aloo Paratha",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Gobi Paratha",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Paneer Paratha",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Aloo Gobi Paneer Paratha",
+            "itemtype": "veg",
+            "price": "40"
+      }
+   ],
+    "Ande_ke_fundae": [
+        {
+            "itemname": "Egg Bhurji",
+            "itemtype": "nonveg",
+            "price": "30"
+      },
+        {
+            "itemname": "Egg Curry",
+            "itemtype": "nonveg",
+            "price": "40"
+      },
+        {
+            "itemname": "Egg Chilly",
+            "itemtype": "nonveg",
+            "price": "60"
+      },
+        {
+            "itemname": "Singapore Egg",
+            "itemtype": "veg",
+            "price": "65"
+      }
+   ],
+    "Burgers": [
+        {
+            "itemname": "Egg Burger",
+            "itemtype": "nonveg",
+            "price": "40"
+      },
+        {
+            "itemname": "Veg Burger",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Paneer Burger",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "Egg Chicken Burger",
+            "itemtype": "nonveg",
+            "price": "55"
+      },
+        {
+            "itemname": "Chicken Burger",
+            "itemtype": "nonveg",
+            "price": "50"
+      },
+        {
+            "itemname": "Jamu Burger",
+            "itemtype": "nonveg",
+            "price": "60"
+      }
+   ],
+    "Juice_and_Loce": [
+        {
+            "itemname": "Mix Juice",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "Apple Juice",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "PineApple Juice",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Sweet Lemon Woke Juice",
+            "itemtype": "veg",
+            "price": "20"
+      },
+        {
+            "itemname": "Chiku Juice",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Watermelon Juice",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Sweet Lemon Juice",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Guava Juice",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Bomo Guava Juice",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Mango Juice",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Cande Juice",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Banana Juice",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Apple Loce",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "PineApple Loce",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Mix Fruit Loce",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "Chiku Loce",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Strawberry Loce",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Sweet Loce",
+            "itemtype": "veg",
+            "price": "35"
+      }
+   ],
+    "Shakes": [
+        {
+            "itemname": "Apple Milk Shake",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "Oranger Milk Shake",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "PineApple Milk Shake",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Chocolate Milk Shake",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Banana Milk Shake",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Chaka Milk Shake",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Grape Milk Shake",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Strawberry Milk Shake",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Mix Milk Shake",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "itemname": "Butter Milk Shake",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Mango Milk Shake",
+            "itemtype": "veg",
+            "price": "45"
+      }
+   ]
+}

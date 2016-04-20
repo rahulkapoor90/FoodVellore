@@ -1,0 +1,1069 @@
+{
+    "Recommended": [
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457783758/Chandni%20Rec/chandni_chicken_strips.jpg",
+            "itemname": "Country fried chicken",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457781105/lazeez%20rec/Tandoori-Chicken__lazeez.jpg",
+            "itemname": "Pasta fresca chicken",
+            "itemtype": "nonveg",
+            "price": "189"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448142/foodonz/dishes/d4.jpg",
+            "itemname": "Masala veg",
+            "itemtype": "veg",
+            "price": "189"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448143/foodonz/dishes/d5.jpg",
+            "itemname": "Lousiane etoufee pasta",
+            "itemtype": "veg",
+            "price": "199"
+      },
+        {
+            "thumbnail": "http://farm8.staticflickr.com/7390/11919320035_1f6dd4da79_z.jpg",
+            "itemname": "BBQ burger chicken",
+            "itemtype": "nonveg",
+            "price": "179"
+      }
+   ],
+    "Starters": [
+        {
+            "itemname": "Chicken strips with honey mustard",
+            "itemtype": "nonveg",
+            "price": "120"
+      },
+        {
+            "itemname": "Korean chicken wings with korean sauce",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "BBQ chicken wings with bbq sauce ",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Buffalo chicken wings with ranch sauce",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Chicken croquetts with cajun salsa",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Manhattan Fries",
+            "itemtype": "veg",
+            "price": "145"
+      },
+        {
+            "itemname": "Onion rings with bbq sauce",
+            "itemtype": "veg",
+            "price": "120"
+      },
+        {
+            "itemname": "French Fries",
+            "itemtype": "veg",
+            "price": "100"
+      },
+        {
+            "itemname": "Nachos-Veg",
+            "itemtype": "veg",
+            "price": "150"
+      },
+        {
+            "itemname": "Nachos-Chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Nachos-Beef",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Quesidila-Veg",
+            "itemtype": "veg",
+            "price": "140"
+      },
+        {
+            "itemname": "Quesidila-Chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Quesidila-Beef",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Chips and salsa",
+            "itemtype": "veg",
+            "price": "110"
+      }
+
+   ],
+    "Soups": [
+        {
+            "itemname": "Sweet-corn soup-veg",
+            "itemtype": "veg",
+            "price": "90"
+      },
+        {
+            "itemname": "Sweet-corn soup-chicken",
+            "itemtype": "nonveg",
+            "price": "100"
+      },
+        {
+            "itemname": "Hot and sour soup-veg",
+            "itemtype": "veg",
+            "price": "90"
+      },
+        {
+            "itemname": "Hot and sour soup-chicken",
+            "itemtype": "nonveg",
+            "price": "100"
+      },
+        {
+            "itemname": "Clear soup-veg",
+            "itemtype": "veg",
+            "price": "90"
+      },
+        {
+            "itemname": "Clear soup-chicken",
+            "itemtype": "nonveg",
+            "price": "100"
+      },
+        {
+            "itemname": "Manchu soup-veg",
+            "itemtype": "veg",
+            "price": "110"
+      },
+        {
+            "itemname": "Manchu soup-chicken",
+            "itemtype": "nonveg",
+            "price": "120"
+      },
+        {
+            "itemname": "Manchu soup-beef",
+            "itemtype": "nonveg",
+            "price": "130"
+      },
+        {
+            "itemname": "Cream of mushroom soup",
+            "itemtype": "veg",
+            "price": "100"
+      },
+        {
+            "itemname": "Cream of chicken soup",
+            "itemtype": "nonveg",
+            "price": "120"
+      }
+
+   ],
+    "Salad": [
+        {
+            "itemname": "House salad",
+            "itemtype": "veg",
+            "price": "130"
+      },
+        {
+            "itemname": "American cheese and chicken salad",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "American cheese and beef salad",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Italian cheese and chicken salad",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Korean cheese and chicken salad",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Korean cheese and beef salad",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Hawaiian cheese salad",
+            "itemtype": "veg",
+            "price": "130"
+      },
+        {
+            "itemname": "Hawaiian chicken and cheese salad",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Grilled bbq chicken salad",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Grilled bbq beef salad",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Grilled buffalo chicken and cheese salad",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Grilled buffalo beef and cheese salad",
+            "itemtype": "nonveg",
+            "price": "190"
+      }
+   ],
+    "Steaks": [
+        {
+            "itemname": "Chicken strips meal",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Country fried chicken",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Grilled bbq-chicken",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Grilled bbq-beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Grilled buffalo-chicken",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Grilled buffalo-beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Route 66 meat loaf-chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Route 66 meat loaf=beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Roast beef meal",
+            "itemtype": "nonveg",
+            "price": "220"
+      },
+        {
+            "itemname": "Grilled steak-beef",
+            "itemtype": "nonveg",
+            "price": "270"
+      },
+        {
+            "itemname": "Grilled spicy buffalo steak",
+            "itemtype": "nonveg",
+            "price": "299"
+      }
+   ],
+    "Italian": [
+        {
+            "itemname": "Marinara chicken",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Marinara beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Marinara veg",
+            "itemtype": "veg",
+            "price": "169"
+      },
+        {
+            "itemname": "Pasta fresca chicken",
+            "itemtype": "nonveg",
+            "price": "189"
+      },
+        {
+            "itemname": "Pasta fresca beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Pasta fresca veg",
+            "itemtype": "veg",
+            "price": "179"
+      },
+        {
+            "itemname": "Vodka pasta chicken",
+            "itemtype": "nonveg",
+            "price": "189"
+      },
+        {
+            "itemname": "Vodka pasta beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Vodka pasta veg",
+            "itemtype": "veg",
+            "price": "189"
+      },
+        {
+            "itemname": "Parmesan chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Parmesan veg",
+            "itemtype": "veg",
+            "price": "189"
+      },
+        {
+            "itemname": "Masala chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Masala beef",
+            "itemtype": "nonveg",
+            "price": "209"
+      },
+        {
+            "itemname": "Masala veg",
+            "itemtype": "veg",
+            "price": "189"
+      },
+        {
+            "itemname": "Toms lasagna chicken",
+            "itemtype": "nonveg",
+            "price": "189"
+      },
+        {
+            "itemname": "Toms lasagna beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Toms lasagna veg",
+            "itemtype": "veg",
+            "price": "179"
+      },
+        {
+            "itemname": "Basil pesto chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Basil pesto beef",
+            "itemtype": "nonveg",
+            "price": "209"
+      },
+        {
+            "itemname": "Basil pesto veg",
+            "itemtype": "veg",
+            "price": "189"
+      },
+        {
+            "itemname": "Aglio-e-olio pasta chicken",
+            "itemtype": "nonveg",
+            "price": "189"
+      },
+        {
+            "itemname": "Aglio-e-olio pasta beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Aglio-e-olio pasta veg",
+            "itemtype": "veg",
+            "price": "179"
+      }
+
+      ],
+
+    "Mexican": [
+
+        {
+            "itemname": "Fajitha meal chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Fajitha meal beef",
+            "itemtype": "nonveg",
+            "price": "219"
+      },
+        {
+            "itemname": "Tasty tacos veg",
+            "itemtype": "veg",
+            "price": "199"
+      },
+        {
+            "itemname": "Tasty tacos chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Tasty tacos beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      }
+      ],
+
+    "Cajun": [
+
+        {
+            "itemname": "Bourbon street pasta veg",
+            "itemtype": "veg",
+            "price": "219"
+      },
+        {
+            "itemname": "Bourbon street pasta chicken",
+            "itemtype": "nonveg",
+            "price": "219"
+      },
+        {
+            "itemname": "Bourbon street pasta beef",
+            "itemtype": "nonveg",
+            "price": "219"
+      },
+        {
+            "itemname": "Lousiane etoufee rice",
+            "itemtype": "veg",
+            "price": "199"
+      },
+        {
+            "itemname": "Lousiane etoufee mash potato",
+            "itemtype": "veg",
+            "price": "199"
+      },
+        {
+            "itemname": "Lousiane etoufee pasta",
+            "itemtype": "veg",
+            "price": "199"
+      },
+        {
+            "itemname": "Caribbean chicken lunch",
+            "itemtype": "nonveg",
+            "price": "199"
+      }
+      ],
+    "Hawaiian": [
+        {
+            "itemname": "Korean meal chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Korean meal beef",
+            "itemtype": "nonveg",
+            "price": "219"
+      },
+        {
+            "itemname": "Albanian meal chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Albanian meal beef",
+            "itemtype": "nonveg",
+            "price": "219"
+      },
+        {
+            "itemname": "Locomoco chicken",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Locomoco beef",
+            "itemtype": "nonveg",
+            "price": "219"
+      }
+      ],
+    "Burgers": [
+
+        {
+            "itemname": "Leave the rest to us-beef",
+            "itemtype": "nonveg",
+            "price": "169"
+      },
+        {
+            "itemname": "Leave the rest to us-chicken",
+            "itemtype": "nonveg",
+            "price": "169"
+      },
+        {
+            "itemname": "Leave the rest to us-veg",
+            "itemtype": "veg",
+            "price": "169"
+      },
+        {
+            "itemname": "Philly beef steak burger",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Taco joe beef",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Taco joe chicken",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Bbq burger chicken",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Bbq burger beef",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Korean burger chicken",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Korean burger beef",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Fried chicken burger",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Toms spicy burger chicken",
+            "itemtype": "nonveg",
+            "price": "179"
+      },
+        {
+            "itemname": "Toms spicy burger beef",
+            "itemtype": "nonveg",
+            "price": "179"
+      }
+
+
+   ],
+    "Sandwiches": [
+
+        {
+            "itemname": "Grilled cheese",
+            "itemtype": "veg",
+            "price": "120"
+      },
+        {
+            "itemname": "Chilly cheese",
+            "itemtype": "veg",
+            "price": "130"
+      },
+        {
+            "itemname": "Homestyle veg",
+            "itemtype": "veg",
+            "price": "150"
+      },
+        {
+            "itemname": "Veg and cheese",
+            "itemtype": "veg",
+            "price": "150"
+      },
+        {
+            "itemname": "Veg club",
+            "itemtype": "veg",
+            "price": "160"
+      },
+        {
+            "itemname": "Korean chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Korean beef",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Buffalo chicken",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Buffalo beef",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Italian chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Country fried chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "All american bread",
+            "itemtype": "veg",
+            "price": "140"
+      },
+        {
+            "itemname": "Hawaiian chicken",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Hawaiian beef",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Homestyle chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Chicken club",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Egg",
+            "itemtype": "nonveg",
+            "price": "120"
+      },
+        {
+            "itemname": "Roast beef",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "All american chicken hot dog",
+            "itemtype": "nonveg",
+            "price": "149"
+      },
+        {
+            "itemname": "All american beef hot dog",
+            "itemtype": "nonveg",
+            "price": "149"
+      },
+        {
+            "itemname": "Double it",
+            "itemtype": "veg",
+            "price": "190"
+      }
+
+   ],
+    "Wraps": [
+
+        {
+            "itemname": "Korean wrap chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Korean wrap beef",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Buffalo wrap chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Buffalo wrap beef",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Bbq wrap chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Bbq wrap beef",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Italian chicken wrap",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Country fried chicken wrap",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "All american wrap",
+            "itemtype": "veg",
+            "price": "160"
+      },
+        {
+            "itemname": "Valentines wrap",
+            "itemtype": "veg",
+            "price": "160"
+      },
+        {
+            "itemname": "Mexican wrap chicken",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Mexican wrap beef",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Mexican wrap veg",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Roast beef",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Homestyle veg wrap",
+            "itemtype": "veg",
+            "price": "150"
+      }
+      ],
+    "Chinese_Starters": [
+        {
+            "itemname": "Oyster fried chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Oyster fried beef",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Chinese fried chicken",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Crispy fried beef",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Chicken lollipop",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Garlic chicken wings",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Drumstick chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Salt and pepper chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Salt and pepper beef",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Dragon chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Kungpao chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Kungpao beef",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Crispy fried vegetable with green chilly",
+            "itemtype": "veg",
+            "price": "140"
+      }
+   ],
+    "Chinese_dry-gravy": [
+        {
+            "itemname": "Chilly chicken",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Chilly beef",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Chilly veg",
+            "itemtype": "veg",
+            "price": "160"
+      },
+        {
+            "itemname": "Manchurian chicken",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Manchurian beef",
+            "itemtype": "nonveg",
+            "price": "180"
+      },
+        {
+            "itemname": "Manchurian veg",
+            "itemtype": "veg",
+            "price": "160"
+      },
+        {
+            "itemname": "Garlic chicken",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Garlic beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Schewzan chicken",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Schewzan beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      },
+        {
+            "itemname": "Chilly singapore chicken",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Chilly singapore beef",
+            "itemtype": "nonveg",
+            "price": "199"
+      }
+   ],
+    "Rice_and_Noodles": [
+        {
+            "itemname": "Malaysian veg",
+            "itemtype": "veg",
+            "price": "130"
+      },
+        {
+            "itemname": "Malaysian egg",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Malaysian chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Manchurian beef",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Singapore veg",
+            "itemtype": "veg",
+            "price": "130"
+      },
+        {
+            "itemname": "Singapore chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Singapore beef",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Singapore egg",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Schewzan veg",
+            "itemtype": "veg",
+            "price": "130"
+      },
+        {
+            "itemname": "Schewzan egg",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Schewzan chicken",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Schewzan beef",
+            "itemtype": "nonveg",
+            "price": "160"
+      },
+        {
+            "itemname": "Veg hakka noodles",
+            "itemtype": "veg",
+            "price": "120"
+      },
+        {
+            "itemname": "Egg hakka noodles",
+            "itemtype": "nonveg",
+            "price": "130"
+      },
+        {
+            "itemname": "Chicken hakka noodles",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Beef hakka noodles",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Veg rice",
+            "itemtype": "veg",
+            "price": "120"
+      },
+        {
+            "itemname": "Egg rice",
+            "itemtype": "nonveg",
+            "price": "130"
+      },
+        {
+            "itemname": "Chicken rice",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Beef rice",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Speciality rice barmix",
+            "itemtype": "veg",
+            "price": "170"
+      },
+        {
+            "itemname": "Speciality rice naseireong",
+            "itemtype": "veg",
+            "price": "170"
+      },
+        {
+            "itemname": "Speciality rice mexican",
+            "itemtype": "veg",
+            "price": "170"
+      }
+   ],
+    "Desserts": [
+        {
+            "itemname": "Brownie sundae with vanilla ice-cream",
+            "itemtype": "veg",
+            "price": "149"
+      },
+        {
+            "itemname": "Blueberry cheese cake",
+            "itemtype": "veg",
+            "price": "169"
+      },
+        {
+            "itemname": "Strawberry cheese cake",
+            "itemtype": "veg",
+            "price": "169"
+      },
+        {
+            "itemname": "Chocolate cheese cake",
+            "itemtype": "veg",
+            "price": "169"
+      },
+        {
+            "itemname": "Cherry cheese cake",
+            "itemtype": "veg",
+            "price": "169"
+      },
+        {
+            "itemname": "Dessert nachos",
+            "itemtype": "veg",
+            "price": "149"
+      },
+        {
+            "itemname": "Apple cobbler with vanilla ice-cream",
+            "itemtype": "veg",
+            "price": "169"
+      },
+        {
+            "itemname": "Plain ice-cream",
+            "itemtype": "veg",
+            "price": "60"
+      }
+      ],
+    "Beverages": [
+        {
+            "itemname": "Tropicana Juice",
+            "itemtype": "veg",
+            "price": "40"
+      },
+        {
+            "itemname": "Bottle water",
+            "itemtype": "veg",
+            "price": "25"
+      },
+        {
+            "itemname": "Coke",
+            "itemtype": "veg",
+            "price": "35"
+      }
+   ]
+}

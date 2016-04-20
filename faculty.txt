@@ -1,0 +1,104 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO.Ports;
+using MySql.Data.MySqlClient;
+namespace Faculty
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        char[] in_data = new char[11];
+        private SerialPort port;
+        private DateTime datetime;
+        private string data;
+        MySqlConnection conn = new MySqlConnection("datasource=localhost;Port=3306;Database=faculty;Uid=root;password=");
+        MySqlCommand command;
+        MySqlCommand command1;
+        private void start_Click(object sender, EventArgs e)
+        {
+            command = conn.CreateCommand();
+            port = new SerialPort();
+            port.BaudRate = 9600;
+            port.PortName = "COM16";
+            port.Parity = Parity.None;
+            port.DataBits = 8;
+            port.StopBits = StopBits.One;
+            port.DataReceived += Port_DataReceived;
+            try
+            {
+                port.Open();
+                start.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+            }
+
+        }
+
+        private void Port_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+
+            data = port.ReadLine();
+            this.Invoke(new EventHandler(displaydata_event));
+
+        }
+
+        private void displaydata_event(object sender, EventArgs e)
+        {
+
+            char[] charArr = data.ToCharArray();
+            if (charArr[0] == 'C' && charArr[5] == 'U' && charArr[6] == 'I')
+            {
+                int j = 0;
+                for (int i = 10; i < 21; i++)
+                {
+                    in_data[j] = charArr[i];
+                    j++;
+                }
+                string dbData = new string(in_data);
+                tbData.AppendText("\n");
+                tbData.AppendText(dbData);
+                command.CommandText = "INSERT into facstatus VALUES('" + dbData + "');";
+                command1.CommandText = "DELETE FROM facstatus WHERE uidnum='"+dbData+"'";
+                conn.Open();
+                try
+                {
+                    command.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    command1.ExecuteReader();
+                }
+                conn.Close();
+
+            }
+
+
+        }
+
+        private void stop_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                port.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error");
+
+            }
+        }
+    }
+}

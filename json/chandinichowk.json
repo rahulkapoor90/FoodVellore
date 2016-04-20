@@ -1,0 +1,171 @@
+{
+"nonveg main course":
+[
+{ "_id" : ObjectId("56e83a7ff20b3208cc46f98a"), "itemname" : "Chicken Do Pyaza", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83a89f20b3208cc46f98b"), "itemname" : "Egg Masala", "price" : "50", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83a9af20b3208cc46f98c"), "itemname" : "Chicken Curry", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83aa7f20b3208cc46f98d"), "itemname" : "Murg Bharta", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83ab6f20b3208cc46f98e"), "itemname" : "Chicken Patiala", "price" : "169", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83b63f20b3208cc46f98f"), "itemname" : "Chicken Kashmiri", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83b70f20b3208cc46f990"), "itemname" : "Chicken Achari", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83b86f20b3208cc46f991"), "itemname" : "Mutton Chaipata Masala", "price" : "179", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83b98f20b3208cc46f992"), "itemname" : "Mutton Keema Masala", "price" : "189", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83ba3f20b3208cc46f993"), "itemname" : "Egg Bhurji", "price" : "70", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83badf20b3208cc46f994"), "itemname" : "Kadai Chicken", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83bb7f20b3208cc46f995"), "itemname" : "Butter Chicken", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83bc3f20b3208cc46f996"), "itemname" : "Chicken Hyderabadi", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83bd8f20b3208cc46f997"), "itemname" : "Chicken Punjabi", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83be4f20b3208cc46f998"), "itemname" : "Chicken Chap", "price" : "149", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83becf20b3208cc46f999"), "itemname" : "Keema Masala", "price" : "169", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83bf8f20b3208cc46f99a"), "itemname" : "Mutton Rogan Josh", "price" : "179", "itemtype" : "nonveg" }
+{ "_id" : ObjectId("56e83c0bf20b3208cc46f99b"), "itemname" : "Fish Curry", "price" : "189", "itemtype" : "nonveg" }
+    ],
+"veg main course":
+[
+{
+{ "_id" : ObjectId("56e83d2ff20b32236c92404d"), "price" : "80", "itemname" : "Dal Makhni", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83d36f20b32236c92404e"), "price" : "60", "itemname" : "Dal Tadka", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83d42f20b32236c92404f"), "price" : "60", "itemname" : "Dal Lahsuni", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83d4cf20b32236c924050"), "price" : "60", "itemname" : "Punjabi Dal", "itemtype" : "veg" }
+],
+"rice":
+[
+{ "_id" : ObjectId("56e83d8bf20b32221c17ec2b"), "price" : "60", "itemname" : "Plain Rice", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83d92f20b32221c17ec2c"), "price" : "90", "itemname" : "Veg Pulao", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83da1f20b32221c17ec2d"), "price" : "90", "itemname" : "Schezwan Fried Rice", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83da9f20b32221c17ec2e"), "price" : "90", "itemname" : "Matar Pulao", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83db8f20b32221c17ec2f"), "price" : "120", "itemname" : "Nargisi Pulao", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83dbff20b32221c17ec30"), "price" : "70", "itemname" : "Jeera Rice", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83dccf20b32221c17ec31"), "price" : "90", "itemname" : "Veg Fried Rice", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83dd5f20b32221c17ec32"), "price" : "115", "itemname" : "Veg Biryani", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83ddef20b32221c17ec33"), "price" : "115", "itemname" : "Paneer Pulao", "itemtype" : "veg" }
+],
+"Breads":
+[
+{ "_id" : ObjectId("56e83e2af20b321248c3714b"), "itemname" : "Tandoori Roti", "itemtype" : "veg", "price" : "15" }
+{ "_id" : ObjectId("56e83e31f20b321248c3714c"), "itemname" : "Methi Roti", "itemtype" : "veg", "price" : "15" }
+{ "_id" : ObjectId("56e83e36f20b321248c3714d"), "itemname" : "Butter Naan", "itemtype" : "veg", "price" : "25" }
+{ "_id" : ObjectId("56e83e42f20b321248c3714e"), "itemname" : "Stuffed Naan", "itemtype" : "veg", "price" : "50" }
+{ "_id" : ObjectId("56e83e51f20b321248c3714f"), "itemname" : "Keema Naan", "itemtype" : "veg", "price" : "55" }
+{ "_id" : ObjectId("56e83e5bf20b321248c37150"), "itemname" : "Masala Kulcha", "itemtype" : "veg", "price" : "35" }
+{ "_id" : ObjectId("56e83e63f20b321248c37151"), "itemname" : "Paneer Kulcha", "itemtype" : "veg", "price" : "50" }
+{ "_id" : ObjectId("56e83e6df20b321248c37152"), "itemname" : "Lacha Paratha", "itemtype" : "veg", "price" : "35" }
+{ "_id" : ObjectId("56e83e72f20b321248c37153"), "itemname" : "Fulka", "itemtype" : "veg", "price" : "10" }
+{ "_id" : ObjectId("56e83e7cf20b321248c37154"), "itemname" : "Plain Naan", "itemtype" : "veg", "price" : "20" }
+{ "_id" : ObjectId("56e83e85f20b321248c37155"), "itemname" : "Garlic Naan", "itemtype" : "veg", "price" : "30" }
+{ "_id" : ObjectId("56e83e8df20b321248c37156"), "itemname" : "Kashmiri Naan", "itemtype" : "veg", "price" : "50" }
+{ "_id" : ObjectId("56e83eaff20b321248c37157"), "itemname" : "Plain Kulcha", "itemtype" : "veg", "price" : "30" }
+{ "_id" : ObjectId("56e83eb9f20b321248c37158"), "itemname" : "Onion Kulcha", "itemtype" : "veg", "price" : "35" }
+{ "_id" : ObjectId("56e83ec1f20b321248c37159"), "itemname" : "Aloo Paratha", "itemtype" : "veg", "price" : "34" }
+{ "_id" : ObjectId("56e83ecaf20b321248c3715a"), "itemname" : "Gobhi Paratha", "itemtype" : "veg", "price" : "35" }   
+],
+"soup":
+[
+{ "_id" : ObjectId("56e83f21f20b32211085dd57"), "price" : "50", "itemname" : "Clear Soup", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83f2af20b32211085dd58"), "price" : "50", "itemname" : "Sweet Corn Soup", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83f34f20b32211085dd59"), "price" : "50", "itemname" : "Tomato Soup", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83f3df20b32211085dd5a"), "price" : "50", "itemname" : "Manchow Soup", "itemtype" : "veg" }
+
+
+
+],
+"veg starters":
+[
+{ "_id" : ObjectId("56e83f9df20b32230c19835e"), "itemname" : "Crisy Corn", "price" : "60", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83fa4f20b32230c19835f"), "itemname" : "Gobhi 65", "price" : "70", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83faff20b32230c198360"), "itemname" : "French Fries", "price" : "50", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83fbaf20b32230c198361"), "itemname" : "Crispy Mushroom", "price" : "70", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83fc2f20b32230c198362"), "itemname" : "Paneer Tikka", "price" : "80", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83fccf20b32230c198363"), "itemname" : "Veg Seekh Kabab", "price" : "80", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83fd1f20b32230c198364"), "itemname" : "Momo", "price" : "60", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83fdaf20b32230c198365"), "itemname" : "Chilly Baby Corn", "price" : "80", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83ff0f20b32230c198366"), "itemname" : "Chilly Garlic Potato", "price" : "60", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e83ffcf20b32230c198367"), "itemname" : "Gobhi Manchurian", "price" : "70", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e84004f20b32230c198368"), "itemname" : "Chilly Paneer", "price" : "90", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e84063f20b32230c198369"), "itemname" : "Crispy Mushroom(Red Sauce)", "price" : "75", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e8406cf20b32230c19836a"), "itemname" : "Veg Roll", "price" : "50", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e84082f20b32230c19836b"), "itemname" : "Veg Manchurian", "price" : "80", "itemtype" : "veg" }
+],
+"Sweet":
+[
+{ "_id" : ObjectId("56e844d1f20b32117ccbf2bd"), "price" : "40", "itemname" : "Firni", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e844dff20b32117ccbf2be"), "price" : "40", "itemname" : "Gulab Jamun", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e844e8f20b32117ccbf2bf"), "price" : "50", "itemname" : "Lassi ", "itemtype" : "veg" }
+{ "_id" : ObjectId("56e844f4f20b32117ccbf2c0"), "price" : "40", "itemname" : "Shashi Tukda", "itemtype" : "veg" }
+],
+"Tarkari":
+[
+{"itemtype" : "veg", "itemname" : "Aloo Dum", "price" : "70" }
+{"itemtype" : "veg", "itemname" : "Aloo Matar", "price" : "80" }
+{"itemtype" : "veg", "itemname" : "Bhindi Fry", "price" : "70" }
+{"itemtype" : "veg", "itemname" : "Mixed Kadai Veg", "price" : "90" }
+{"itemtype" : "veg", "itemname" : "Paneer Tikka Masala", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Mushroom Masala(Half)", "price" : "70" }
+{"itemtype" : "veg", "itemname" : "Musroom Masala(Full)", "price" : "110" }
+{"itemtype" : "veg", "itemname" : "Jhal Freeze", "price" : "80" }
+{"itemtype" : "veg", "itemname" : "Corn Paneer", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Methi Malai Paneer", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Malai Kofta", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Kadai Paneer", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Paneer Bhurji", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Chana Masala", "price" : "80" }
+{"itemtype" : "veg", "itemname" : "Kashmiri Dum Aloo", "price" : "80" }
+{"itemtype" : "veg", "itemname" : "Aloo Gobhi", "price" : "80" }
+{"itemtype" : "veg", "itemname" : "Aloo Gobhi Matar", "price" : "80" }
+{"itemtype" : "veg", "itemname" : "Bhindi Masala", "price" : "80" }
+{"itemtype" : "veg", "itemname" : "Bhindi Masala", "price" : "80" }
+{"itemtype" : "veg", "itemname" : "Paneer Butter Masala", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Shashi Paneer", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Kaju Curry", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Palak Paneer", "price" : "110" }
+{"itemtype" : "veg", "itemname" : "Methi Malai Corn", "price" : "110" }
+{"itemtype" : "veg", "itemname" : "Methi Malai Matar", "price" : "110" }
+{"itemtype" : "veg", "itemname" : "Kashmiri Kofta", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Nav Ratan Korma", "price" : "110" }
+{"itemtype" : "veg", "itemname" : "Paneer Makhanwala", "price" : "120" }
+{"itemtype" : "veg", "itemname" : "Pindi Chana", "price" : "80" }   
+],
+"nonveg starter":
+[
+{"price" : "129", "itemtype" : "nonveg", "itemname" : "Dragon Chicken" }
+{"price" : "129", "itemtype" : "nonveg", "itemname" : "Looy Pop" }
+{"price" : "129", "itemtype" : "nonveg", "itemname" : "Munchurian" }
+{"price" : "90", "itemtype" : "nonveg", "itemname" : "Momo Toss" }
+{"price" : "80", "itemtype" : "nonveg", "itemname" : "Chicken Pakoda" }
+{"price" : "139", "itemtype" : "nonveg", "itemname" : "Hariyali Kabab" }
+{"price" : "139", "itemtype" : "nonveg", "itemname" : "Pepper Chicken Kabab" }
+{"price" : "139", "itemtype" : "nonveg", "itemname" : "Lakhnavi Kaba" }
+{"price" : "290", "itemtype" : "nonveg", "itemname" : "Tandoori Chicken(Full)" }
+{"price" : "159", "itemtype" : "nonveg", "itemname" : "Tandoori Chicken(Half)" }
+{"price" : "149", "itemtype" : "nonveg", "itemname" : "Fish Tikka" }
+{"price" : "149", "itemtype" : "nonveg", "itemname" : "Fish Finger" }
+{"price" : "146", "itemtype" : "nonveg", "itemname" : "Golden Prawn" }
+{"price" : "129", "itemtype" : "nonveg", "itemname" : "Chicken 65" }
+{"price" : "129", "itemtype" : "nonveg", "itemname" : "Drum of Heaven" }
+{"price" : "70", "itemtype" : "nonveg", "itemname" : "Momo" }
+{"price" : "129", "itemtype" : "nonveg", "itemname" : "Schejwan Chicken" }
+{"price" : "139", "itemtype" : "nonveg", "itemname" : "Tandoor Afghani Kabab" }
+{"price" : "129", "itemtype" : "nonveg", "itemname" : "Tikka Kabab" }
+{"price" : "139", "itemtype" : "nonveg", "itemname" : "Malai Chicken Kabab" }   
+{"price" : "149", "itemtype" : "nonveg", "itemname" : "Fish Fry" }
+{"price" : "149", "itemtype" : "nonveg", "itemname" : "Fish Amritsari" }
+{"price" : "149", "itemtype" : "nonveg", "itemname" : "Fish Cutlet" }
+{"price" : "149", "itemtype" : "nonveg", "itemname" : "Chilly Prawn" }
+],
+"chinese":
+[
+{"itemname" : "Veg Noodle", "price" : "80", "itemtype" : "veg" }
+{"itemname" : "Hakka Chicken Noodles", "price" : "120", "itemtype" : "nonveg" }
+{"itemname" : "American Choupsy", "price" : "160", "itemtype" : "veg" }
+{"itemname" : "Veg Gravy Noodles", "price" : "120", "itemtype" : "veg" }
+{"itemname" : "Gravy Chicken Nooodles", "price" : "140", "itemtype" : "nonveg" } 
+],
+"briyani":
+[
+{ "_id" : ObjectId("56e84bbef20b320a9c176436"), "price" : "150", "itemtype" : "nonveg", "itemname" : "Kalkata Chicken Biryani" }
+{ "_id" : ObjectId("56e84bc8f20b320a9c176437"), "price" : "210", "itemtype" : "nonveg", "itemname" : "Prawan Biryani" }
+{ "_id" : ObjectId("56e84bd0f20b320a9c176438"), "price" : "125", "itemtype" : "nonveg", "itemname" : "Egg Biryani" }
+{ "_id" : ObjectId("56e84bdff20b320a9c176439"), "price" : "180", "itemtype" : "nonveg", "itemname" : "Kolkata Mutton Biryani" }
+{ "_id" : ObjectId("56e84bebf20b320a9c17643a"), "price" : "225", "itemtype" : "nonveg", "itemname" : "Mixed Biryani" }
+]
+}

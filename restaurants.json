@@ -1,0 +1,100 @@
+{
+    "chandinichowk": [
+        {
+            "name":"Chandini Chowk",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457788913/briyani-01_celtbp.jpg",
+            "tagline": "Chandini Chowk to China",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Chinese,Continental",
+            "menu_json": "chandinichowk",
+            "emoji": "pensive",
+            "address2": "PO BOX 632014",
+            "time":"8:00 AM to 10:30 PM"
+      }
+      ],
+      "lazeezkabab": [
+        {
+            "name":"Lazeez Kabab",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457777091/limra_roll_yptc23.jpg",
+            "tagline": "restaurant's name says it all.",
+            "address1": "Opp. VIT Gate 3",
+            "type": "North Indian, Mughalai",
+            "menu_json": "lazeez",
+            "emoji": "grimacing",
+            "address2": "PO BOX 632014",
+            "time":"12:00 AM to 10:30 PM"
+      }
+      ],
+      "ValleyJunction": [
+        {
+            "name":"Valley Junction",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457788914/momos-01_i1ohdd.jpg",
+            "tagline": "Momos here are the best in Vellore.",
+            "address1": "Next to Flo cafe",
+            "type": "Chinese, Continental",
+            "menu_json": "ValleyJunction",
+            "emoji": "blush",
+            "address2": "PO BOX 632014",
+            "time":"11:00 AM to 9:30 PM"
+      }],
+      "Bakershub": [
+        {
+            "name":"Baker's Hub",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457792291/pastery-01_rpetok.jpg",
+            "tagline": "Satisfy your bakery needs here.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Cakes, Lava Cake",
+            "menu_json": "Bakershub",
+            "emoji": "dancers",
+            "address2": "PO BOX 632014",
+            "time":"10:00 AM to 11:00 PM"
+      }],
+      "GreensKitchen": [
+        {
+            "name":"Green's Kitchen",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457791876/baji-01_ikgvv2.jpg",
+            "tagline": "Go green.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Chinese,Continental",
+            "menu_json": "greenkitchen",
+            "emoji": "laughing",
+            "address2": "PO BOX 632014",
+            "time":"10:00 AM to 9:00 PM"
+      }],
+      "hartlounge": [
+        {
+            "name":"Hart Lounge",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457797813/HART_lpvgds.jpg",
+            "tagline": "Finger licking good sizzlers.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Cafe, Tandoori, Shawarma",
+            "menu_json": "hartlounge",
+            "emoji": "heart_eyes",
+            "address2": "PO BOX 632014",
+            "time":"11:00 AM to 9:00 PM"
+      }],
+      "crispncreme": [
+        {
+            "name":"Crisp n Creme",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457794857/crispncreme_bxxkpg.jpg",
+            "tagline": "Most affordable puffs.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Fast Food",
+            "menu_json": "crispandcream",
+            "emoji": "fire",
+            "address2": "PO BOX 632014",
+            "time":"10:00 AM to 12:00 PM"
+      }],
+      "Bangs": [
+        {
+            "name":"Bangs",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457787521/bangs_sn06ek.jpg",
+            "tagline": "*Yummy!* fried chicken.",
+            "address1": "Opp. VIT Main Gate",
+            "type": "Chinese,Continental",
+            "menu_json": "bangs",
+            "emoji": "beer",
+            "address2": "PO BOX 632014",
+            "time":"10:00 AM to 10:00 PM"
+      }]
+}

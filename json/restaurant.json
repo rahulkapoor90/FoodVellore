@@ -1,0 +1,38 @@
+[
+    {
+        "thumbnail": "",
+		"thumb": "http://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457788914/momos-01_i1ohdd.jpg",
+        "hotelname": "Valley Junction",
+        "location": "Next to Flo cafe, Gourang Mall",
+        "items": "Indian, Chinese, Continental",
+		"tagline": "",
+		"menu_json": "tomsdiner",
+        "url": "n/a",
+        "key": "valleyjunction",
+		"time":"11:00 AM to 9:30 PM"
+   },
+    {
+        "thumbnail": "",
+		"thumb": "",
+        "hotelname": "Hart Lounge",
+        "location": "Opposite VIT",
+        "items": "Indian, Chinese",
+		"tagline": "",
+		"menu_json": "tomsdiner",
+        "url": "n/a",
+        "key": "hartlounge",
+		"time":"11:00 AM to 9:30 PM"
+   },
+    {
+        "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448184/foodonz/dishes/panner_butter_masala.jpg",
+		"thumb": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457787521/bangs_sn06ek.jpg",
+        "hotelname": "Bangs",
+        "location": "Ground floor, Megamart Complex",
+        "items": "Fast Food",
+		"menu_json": "tomsdiner",
+		"tagline": "",
+		"url": "n/a",
+        "key": "biharidhaba",
+		"time":"11:00 AM to 9:30 PM"
+   }
+]

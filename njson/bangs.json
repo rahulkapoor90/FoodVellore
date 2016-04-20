@@ -1,0 +1,374 @@
+{
+    "Recommended": [
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461154645/small_dim_mgdgyl.jpg",
+            "itemname": "Masala Tikki Burger",
+            "itemtype": "veg",
+            "price": "138"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1460633931/Bangs/big_bang_burger.jpg",
+            "itemname": "Big Bang Burger",
+            "itemtype": "nonveg",
+            "price": "119"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1460633932/Bangs/peri_peri.jpg",
+            "itemname": "Peri Peri 8-Pcs",
+            "itemtype": "nonveg",
+            "price": "494"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1460633938/Bangs/Green_Apple_Mojito.jpg",
+            "itemname": "Green Apple Mojito",
+            "itemtype": "veg",
+            "price": "59"
+      }
+   ],
+    "Burgers": [
+        {
+            "itemname": "Egg Burger",
+            "itemtype": "nonveg",
+            "price": "49"
+      },
+        {
+            "itemname": "Popular Veg Burger",
+            "itemtype": "veg",
+            "price": "89"
+      },
+        {
+            "itemname": "Bangs Mini Veggie",
+            "itemtype": "veg",
+            "price": "35"
+      },
+        {
+            "itemname": "Masala Tikki Burger",
+            "itemtype": "veg",
+            "price": "69"
+      },
+        {
+            "itemname": "Paneer Burger",
+            "itemtype": "veg",
+            "price": "109"
+      },
+        {
+            "itemname": "Mini Big Bang Burger",
+            "itemtype": "nonveg",
+            "price": "49"
+      },
+        {
+            "itemname": "Bangs Chicken Burger",
+            "itemtype": "nonveg",
+            "price": "99"
+      },
+        {
+            "itemname": "Bangs Fish Burger",
+            "itemtype": "nonveg",
+            "price": "119"
+      },
+        {
+            "itemname": "Big Bang Burger",
+            "itemtype": "nonveg",
+            "price": "119"
+      }
+   ],
+    "Kids_Choice": [
+        {
+            "itemname": "4 pcs",
+            "itemtype": "veg",
+            "price": "59"
+      },
+        {
+            "itemname": "10 pcs",
+            "itemtype": "veg",
+            "price": "89"
+      }
+   ],
+    "Wraps": [
+        {
+            "itemname": "Crispy Veg Wrap",
+            "itemtype": "veg",
+            "price": "89"
+      },
+        {
+            "itemname": "Chicken Wrap",
+            "itemtype": "nonveg",
+            "price": "99"
+      },
+        {
+            "itemname": "Paneer Wrap",
+            "itemtype": "veg",
+            "price": "99"
+      }
+   ],
+    "Chissa_Fried_Chicken": [
+        {
+            "itemname": "Classic 2pcs",
+            "itemtype": "nonveg",
+            "price": "144"
+      },
+        {
+            "itemname": "Classic 2pcs with Mozzarella Topping",
+            "itemtype": "nonveg",
+            "price": "204"
+      },
+        {
+            "itemname": "Classic 4pcs",
+            "itemtype": "nonveg",
+            "price": "254"
+      },
+        {
+            "itemname": "Classic 4pcs with Mozzarella Topping",
+            "itemtype": "nonveg",
+            "price": "389"
+      },
+        {
+            "itemname": "Peri Peri 4pcs",
+            "itemtype": "nonveg",
+            "price": "269"
+      },
+        {
+            "itemname": "Lime and Pepper",
+            "itemtype": "nonveg",
+            "price": "269"
+      },
+        {
+            "itemname": "Lime Chilly",
+            "itemtype": "nonveg",
+            "price": "269"
+      }
+   ],
+    "The_Explosive_Rice_Meal": [
+        {
+            "itemname": "Veg Rice Meal + Pepsi Can",
+            "itemtype": "veg",
+            "price": "105"
+      },
+        {
+            "itemname": "Non-Veg Rice Meal + Pepsi Can",
+            "itemtype": "nonveg",
+            "price": "115"
+      }
+   ],
+    "Kiddy_Meal": [
+        {
+            "itemname": "Chicken Crunchies + Fries + Juice + Toy",
+            "itemtype": "nonveg",
+            "price": "159"
+      },
+        {
+            "itemname": "4pcs Cheese n Chicken Nuggets + Fries + Juice + Toy",
+            "itemtype": "nonveg",
+            "price": "159"
+      },
+        {
+            "itemname": "4pcs Crispy Veg Nuggets + Fries + Juice + Toy",
+            "itemtype": "veg",
+            "price": "139"
+      }
+   ],
+    "Bangs_Combos": [
+        {
+            "itemname": "Masala Tikki Burger + 3pcs Veg Nuggets + Fries + Pepsi Can",
+            "itemtype": "veg",
+            "price": "180"
+      },
+        {
+            "itemname": "Big Bang Burger + 3pcs Hot Wings + Pepsi Can",
+            "itemtype": "nonveg",
+            "price": "190"
+      },
+        {
+            "itemname": "Chicken Wrap + 1 Chicken Muncheez + Pepsi Can",
+            "itemtype": "nonveg",
+            "price": "205"
+      },
+        {
+            "itemname": "1 Palak Burger + 1 Paneer Burger + ! Pet Bottle 600ml",
+            "itemtype": "veg",
+            "price": "209"
+      },
+        {
+            "itemname": "Bangs Chicken Burger + 3pcs Wicked Wings + Fries + Pepsi Can",
+            "itemtype": "nonveg",
+            "price": "219"
+      },
+        {
+            "itemname": "1 Paneer Burger + 1 Popular Veg Burger + 4pcs Veg Nuggets + 2 Fries + 1 Pet Bottle 600ml",
+            "itemtype": "veg",
+            "price": "379"
+      },
+        {
+            "itemname": "2 Chicken Wraps + 5pcs Wicked Wings + 2 Fries + 1 Pet Bottle 600ml",
+            "itemtype": "nonveg",
+            "price": "409"
+      },
+        {
+            "itemname": "6pcs Chicken + 2 Fries + 3pcs Strips + 3 Buns + 2 Pet Bottle 600ml",
+            "itemtype": "nonveg",
+            "price": "675"
+      }
+   ],
+    "Side_Kicks": [
+        {
+            "itemname": "Fish Finger 5pcs",
+            "itemtype": "nonveg",
+            "price": "159"
+      },
+        {
+            "itemname": "Nuggets Veg 4pcs",
+            "itemtype": "veg",
+            "price": "59"
+      },
+        {
+            "itemname": "Nuggets Non-Veg 4pcs",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Chicken Strips 5pcs",
+            "itemtype": "nonveg",
+            "price": "159"
+      },
+        {
+            "itemname": "Shoestring Fries BBQ",
+            "itemtype": "veg",
+            "price": "59"
+      },
+        {
+            "itemname": "Wicked Wings 5pcs",
+            "itemtype": "nonveg",
+            "price": "99"
+      },
+        {
+            "itemname": "Chicken Crunchies",
+            "itemtype": "nonveg",
+            "price": "89"
+      },
+        {
+            "itemname": "Chicken Muncheez 4pcs",
+            "itemtype": "nonveg",
+            "price": "89"
+      }
+   ],
+    "Italian_Soda": [
+        {
+            "itemname": "Raspberry",
+            "itemtype": "veg",
+            "price": "59"
+      },
+        {
+            "itemname": "Red Wine Sangam",
+            "itemtype": "veg",
+            "price": "59"
+      },
+        {
+            "itemname": "Sanagara Blanc",
+            "itemtype": "veg",
+            "price": "59"
+      }
+   ],
+    "Mojitos": [
+        {
+            "itemname": "Fresh Garden Mint",
+            "itemtype": "veg",
+            "price": "59"
+      },
+        {
+            "itemname": "Green Apple",
+            "itemtype": "veg",
+            "price": "59"
+      },
+        {
+            "itemname": "Strawberry",
+            "itemtype": "veg",
+            "price": "59"
+      }
+   ],
+    "Blended_Frappies": [
+        {
+            "itemname": "Cookie Choco",
+            "itemtype": "veg",
+            "price": "99"
+      },
+        {
+            "itemname": "Mixed Berry",
+            "itemtype": "veg",
+            "price": "99"
+      },
+        {
+            "itemname": "Chai Latte",
+            "itemtype": "veg",
+            "price": "99"
+      }
+   ],
+    "Side_Items": [
+        {
+            "itemname": "Cheesy Jalapeno",
+            "itemtype": "veg",
+            "price": "15"
+      },
+        {
+            "itemname": "Chilli Garlic",
+            "itemtype": "veg",
+            "price": "15"
+      },
+        {
+            "itemname": "Mayonnaise",
+            "itemtype": "veg",
+            "price": "15"
+      },
+        {
+            "itemname": "Cheese",
+            "itemtype": "veg",
+            "price": "15"
+      },
+        {
+            "itemname": "Extra Rice",
+            "itemtype": "veg",
+            "price": "45"
+      },
+        {
+            "itemname": "1 pc Chicken + Pepsi Can",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "itemname": "Extra Gravy",
+            "itemtype": "veg",
+            "price": "20"
+      }
+     ],
+    "Beverages": [
+        {
+            "itemname": "Can 300 ml",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Diet Pepsi 300ml",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Pet 600ml",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Tetra Juice 200ml",
+            "itemtype": "veg",
+            "price": "30"
+      },
+        {
+            "itemname": "Replace pepsi with Mojito",
+            "itemtype": "veg",
+            "price": "29"
+      },
+        {
+            "itemname": "Water",
+            "itemtype": "veg",
+            "price": "25"
+      }
+   ]
+}
