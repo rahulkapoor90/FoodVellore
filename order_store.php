@@ -19,11 +19,10 @@ else{
     $bill = $_SESSION['bill'];
     $customer_bill = $_SESSION['customer_bill'];
     $cashback = $_SESSION['cashback'];
-        if(empty($_POST['name'])||empty($_POST['address_line1'])||empty($_POST['address_line2'])||empty($_POST['utype'])){
+        if(empty($_POST['name'])||empty($_POST['utype'])){
             header('Location:./cartdisplay.php');
         }else{
         $name=$_POST['name'];
-        $order_no = mt_rand(10000,100000);
         $address_line1 = $_POST['address_line1'];
         $address_line2 = $_POST['address_line2'];
 if(!empty($_POST['remarks'])){
@@ -33,6 +32,7 @@ $remarks="nil";
 }
         $utype  = $_POST['utype'];
     }
+    $order_query = "SELECT `order_count` FROM `order_number`";
     $rest_id_query = "SELECT `rest_id` FROM `our_tieups` WHERE `rest_name`='$rest_name'";
     $rest_response = mysqli_query($conn,$rest_id_query);
     $row = mysqli_fetch_assoc($rest_response);
@@ -88,11 +88,19 @@ $coupon_insert = "INSERT INTO `used_coupons` VALUES('$user','$coupon','ALL')";
 else{
     $coupon = "no_coupon";
 }
+$order_result = mysqli_query($conn,$order_query);
+$order_row = mysqli_fetch_assoc($order_result);
+$order_number = $order_row['order_count'];
+$order_no = intval($order_number)+1;
+$order_n = strval($order_no);
+$order_update = "UPDATE `order_number` SET `order_count`='$order_n'";
+mysqli_query($conn,$order_update);
          $_SESSION['order_no'] = $order_no;
          $user_ins = "UPDATE `users` SET `address_line1`='$address_line1',`address_line2`='$address_line2' WHERE `username`='$user'";
  if($mobile_res = mysqli_query($conn,$owner_number)){
              $mobile_result = mysqli_fetch_assoc($mobile_res);
              $rphone = $mobile_result['mobile'];
+             $sphone = "9865294828";
             $mobile_user = mysqli_query($conn,$user_number);
             $mobile_usern = mysqli_fetch_assoc($mobile_user);
             $phone = $mobile_usern['mobile'];
@@ -102,13 +110,12 @@ $insert_sql = "INSERT INTO $rest_name VALUES('$order_no','$orders',$bill,$custom
         if(mysqli_query($conn,$insert_sql)){
              if(mysqli_query($conn,$user_sql)){
             if(mysqli_query($conn,$user_ins)){
-                 define('SENDERID','FOODON');
-             define('AUTHKEY','rohit101293');
-             define('PASSWORD','rohitrohit');
+             define('SENDERID','FOODON');
+             define('AUTHKEY','105058Aah3DsrrB56c1bd03');
              function sendRest($rphone, $orders){
-                  global $bill,$utype,$name,$ctime,$remarks,$address_line1,$address_line2,$rest_name,$customer_bill,$cashback,$phone;
+                  global $bill,$utype,$name,$ctime,$remarks,$address_line1,$address_line2,$rest_name,$customer_bill,$cashback,$phone,$order_no;
                   $t = json_decode($orders,true);
-                  $sms_content = "Order by"." ".$name." "."\nfor".date('H:i:s',strtotime($ctime))."\nOrders are:\n";
+                  $sms_content = "Order Number:".$order_no."\nOrder by"." ".$name." "."\nfor time ".date('H:i:s',strtotime($ctime))."\nOrders are:\n";
                   foreach($t as $ord){
                       $sms_content = $sms_content.$ord['itemname']." "."quantity:".$ord['quantity']."\n";
                   }
@@ -119,28 +126,51 @@ $insert_sql = "INSERT INTO $rest_name VALUES('$order_no','$orders',$bill,$custom
                   }else if($utype=="pickup"){
                       $sms_content = $sms_content."\nOrder Type:Pickup\n";
                   }
-                   $sms_content = $sms_content."Extra Remarks:".$remarks."\n\nTotal Bill Amount:".$bill."\n\nDiscount From FoodONZ:".$cashback."\n\nAmount to be collected from customer:".$customer_bill."\n\nCustomer Contact Number:".$phone;
+                   $sms_content = $sms_content."Extra Remarks:".$remarks."\n\nTotal Bill Amount:".$bill."\n\nDiscount From FoodONZ:".$cashback."\n\nAmount to be collected from customer:".$customer_bill."\n\nCustomer Contact Number:".$phone."\n\nNote:delivery and packaging charges are not included";
                $sms_text = urlencode($sms_content);
-               $api_url = 'http://login.cheapsmsbazaar.com/vendorsms/pushsms.aspx?user=rohit101293&password=rohitrohit&msisdn='.$rphone.'&sid=FOODON&msg='.$sms_text.'&fl=0&gwid=2';
+               $api_url = 'https://control.msg91.com/api/sendhttp.php?authkey='.AUTHKEY.'&mobiles='.$rphone.'&message='.$sms_text.'&sender='.SENDERID.'&route=4&response=json';
                $response = file_get_contents($api_url);
                return $response;
                }
                function sendUser($phone){
                   global $bill,$rest_name,$rphone,$customer_bill,$order_no;
-                  $sms_content = "Thank You for placing your order with FoodONZ.\n\nYour order number:".$order_no." "."for amount"." ".$customer_bill." "."at"." ".$rest_name." "."is confirmed.\nThe restaurants contact number is:".$rphone."\nYou can check your order in the order history section of our website.\nEnjoy Your Meal!";
+                  $sms_content = "Thank You for placing your order with FoodONZ.\n\nYour order number:".$order_no." "."for amount"." ".$customer_bill." "."at"." ".$rest_name." "."is confirmed.\nThe restaurants contact number is:".$rphone."\n\nIn Case of any change or delay, you can call the restaurant owner for any queries.\n\nYou can also check your order in the order history section of our website.\n\nNote:delivery and packaging charges are not included in this bill amount.\nEnjoy Your Meal!";
                 $sms_text = urlencode($sms_content);
-               $api_url = 'http://login.cheapsmsbazaar.com/vendorsms/pushsms.aspx?user=rohit101293&password=rohitrohit&msisdn='.$phone.'&sid=FOODON&msg='.$sms_text.'&fl=0&gwid=2';
+               $api_url = 'https://control.msg91.com/api/sendhttp.php?authkey='.AUTHKEY.'&mobiles='.$phone.'&message='.$sms_text.'&sender='.SENDERID.'&route=4&response=json';
                $response = file_get_contents($api_url);
                return $response;
                }
+			   function sendSarawagi($sphone, $orders){
+                  global $bill,$utype,$name,$ctime,$remarks,$address_line1,$address_line2,$rest_name,$customer_bill,$cashback,$phone,$order_no,$rest_name;
+                  $t = json_decode($orders,true);
+                  $sms_content = "Shubham! Order by"." ".$name." "."\nYour order number:"." ".$order_no." "."\nRestaurant Name:"." ".$rest_name." "."\nfor ".date('H:i:s',strtotime($ctime))."\nOrders are:\n";
+                  foreach($t as $ord){
+                      $sms_content = $sms_content.$ord['itemname']." "."quantity:".$ord['quantity']."\n";
+                  }
+                 if($utype=="delivery"){
+                      $sms_content = $sms_content."\nOrder Type:Delivery\nAddress:".$address_line1."\n".$address_line2;
+                  }else if($utype=="dine"){
+                      $sms_content = $sms_content."\nOrder Type:Dine\n";
+                  }else if($utype=="pickup"){
+                      $sms_content = $sms_content."\nOrder Type:Pickup\n";
+                  }
+                   $sms_content = $sms_content."Extra Remarks:".$remarks."\n\nTotal Bill Amount:".$bill."\n\nDiscount From FoodONZ:".$cashback."\n\nAmount to be collected from customer:".$customer_bill."\n\nCustomer Contact Number:".$phone."\n\nNote:delivery and packaging charges are not included";
+               $sms_text = urlencode($sms_content);
+ $api_url = 'https://control.msg91.com/api/sendhttp.php?authkey='.AUTHKEY.'&mobiles='.$sphone.'&message='.$sms_text.'&sender='.SENDERID.'&route=4&response=json';               $response = file_get_contents($api_url);
+               return $response;
+               }
+			   
                $rest_response=sendRest($rphone,$orders);
                $postdata = json_decode($rest_response);
-               $errorMessage = $postdata->ErrorMessage;
-               if($errorMessage=="Success"){
+               $errorMessage = $postdata->type;
+               if($errorMessage=="success"){
                 $user_response=sendUser($phone);
                 $postdata_user = json_decode($user_response);
-               $errorUserMessage = $postdata_user->ErrorMessage;
-               if($errorUserMessage=="Success"){
+               $errorUserMessage = $postdata_user->type;
+               if($errorUserMessage=="success"){
+define('SENDERID','FOODON');
+             define('AUTHKEY','105058Aah3DsrrB56c1bd03');
+sendSarawagi($sphone,$orders);
                 header('Location:./order_successful.php');
 }else{
 header('Location:./error.php');

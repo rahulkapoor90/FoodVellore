@@ -70,7 +70,7 @@ $result = $mgClient->sendMessage($domain, array(
 </tr>
 <tr>
 <td style="color:#666666;font-size:15px;line-height:17px;font-family:Arial, Helvetica, sans-serif;">
-is <a target="_blank" style="color:#d95b23;text-decoration:none;" href="http://www.foodonz.com">'.$password1.'</a>
+is '.$password1.'
 as your new Password. You can later update the Password after <strong>Logging In</strong> and going to Settings Menu.
 </td>
 </tr>

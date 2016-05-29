@@ -6,13 +6,20 @@ myApp.controller('couponController', ['$scope', '$http', '$location','$rootScope
 	});
   $http.get('getOrders.php?demand=user_details').success(function (data){
     $scope.user_details = data;
+console.log(data);
     $scope.address_line1 = $scope.user_details[0].address_line1;
     $scope.name = $scope.user_details[0].name;
     $scope.address_line2 = $scope.user_details[0].address_line2;
   }).error(function (data){
     console.log(data);
   });
+if($scope.rest_name=="limragarden"){
+$scope.dell=false;
+}else{
+$scope.dell=true;
+}
   $scope.date_show=false;
+  $scope.dat_show=false;
   $scope.city="Vellore";
   $scope.state = "Tamil Nadu";
   $scope.disable = true;
@@ -22,6 +29,7 @@ myApp.controller('couponController', ['$scope', '$http', '$location','$rootScope
     }
   }
   $scope.radioEvent = function(utype){
+$scope.dat_show=false;
     if(utype=="pickup"){
       $scope.text = "At what time would you like to pickup";
       $scope.date_show=true;
@@ -31,8 +39,12 @@ myApp.controller('couponController', ['$scope', '$http', '$location','$rootScope
       $scope.date_show=true;
     }
     if(utype=="delivery"){
+$scope.dat_show=true;
+$scope.required="required";
       $scope.text = "At what time would you like to take the delivery";
+
       $scope.date_show=true;
+      
     }
   }
    $('#datetimepicker').datetimepicker({

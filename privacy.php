@@ -2,6 +2,7 @@
 require('./connect.php'); 
 require('./header.php');
 ?>
+<title>Privacy Policy</title>
 <?php
 if (!isset($_SESSION["user_login"])) {
 	header('location:./index.php');
@@ -10,7 +11,7 @@ else
 {
 }
 ?>
-<link href="./stylesheets/menu_style.css" rel="stylesheet">
+<link href="./stylesheets/menu_style.css" property='stylesheet' rel="stylesheet">
 <style>
 .menu-order{
 	background-color: #f5f5f5;
@@ -86,96 +87,73 @@ border: 1px solid #CCCCCC;
     padding-bottom: 50px;
     min-height: 500px;
 }
+.foodonz{
+margin-top:10px;
+margin-bottom:10px;
+font-size:16px !important;
+}
 </style>
         <div id="product-list">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-2"></div>
-                    <div class="col-sm-12 col-lg-8" id="carousel">
-                    </div>
-                    <div class="col-lg-2"></div>
+						<div class="row">
+						<div class="col-lg-12 col-sm-12 col-xs-12">
+						<div class="menu-container" style="text-align:center;">
+<h1 style="font-size:26px;"><i class="fa fa-cogs" aria-hidden="true"></i>
+ Privacy Policy:</h1>
+</div>
+</div>
+</div>
 
-                </div>
-                <div class="flex-container" ng-app="myApp" ng-init="buy_items=0;norder=false;total=0;something='<?php echo $_SESSION['rname'] ?>';user='<?php echo $_SESSION['user_login'] ?>';rest_name='<?php echo $_SESSION['rest_name'] ?>'">
-                    <div class="flex-big" ng-controller="restaurantController">
-		<div class="row">
-                       <div class="col-sm-12">
-<p><h5>This Privacy Policy governs the manner in which FOODONZ collects, uses, maintains and discloses information collected 
-from users (each, a "User") of the  website ("www.foodonz.com"). This privacy policy applies to the site and all products and services offered by FOODONZ.
-</h5></p>
+<div class="foodonz">
+This Privacy Policy governs the manner in which <b>FoodONZ</b> collects, uses, maintains and discloses information collected from users (each, a "User") of the website (<a href="https://www.foodonz.com">FoodONZ</a>). This privacy policy applies to the site and all products and services offered by <b>FoodONZ</b>.
+<br>
+</div>
+<b style="font-size: 18px; line-height:50px;">Personal identification information</b>
 
-<h3 align="left"><u> Personal identification information</u></h3>
-<p><h5>We may collect personal identification information from users in a variety of ways, including, but not limited to, 
-when users visit our site, register on the site and place an order and fill out a form and in connection with other activities, 
-services, features or resources we make available on our site. Users may be asked for, as appropriate, name, email address, mailing address, phone number.
-<br><br>We will collect personal identification information from users only if they voluntarily submit such information to us. 
-Users can always refuse to supply personally identification information, except that it may prevent them from engaging in certain site related activities.
+<div class="foodonz">
 
-</h5></p>
+We may collect personal identification information from users in a variety of ways, including, but not limited to, when users visit our site, register on the site and place an order and fill out a form and in connection with other activities, services, features or resources we make available on our site. Users may be asked for, as appropriate, name, email address, mailing address, phone number. 
 
-<h3 align="left"><u>Non-personal identification information</u></h3>
-<p><h5>We may collect non-personal identification information about users whenever they interact with oursite.
- Non-personal identification information may include the browser name, the type of computer and technical information about users means of connection to our Site, 
-such as the operating system and the Internet service providers utilized and other similar information.
+We will collect personal identification information from users only if they voluntarily submit such information to us. Users can always refuse to supply personally identification information, except that it may prevent them from engaging in certain site related activities.
+</div>
+<b style="font-size: 18px; line-height:50px;">Non-personal identification information</b>
+<div class="foodonz">
+We may collect non-personal identification information about users whenever they interact with oursite. Non-personal identification information may include the browser name, the type of computer and technical information about users means of connection to our Site, such as the operating system and the Internet service providers utilized and other similar information.
+</div>
 
-</h5></p>
-
-
-<h3 align="left"><u>Web browser cookies</u></h3>
-<p><h5>Our Site may use "cookies" to enhance user experience. User's web browser places cookies on their hard drive for record-keeping purposes and 
-sometimes to track information about them. User may choose to set their web browser to refuse cookies, or to alert you when cookies are being sent.
- If they do so, note that some parts of the Site may not function properly.
-</h5></p>
-
-
-<h3 align="left"><u>How we use collected information</u></h3>
-<p><h5>FOODONZ collects and uses users personal information for the following purposes:<br><br>
-<li><b>To improve customer service<b><br></li>
-Your information helps us to more effectively respond to your customer service requests and support needs.<br>
-<li><b>To personalize user experience<b></li>
-We may use information in the aggregate to understand how our Users as a group use the services and resources provided on our site.
-<li><b>	To improve our site<b><br></li>
-We continually strive to improve our website offerings based on the information and feedback we receive from you.
-<li><b>	To send periodic emails<b><br></li>
-The email address users provide for order processing, will only be used to send them information and updates pertaining to their order. 
-It may also be used to respond to their inquiries, and/or other requests or questions. If user decides to opt-in to our mailing list,
- they will receive emails that may include company news, updates, related product or service information, etc. If at any time the user would like to
- unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email or user may contact us via our site.
+<b style="font-size: 18px; line-height:50px;">How we use collected information</b>
+<div class="foodonz">
+FOODONZ collects and uses users personal information for the following purposes:
+<ul>
+  <li><b>To improve customer service</b> - 
+Your information helps us to more effectively respond to your customer service requests and support needs.</li>
+  <li><b>To personalize user experience</b> - 
+We may use information in the aggregate to understand how our Users as a group use the services and resources provided on our site.</li>
+  <li><b>To improve our site</b> - 
+We continually strive to improve our website offerings based on the information and feedback we receive from you.</li>
+<li>
+<b>To send periodic emails</b> - 
+The email address users provide for order processing, will only be used to send them information and updates pertaining to their order. It may also be used to respond to their inquiries, and/or other requests or questions. If user decides to opt-in to our mailing list, they will receive emails that may include company news, updates, related product or service information, etc. If at any time the user would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email or user may contact us via our site.
 </li>
-</h5></p>
-
-
-<h3 align="left"><u>How we protect your information</u></h3>
-<p><h5>We adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, 
-alteration, disclosure or destruction of your personal information, username, password, transaction information and data stored on our site.
-</h5></p>
-
-
-<h3 align="left"><u>Compliance with children's online privacy protection act</u></h3>
-<p><h5>
-Protecting the privacy of the very young is especially important. For that reason, we never collect or maintain information at our site from those we 
-actually know are under 13, and no part of our website is structured to attract anyone under 13.
-</h5></p>
-
-<h3 align="left"><u>Changes to this privacy policy</u></h3>
-<p><h5>
-FOODONZ has the discretion to update this privacy policy at any time. When we do, post a notification on the main page of our site, 
-send you an email. We encourage users to frequently check this page for any changes to stay informed about how we are helping to protect the personal
- information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
-</h5></p>
-
-
-<h3 align="left"><u>Your acceptance of these terms</u></h3>
-<p><h5>
-By using this Site, you signify your acceptance of this policy and terms of service. If you do not agree to this policy, please do not use our Site.
- Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes.
-</h5></p>
+</ul>
+</div>
+<b style="font-size: 18px; line-height:50px;">How we protect your information</b>
+<div class="foodonz">
+We adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information, username, password, transaction information and data stored on our site.
+</div>
+<b style="font-size: 18px; line-height:50px;">Compliance with children's online privacy protection act</b>
+<div class="foodonz">
+Protecting the privacy of the very young is especially important. For that reason, we never collect or maintain information at our site from those we actually know are under 13, and no part of our website is structured to attract anyone under 13.
+</div>
+<b style="font-size: 18px; line-height:50px;">Changes to this privacy policy</b>
+<div class="foodonz">
+FOODONZ has the discretion to update this privacy policy <b>at any time</b>. When we do, post a notification on the main page of our site, send you an email. We encourage users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
+</div>
+<b style="font-size: 18px; line-height:50px;">Your acceptance of these terms</b>
+<div class="foodonz">
+By using this Site, you signify your acceptance of this policy and terms of service. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes.
+</div>
 
 </div>
-					</div>
-					</div>
-                </div>
-				</div>
-            </div>
-        </div>
+ </div>
         <?php include('./footer.php') ?>

@@ -17,7 +17,7 @@
 "saleempunjabi": [
         {
             "name":"Saleem Punjabi",
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1460335566/Saleem_jatyl3.jpg",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1460335566/Saleem_jatyl3.jpg",
             "tagline": "Chicken lovers! your perfect place",
             "address1": "Opp. VIT Gate 3",
             "type": "Indian,Chinese",
@@ -72,19 +72,19 @@
             "opening_time":"1000",
             "closing_time":"2300"
       }],
-      "GreensKitchen": [
+     "LimraGarden": [
         {
-            "name":"Greens Kitchen",
-            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457791876/baji-01_ikgvv2.jpg",
-            "tagline": "Go green.",
-            "address1": "Opp. VIT Main Gate",
-            "type": "Pure Veg, Indian",
-            "menu_json": "greenskitchen",
-            "emoji": "laughing",
+            "name":"Limra Garden",
+            "thumbnail": "",
+            "tagline": "So affordable, you can't resist.",
+            "address1": "Opp VIT Main Gate",
+            "type": "Fast Food",
+            "menu_json": "limragarden",
+            "emoji": "dancer",
             "address2": "PO BOX 632014",
-            "time":"10:00 AM to 9:00 PM",
-            "opening_time":"1000",
-            "closing_time":"2100"
+            "time":"11:00 AM to 10:00 PM",
+            "opening_time":"1100",
+            "closing_time":"2200"
       }],
       "hartlounge": [
         {
@@ -92,7 +92,7 @@
             "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1457797813/HART_lpvgds.jpg",
             "tagline": "Finger licking good sizzlers.",
             "address1": "Opp. VIT Main Gate",
-            "type": "Cafe, Tandoori, Shawarma",
+            "type": "Tandoori, Shawarma",
             "menu_json": "hartlounge",
             "emoji": "dancer",
             "address2": "PO BOX 632014",
@@ -118,7 +118,7 @@
         {
             "name":"Toms Diner",
             "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1460335556/tom_s_Diner_nk877r.jpg",
-            "tagline": "Have you tried cheese cake from here?",
+            "tagline": "Cheese Cakeeee...",
             "address1": "Opp. VIT Main Gate",
             "type": "Fast Food",
             "menu_json": "tomsdiner",
@@ -155,6 +155,20 @@
             "time":"12:00 AM to 10:30 PM",
             "opening_time":"1200",
             "closing_time":"2230"
+      }],
+       "FloCafe": [
+        {
+            "name":"Flo Cafe",
+            "thumbnail": "https://res.cloudinary.com/dhdglilcj/image/upload/v1462202752/flo/flo.jpg",
+            "tagline": "Perfect ambience for hangout.",
+            "address1": "Gaurang Mall, SH-59",
+            "type": "Fast Food",
+            "menu_json": "flocafe",
+            "emoji": "scream_cat",
+            "address2": "PO BOX 632014",
+            "time":"11:00 AM to 11:00 PM",
+            "opening_time":"1100",
+            "closing_time":"2300"
       }],
       "Bangs": [
         {

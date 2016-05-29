@@ -1,0 +1,585 @@
+{
+	"Recommended": [
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201556/flo/Chocoholic.jpg",
+			"itemname": "Chocoholic",
+			"itemtype": "veg",
+			"price": "100"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201608/flo/Chocolate_Bomb.jpg",
+			"itemname": "Chocolate Bomb",
+			"itemtype": "veg",
+			"price": "105"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201579/flo/Super_Sundae.jpgg",
+			"itemname": "Super Sundae",
+			"itemtype": "veg",
+			"price": "140"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201578/flo/Chocolate_Truffle.jpg",
+			"itemname": "Chocolate Truffle",
+			"itemtype": "veg",
+			"price": "110"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201599/flo/Spicy_Aribiata.jpg",
+			"itemname": "Spicy Aribiata",
+			"itemtype": "veg",
+			"price": "200"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201687/flo/panna.jpg",
+
+			"itemname": "Panna",
+			"itemtype": "veg",
+			"price": "280"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201633/flo/Veg_Exotica_pizza.jpg",
+			"itemname": "Veg Exotica",
+			"itemtype": "veg",
+			"price": "265"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201563/flo/Fantasia.jpg",
+
+			"itemname": "Fantasia",
+			"itemtype": "veg",
+			"price": "230"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201551/flo/American_Sandwich.jpg",
+
+			"itemname": "American Sandwich",
+			"itemtype": "nonveg",
+			"price": "75"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201552/flo/Almond_Frappe.jpg",
+
+			"itemname": "Almond Frappe",
+			"itemtype": "veg",
+			"price": "160"
+		},
+
+		{
+			"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1462201559/flo/Raspberry_Mojito.jpg",
+
+			"itemname": "Raspberry Mojito",
+			"itemtype": "veg",
+			"price": "110"
+		}
+	],
+
+
+	"FLO_Desserts": [
+
+		{
+			"itemname": "Chocolate Muffin",
+			"itemtype": "veg",
+			"price": "40"
+		},
+
+		{
+			"itemname": "Vanilla Fruit Muffin",
+			"itemtype": "veg",
+			"price": "40"
+		}
+	],
+
+
+
+
+	"FLO_Cheese_Cakes": [{
+			"itemname": "Baked Cheese Cake(Classic)",
+			"itemtype": "veg",
+			"price": "150"
+		}, {
+			"itemname": "Blue Berry Cheese Cake",
+			"itemtype": "veg",
+			"price": "125"
+		},
+
+		{
+			"itemname": "Oreo Cheese Cake",
+			"itemtype": "veg",
+			"price": "125"
+		},
+
+		{
+			"itemname": "Strawberry Cheese Cake",
+			"itemtype": "veg",
+			"price": "120"
+		}
+	],
+
+	"FLO_Pastries": [
+
+		{
+			"itemname": "Chocolate Fantasy",
+			"itemtype": "veg",
+			"price": "105"
+		},
+
+		{
+			"itemname": "White Forest",
+			"itemtype": "veg",
+			"price": "70"
+		},
+
+		{
+			"itemname": "Black Forest",
+			"itemtype": "veg",
+			"price": "70"
+		}
+	],
+
+	"Ice-Cream_Desserts": [
+
+		{
+			"itemname": "French Vanilla",
+			"itemtype": "veg",
+			"price": "80"
+		},
+
+		{
+			"itemname": "Ice-Cream Sandwich",
+			"itemtype": "veg",
+			"price": "75"
+		},
+
+		{
+			"itemname": "Chocochino",
+			"itemtype": "veg",
+			"price": "105"
+		},
+
+		{
+			"itemname": "Chocolate Bomb",
+			"itemtype": "veg",
+			"price": "105"
+		},
+
+		{
+			"itemname": "Seasonal Fruit Delight",
+			"itemtype": "veg",
+			"price": "100"
+		},
+
+		{
+			"itemname": "Chocolate Truffle",
+			"itemtype": "veg",
+			"price": "110"
+		},
+
+		{
+			"itemname": "Sizzling Brownie",
+			"itemtype": "veg",
+			"price": "115"
+		},
+
+		{
+			"itemname": "Super Sundae",
+			"itemtype": "veg",
+			"price": "140"
+		}
+	],
+
+	"Pasta-Red_Sauce": [
+
+		{
+			"itemname": "Spicy Aribiata",
+			"itemtype": "veg",
+			"price": "200"
+		},
+
+		{
+			"itemname": "Spicy Chifoli",
+			"itemtype": "veg",
+			"price": "235"
+		},
+
+		{
+			"itemname": "Pasta Fresco",
+			"itemtype": "veg",
+			"price": "250"
+		}
+	],
+
+	"Pasta-White_Sauce": [
+
+		{
+			"itemname": "Alfarado",
+			"itemtype": "veg",
+			"price": "260"
+		},
+
+		{
+			"itemname": "Panna",
+			"itemtype": "veg",
+			"price": "280"
+		},
+
+		{
+			"itemname": "Carbonara",
+			"itemtype": "nonveg",
+			"price": "270"
+		}
+	],
+
+	"Pasta-Mixed_Sauce": [
+
+		{
+			"itemname": "Pasta De Verdure",
+			"itemtype": "veg",
+			"price": "320"
+		},
+
+		{
+			"itemname": "Baked Pasta",
+			"itemtype": "veg",
+			"price": "325"
+		},
+
+		{
+			"itemname": "Del Bachumin",
+			"itemtype": "veg",
+			"price": "220"
+		}
+	],
+	"Pizza": [
+
+		{
+			"itemname": "Margarita",
+			"itemtype": "veg",
+			"price": "170"
+		},
+
+		{
+			"itemname": "Classic",
+			"itemtype": "veg",
+			"price": "175"
+		},
+
+		{
+			"itemname": "Garden",
+			"itemtype": "veg",
+			"price": "200"
+		},
+
+		{
+			"itemname": "Fantasia",
+			"itemtype": "veg",
+			"price": "230"
+		},
+
+		{
+			"itemname": "Romania",
+			"itemtype": "veg",
+			"price": "215"
+		},
+
+		{
+			"itemname": "Spicy Napoli",
+			"itemtype": "veg",
+			"price": "250"
+		},
+
+		{
+			"itemname": "Veg Exotica",
+			"itemtype": "veg",
+			"price": "265"
+		},
+
+		{
+			"itemname": "Spicy Basilica",
+			"itemtype": "veg",
+			"price": "280"
+		},
+
+		{
+			"itemname": "Pizza Formaggi",
+			"itemtype": "veg",
+			"price": "255"
+		}, {
+			"itemname": "Paneer Tikka Pizza",
+			"itemtype": "veg",
+			"price": "240"
+		},
+
+		{
+			"itemname": "Sisilia",
+			"itemtype": "veg",
+			"price": "190"
+		}
+	],
+	"FLO_Short_Eats": [
+
+		{
+			"itemname": "Garlic Bread",
+			"itemtype": "veg",
+			"price": "45"
+		},
+
+		{
+			"itemname": "Garlic Bread with Cheese",
+			"itemtype": "veg",
+			"price": "95"
+		},
+
+		{
+			"itemname": "Masala Garlic Bread with Cheese",
+			"itemtype": "veg",
+			"price": "120"
+		},
+
+		{
+			"itemname": "Nachos with salsa",
+			"itemtype": "veg",
+			"price": "55"
+		},
+
+		{
+			"itemname": "Nachos with Cheese Sauce",
+			"itemtype": "veg",
+			"price": "155"
+		},
+
+		{
+			"itemname": "Fiery Max Stuffed Nachos",
+			"itemtype": "veg",
+			"price": "215"
+		},
+
+		{
+			"itemname": "Quesidillas",
+			"itemtype": "veg",
+			"price": "140"
+		},
+
+		{
+			"itemname": "Cheese Corn Balls",
+			"itemtype": "veg",
+			"price": "140"
+		},
+
+		{
+			"itemname": "Mexican Burittos",
+			"itemtype": "veg",
+			"price": "150"
+		}
+	],
+	"Sandwiches": [
+
+		{
+			"itemname": "Cheese and Tomato",
+			"itemtype": "veg",
+			"price": "80"
+		},
+
+		{
+			"itemname": "Paneer Tikka",
+			"itemtype": "veg",
+			"price": "110"
+		},
+
+		{
+			"itemname": "Spinach & Corn",
+			"itemtype": "veg",
+			"price": "70"
+		},
+
+		{
+			"itemname": "Mexican",
+			"itemtype": "veg",
+			"price": "120"
+		},
+
+		{
+			"itemname": "American",
+			"itemtype": "nonveg",
+			"price": "75"
+		},
+
+		{
+			"itemname": "Garden Spice",
+			"itemtype": "veg",
+			"price": "120"
+		}
+
+	],
+	"FLO-Ice_Tea": [
+
+		{
+			"itemname": "Lemon Ice Tea",
+			"itemtype": "veg",
+			"price": "70"
+		},
+
+		{
+			"itemname": "Green Apple Ice Tea",
+			"itemtype": "veg",
+			"price": "90"
+		},
+
+		{
+			"itemname": "Peach Ice Tea",
+			"itemtype": "veg",
+			"price": "85"
+		}
+	],
+
+	"FLO-Mojito": [{
+			"itemname": "Classic",
+			"itemtype": "veg",
+			"price": "90"
+		},
+
+		{
+			"itemname": "Blue Mojito",
+			"itemtype": "veg",
+			"price": "110"
+		},
+
+		{
+			"itemname": "Raspberry",
+			"itemtype": "veg",
+			"price": "110"
+		}, {
+			"itemname": "Green Apple",
+			"itemtype": "veg",
+			"price": "110"
+		}
+
+	],
+	"FLO_COFFEE-HOT": [{
+			"itemname": "Cappachino",
+			"itemtype": "veg",
+			"price": "70"
+		},
+
+		{
+			"itemname": "Caffe Latte",
+			"itemtype": "veg",
+			"price": "75"
+		},
+
+		{
+			"itemname": "Mocha",
+			"itemtype": "veg",
+			"price": "90"
+		}, {
+			"itemname": "Hot Chocolate",
+			"itemtype": "veg",
+			"price": "100"
+		}
+
+	],
+	"FLO_COFFEE-COLD": [{
+			"itemname": "Classic Frappe",
+			"itemtype": "veg",
+			"price": "120"
+		},
+
+		{
+			"itemname": "Cookie Frappe",
+			"itemtype": "veg",
+			"price": "130"
+		},
+
+		{
+			"itemname": "Choco Frappe",
+			"itemtype": "veg",
+			"price": "145"
+		}, {
+			"itemname": "Caramel Frappe",
+			"itemtype": "veg",
+			"price": "150"
+		}, {
+			"itemname": "Almond Frappe",
+			"itemtype": "veg",
+			"price": "160"
+		}
+
+	],
+	"FLO_Coolers": [{
+			"itemname": "Lime Mint Cooler",
+			"itemtype": "veg",
+			"price": "50"
+		},
+
+		{
+			"itemname": "Fresh Fruit Juice",
+			"itemtype": "veg",
+			"price": "100"
+		}
+	],
+
+	"Milk_Shakes": [{
+			"itemname": "Oreo Milk Shake",
+			"itemtype": "veg",
+			"price": "60"
+		}, {
+			"itemname": "Brownie Milk Shake",
+			"itemtype": "nonveg",
+			"price": "60"
+		}, {
+			"itemname": "Vanilla Cake Shake",
+			"itemtype": "nonveg",
+			"price": "50"
+		}, {
+			"itemname": "Choco Chip Cookie Shake",
+			"itemtype": "veg",
+			"price": "60"
+		}
+
+	],
+	"FLO_Shakes_Smoothies": [{
+			"itemname": "Hollywood Dream",
+			"itemtype": "veg",
+			"price": "125"
+		}, {
+			"itemname": "Alaskan Cruise",
+			"itemtype": "veg",
+			"price": "85"
+		}, {
+			"itemname": "Zurick",
+			"itemtype": "veg",
+			"price": "110"
+		}, {
+			"itemname": "Marlyin Manrao",
+			"itemtype": "veg",
+			"price": "130"
+		}, {
+			"itemname": "Banana Royale",
+			"itemtype": "veg",
+			"price": "90"
+		}, {
+			"itemname": "Cranberry Mango",
+			"itemtype": "veg",
+			"price": "125"
+		}, {
+			"itemname": "Chocoholic",
+			"itemtype": "veg",
+			"price": "100"
+		}, {
+			"itemname": "Blue Magic",
+			"itemtype": "veg",
+			"price": "160"
+		}
+
+	]
+}

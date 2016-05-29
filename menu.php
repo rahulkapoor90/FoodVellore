@@ -193,6 +193,7 @@ color: #fff !important;
                         <input id='search-form' ng-model="search.itemname" name='q' placeholder='Search food item' autocomplete="off" type='text'/>
 
                         <div class="row">
+<title>{{resname}} Menu</title>
 						<div class="container">
 						<div class="row">
 						<div class="col-lg-8 col-sm-12">
@@ -241,7 +242,7 @@ color: #fff !important;
 
 						<h3 ng-show="norder">Bill Amount:<span style="color:green;"> <i class="fa fa-inr"></i> {{ptotal}}</span></h3>
 <div class="coupons">
-            <p ng-show="norder" style="font-weight:bold;" class="have-coupon">Have a coupon? (<a href="#offer" data-toggle="modal" data-target="#offers-modal"> See my coupons </a>)</p>
+            <p ng-show="norder" style="font-weight:bold;" class="have-coupon">Have a coupon? (<a href="#offer" data-toggle="modal" data-dismiss="modal" data-target="#offers-modal"> See my coupons </a>)</p>
                 <input type="text" style="text-transform:uppercase; font-weight:bold;" class="coupon-input" ng-model="coupon" ng-show="norder" ng-keyup="callOnEnter($event)" ng-disabled="disable"><p ng-model="status"></p>{{status}}
                 <button ng-show="cstatus" class="btn 3dapply green" ng-click="cprocess()"><span ng-show="applyText == 'Applying'"><i class="glyphicon glyphicon-refresh spinning"></i></span>{{applyText}}</button>
 				<button ng-show="csuccess" class="btn 3dapply green" ng-click="delete_coupon()">Remove</button>
@@ -483,11 +484,12 @@ color: #fff !important;
                 $scope.status = 'Minimum bill amount for this coupon to be applied should be'+' '+min_bill_amt;
                }else{
                 if(coupon_check==0){
-                discount = data[0].discount;
+               discount = data.substring(0,2);
+                var c = data.substring(2);
                 reduced_amount = (parseInt(discount)*$scope.total)/100;
-                if(reduced_amount==0||reduced_amount>data[0].cashback){
-                    reduced_amount = parseInt(data[0].cashback);
-                    $scope.maxcash  = true;
+                if(reduced_amount==0||reduced_amount>parseInt(c)){
+                    reduced_amount = parseInt(c);
+                    $scope.maxcash=true;
                 }
                 $scope.cashback = reduced_amount;
                 $scope.ptotal = $scope.total - reduced_amount;
@@ -538,7 +540,7 @@ color: #fff !important;
             var mor_time = data[0].opening_time;
             var eve_time = data[0].closing_time;
             if(parseInt(time)>parseInt(mor_time) && parseInt(time)<parseInt(eve_time)){
-             if($scope.total<100){
+             if($scope.rest_name!="limragarden" && $scope.total<100){
               alert("Minimum order value for this restaurant is Rs100/-");
 }
 else{
@@ -582,7 +584,7 @@ else{
 }
 mor_time = mor_check_hours.toString()+":"+mor_check_minutes.toString();
 eve_time = eve_check_hours.toString()+":"+eve_check_minutes.toString();
-alert("Sorry the functions from"+" "+mor_time+am+" "+"to"+" "+eve_time+pm);
+alert("Sorry the restaurant functions from"+" "+mor_time+am+" "+"to"+" "+eve_time+pm);
 $scope.proceed_button = "Proceed to Checkout";
 }
         }).error(function (data, status, headers, config) {

@@ -33,14 +33,7 @@
   width: 500px;
   box-shadow: 0px 0px 3px #999;
 }
-#he{
-  background-color: #222;
-  background-image: url(https://s26.postimg.org/5dqw99bih/image.jpg);
-  background-size: cover;
-  background-position: center;
-  color: #ddd;
-  padding: 10px 40px;
-}
+
 #he h3{
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
@@ -193,7 +186,7 @@
 }
 .whole-rest{
 	background-color:#fff;
-	background-image: url('https://res.cloudinary.com/dhdglilcj/image/upload/v1457793758/blur_bg-01_kiupe7.jpg');
+	background-image: url('https://res.cloudinary.com/dhdglilcj/image/upload/v1457793229/blur_bg_ig0l9i.jpg');
 	
 }
 .tag-rest{

@@ -1,73 +1,73 @@
 {
     "Recommended": [
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457783758/Chandni%20Rec/chandni_chicken_strips.jpg",
+                           "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461349169/Bihari%20Dhaba/chilli_babycorn.jpg",
             "itemname": "Chilli Babycorn",
             "itemtype": "veg",
             "price": "100"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457781105/lazeez%20rec/Tandoori-Chicken__lazeez.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461349192/Bihari%20Dhaba/Honey_Chilli_Potato.jpg",
             "itemname": "Honey Chilli Potato",
             "itemtype": "veg",
             "price": "80"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448142/foodonz/dishes/d4.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461349167/Bihari%20Dhaba/chola_batura.jpg",
             "itemname": "Chola Bhatura",
             "itemtype": "veg",
             "price": "70"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448143/foodonz/dishes/d5.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461349199/Bihari%20Dhaba/Paneer_Dilrooba.jpg",
             "itemname": "Paneer Dilrooba",
             "itemtype": "veg",
             "price": "105"
       },
         {
-            "thumbnail": "http://farm8.staticflickr.com/7390/11919320035_1f6dd4da79_z.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461395085/Greens%20Kitchen/Mushroom_Paneer_Curry.jpg",
             "itemname": "Mushroom Paneer Curry",
             "itemtype": "veg",
             "price": "120"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448146/foodonz/dishes/d9.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461349169/Bihari%20Dhaba/chilli_babycorn.jpg",
             "itemname": "Crispy Chilli Potato",
             "itemtype": "veg",
             "price": "70"
       },
         {
-            "thumbnail": "http://farm8.staticflickr.com/7390/11919320035_1f6dd4da79_z.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461349172/Bihari%20Dhaba/Litti_Chokha.jpg",
             "itemname": "Litti Chokha",
             "itemtype": "veg",
             "price": "60"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448184/foodonz/dishes/panner_butter_masala.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461394944/Bihari%20Dhaba/Kaju_Paneer_Curry.jpg",
             "itemname": "Kaju Paneer Curry",
             "itemtype": "veg",
             "price": "120"
       },
         {
-            "thumbnail": "http://farm8.staticflickr.com/7390/11919320035_1f6dd4da79_z.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461394944/Bihari%20Dhaba/Babycorn_Chicken.jpg",
             "itemname": "Babycorn Chicken",
             "itemtype": "nonveg",
             "price": "190"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448133/foodonz/dishes/d2.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461394951/Bihari%20Dhaba/Tangdi_Kabab.jpg",
             "itemname": "Tangdi Kabab",
             "itemtype": "nonveg",
             "price": "100"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448161/foodonz/dishes/machurian.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461394944/Bihari%20Dhaba/Chilli_Chicken.jpg",
             "itemname": "Chilli Chicken",
             "itemtype": "nonveg",
             "price": "120"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448173/foodonz/dishes/malai_kofta.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461394946/Bihari%20Dhaba/Mutton_RoganJosh.jpg",
             "itemname": "Mutton RoganJosh",
             "itemtype": "nonveg",
             "price": "190"

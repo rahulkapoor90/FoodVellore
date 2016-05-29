@@ -15,11 +15,58 @@ $name->execute();
 <html lang="en">
 <head>
      <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name ="viewport"  content ="width=device-width, initial-scale=1, maximum-scale = 1,user-scalable=no">
-    <title>FoodOnz | Order Food in Vellore</title>
-	<link type="image/x-icon" rel="shortcut icon" href="https://i.imgur.com/xl1WjhW.png"/>
+<!-- The above 3 meta tags *must* come first in the head -->
+<meta name="keywords" content="foodonz,order food online,tamil nadu,vellore,vit university,swiggy,zomato,toms diner,limra">
+<meta name="subject" content="your website's subject">
+<meta name="language" content="en">
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm">
+<meta name="classification" content="business">
+<meta name="author" content="name, foodonz9@gmail.com">
+<meta name="designer" content="Rahul Kapoor">
+<meta name="reply-to" content="foodonz9@gmail.com">
+<meta name="owner" content="FoodONZ">
+<meta name="url" content="https://foodonz.com/">
+<meta name="identifier-URL" content="https://foodonz.com/">
+<meta name="directory" content="submission">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="referrer" content="never">
+<meta name="revisit-after" content="7 days">
+<meta http-equiv="refresh" content="300;url=https://foodonz.com/">
+<meta property="fb:page_id" content="1484248938482224">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="FoodONZ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="theme-color" content="#E87E28">
+<!-- Add to homescreen -->
+<meta name="mobile-web-app-capable" content="yes">
+
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173042/apple-icon-57x57_ktdpjk.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173042/apple-icon-60x60_fpwdce.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173042/apple-icon-72x72_pfc9mj.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173042/apple-icon-76x76_a74sfo.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173043/apple-icon-114x114_otlhjz.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173043/apple-icon-120x120_izwclv.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173045/apple-icon-144x144_kyvy6q.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173044/apple-icon-152x152_tza5bp.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173043/apple-icon-180x180_vilcr0.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173042/android-icon-192x192_pgrla5.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173053/favicon-32x32_fnzrub.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173053/favicon-96x96_deohty.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173053/favicon-16x16_mbbeox.png">
+<link rel="manifest" href="https://www.foodonz.com/manifest.json">
+<meta name="msapplication-TileColor" content="#D06E28">
+<meta name="msapplication-TileImage" content="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173073/ms-icon-144x144_wrb0va.png">
+<meta name="theme-color" content="#E87E28">
+<link type="image/x-icon" rel="shortcut icon" href="https://i.imgur.com/xl1WjhW.png"/>
 	
 	<!-- External Stylesheets -->
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -32,20 +79,7 @@ $name->execute();
 	<link href="stylesheets/sty.css" rel="stylesheet" type="text/css" media="screen">
 	<link rel="stylesheet" href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/build/css/bootstrap-datetimepicker.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.0.0/introjs.css">
-	<link href="./themes/orange/pace-theme-corner-indicator.css" rel="stylesheet" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="./themes/orange/pace-theme-flash.css" media="handheld" />
-<script type="text/javascript">
-(function(p,u,s,h){
-    p._pcq=p._pcq||[];
-    p._pcq.push(['_currentTime',Date.now()]);
-    s=u.createElement('script');
-    s.type='text/javascript';
-    s.async=true;
-    s.src='https://cdn.pushcrew.com/js/77fd86deefe17f24c437b9f5ddbf217b.js';
-    h=u.getElementsByTagName('script')[0];
-    h.parentNode.insertBefore(s,h);
-})(window,document);
-</script>
+	<link href="./themes/orange/pace-theme-corner-indicator.css" rel="stylesheet"/>
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
@@ -71,6 +105,18 @@ $name->execute();
   ]
 }
 </script>
+<!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=235497,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+
 <!-- Begin Inspectlet Embed Code -->
 <script type="text/javascript" id="inspectletjs">
 window.__insp = window.__insp || [];
@@ -158,14 +204,12 @@ height:40px !important;}
 }
 
 	</style>
-
-</head>
 <body ng-app="myApp">
 <?php echo $error; ?>
 <div id="top-bar">
             <div class="container">
                 <div class="clear-fix">
-              		<a href="./index.php"><img class="mobile-logo" src="https://res.cloudinary.com/dhdglilcj/image/upload/v1460622258/beta_logo_new_eehxxp.png" width="160px" height="50px" id="logo_main"></img></a>
+              		<a href="./index.php"><img class="mobile-logo" src="https://res.cloudinary.com/dhdglilcj/image/upload/v1460622258/beta_logo_new_eehxxp.png" alt="Foodonz Logo" width="160" height="50" id="logo_main"></a>
 
                     <div class="top-nav-bar pull-right">
                         <ul class="list-unstyled list-inline">
@@ -203,8 +247,7 @@ height:40px !important;}
                 else{
                 echo  '
 				<li class="top-menu">
-				<a href="#top-bar"data-toggle="modal" class="top-bar-link" data-target="#login-modal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>  Login</a></li>
-                </li>
+				<a href="#top-bar" data-toggle="modal" class="top-bar-link" data-target="#login-modal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>  Login</a></li>
                 <li class="top-menu logout-button"><a href="#top-bar" data-toggle="modal" data-target="#signup-modal"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign Up</a></li>
 				<li class="top-menu logout-button"><a href="#top-bar"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> +918220034880</a></li>';
               }
@@ -216,11 +259,11 @@ height:40px !important;}
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="signup-modal-label" aria-hidden="true">
+        <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                   <div class="modal-header" align="center">
-					<img class="img-circle" id="img_logo" src="https://i.imgur.com/PzeOPHi.png">
+                   <div class="modal-header" style="text-align: center;">
+					<img class="img-circle img_logo" alt="signup logo" src="https://i.imgur.com/PzeOPHi.png">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 					</button>
@@ -237,14 +280,14 @@ height:40px !important;}
                             <div class="form-group">
  <input type="text" name="name" class="form-control margin-signup" style="text-transform: capitalize !important;" id="namesignup" autocomplete="off" placeholder="Enter your full name.">
 
-							   <input type="text" name="username" id="usernamesignup" class="form-control margin-signup" id="username" autocomplete="off" placeholder="Username">
+							   <input type="text" name="username" id="usernamesignup" class="form-control margin-signup" autocomplete="off" placeholder="Username">
 
-								<input type="text" name="email" id="user_email" class="form-control margin-signup" id="email" autocomplete="off" placeholder="Email Address">
+								<input type="text" name="email" id="user_email" class="form-control margin-signup" autocomplete="off" placeholder="Email Address">
  
-								<input type="password" name="password" id="passsignup" class="form-control margin-signup" autocomplete="off" id="password" placeholder="Password">
+								<input type="password" name="password" id="passsignup" class="form-control margin-signup" autocomplete="off" placeholder="Password">
                                 <span id="result"></span>
 								</div>
-								<input type="tel" name="mobile" id="mobilesignup" class="form-control margin-signup" autocomplete="off" id="mobile" placeholder="Mobile Number">
+								<input type="tel" name="mobile" id="mobilesignup" class="form-control margin-signup" autocomplete="off" placeholder="Mobile Number">
 								<div id="phone">
 								
 								</div>
@@ -261,11 +304,11 @@ height:40px !important;}
                 </div>
             </div>
         </div>
-		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                   <div class="modal-header" align="center">
-					<img class="img-circle" id="img_logo" src="https://i.imgur.com/PzeOPHi.png">
+                   <div class="modal-header" style="text-align:center;">
+					<img class="img-circle img_logo" alt="signin logo" src="https://i.imgur.com/PzeOPHi.png">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 					</button>
@@ -301,11 +344,11 @@ height:40px !important;}
             </div>
         </div>
 		
-<div class="modal fade" id="forgot-modal" tabindex="-1" role="dialog" aria-labelledby="forgot-modal-label" aria-hidden="true">
+<div class="modal fade" id="forgot-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                   <div class="modal-header" align="center">
-					<img class="img-circle" id="img_logo" src="https://i.imgur.com/PzeOPHi.png">
+                   <div class="modal-header" style="text-align:center;">
+					<img class="img-circle img_logo" alt="forgot logo" src="https://i.imgur.com/PzeOPHi.png">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 					</button>
@@ -346,7 +389,7 @@ height:40px !important;}
 			   success : function(resp)
 			   {
 				   if(resp == "okay"){
-                                                $(".modalsignup").html('<button class="btn btn-default" id="mobile" onclick="verifyotp()"><img src="images/btn-ajax-loader.gif" /> &nbsp; Please Wait ... </button>');
+                                                $(".modalsignup").html('<button class="btn btn-default" id="mobile" onclick="verifyotp()"><img alt="loader" src="images/btn-ajax-loader.gif" /> &nbsp; Please Wait ... </button>');
 							setTimeout(' window.location.href = "index.php"; ',4000);
 				   }
 				   else{
@@ -360,14 +403,14 @@ height:40px !important;}
 		   });
 	   }
 	   </script>	
-		<div class="modal fade" id="offers-modal" tabindex="-1" role="dialog" aria-labelledby="forgot-modal-label" aria-hidden="true">
+	<div class="modal fade" id="offers-modal" tabindex="-1" role="dialog" aria-labelledby="signup-modal-label" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content" ng-controller="offersController">
                     <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title">Offers by FOODONZ</h4>
             </div>
-            <div class="modal-body" id="offers_body">
+       <div class="modal-body" id="offers_body">
                   <div class="panel panel-default" ng-repeat="item in items">
                     <div class="panel-body">
                       <div class="row">
@@ -430,6 +473,3 @@ height:40px !important;}
                     <!-- /.navbar-collapse -->
                 </div>
             </div>
-</body>
-
-</html>

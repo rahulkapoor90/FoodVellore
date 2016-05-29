@@ -3,6 +3,7 @@ include ('./connect.php');
 include('./header.php');
 
 ?>
+<title>Cart Display | FoodONZ</title>
 <?php
 if (!isset($_SESSION["user_login"])) {
 	echo '<script>window.location.href="./index.php";</script>';
@@ -40,6 +41,11 @@ font-size:19px;
 #cart-display{padding:0px !important;}
 .page-header{border-bottom:0px !important;
 font-size:}
+.mobile-btn{
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+}
 .footer-bar{font-size:14px !important; }
 .mobile-final{margin-top: 20px !important; }
 .footer-mobile{
@@ -51,18 +57,16 @@ font-size:18px !important;
 margin-bottom: 15px !important;}
 
 }
-.date{
-width: 40%
-}
 .time-display{
 width:60%
 }
 </style>
         <div id="cart-display" ng-app="myApp" ng-init="disable=false;user='<?php echo $_SESSION['user_login'] ?>';rest_name='<?php echo $_SESSION['rest_name'] ?>';total='<?php echo $_SESSION['customer_bill'] ?>'">
             <div class="container">
-                <h1 class="page-header">Cart Items</h1>
+                <h1 class="page-header"><i class="fa fa-lock" aria-hidden="true"></i>
+ Cart Items</h1>
                 <div ng-controller="couponController">
-                    <table class="table">
+                    <table class="table" ng-cloak>
                         <tr>
                             <th>Item Name</th>
                             <th>Price</th>
@@ -105,27 +109,7 @@ width:60%
             <input type="text" class="form-control" name="city" ng-model="city" id="city" ng-disabled="disable" required>
         </div>
     </div>
-</div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12">
-         <div class="row">
-            <div class="col-sm-12">
-         <div class="form-group">
-            <label for="address_line1">Please, Enter your delivery Address:<br>
-<span style="font-size:14px;">(Note: Delivery for VIT Student is only till Main Gate)</span>
-</label>      
-            <input type="text" class="form-control" name="address_line1" ng-model="address_line1" id="address_line1" required>
-        </div>
-    </div>
-</div>
-<div class="row">
-            <div class="col-sm-12">
-         <div class="form-group">
-            <label for="address_line2">Delivery Address line 2:</label>
-            <input type="text" class="form-control" name="address_line2" ng-model="address_line2" id="address_line2" required>
-        </div>
-    </div>
-</div>
+</div>   
 <div class="row">
             <div class="col-sm-12">
          <div class="form-group">
@@ -134,10 +118,10 @@ width:60%
         </div>
     </div>
 </div>
-      </div>
+</div>   
   </div>
   <div class="row">
-    <div class="col-sm-12 col-md-4 col-lg-4">
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xs-4">
         <div class="form-group">
             <div class="radio radio-text">
                 <label>
@@ -146,7 +130,7 @@ width:60%
             </div>
         </div>
     </div>
-    <div class="col-sm-12 col-md-4 col-lg-4">
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xs-4">
         <div class="form-group">
             <div class="radio radio-text">
                 <label>
@@ -155,13 +139,31 @@ width:60%
             </div>
         </div>
     </div>
-    <div class="col-sm-12 col-md-4 col-lg-4">
-        <div class="form-group">
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xs-8">
+        <div class="form-group" ng-show="dell">
             <div class="radio radio-text">
                 <label>
-                    <input type="radio" ng-model="Delivery" ng-keyup="callOnEnter($event,'pickup')" ng-click="radioEvent('delivery')" name="utype" value="delivery">Delivery 
+                    <input type="radio" ng-model="Delivery"  ng-keyup="callOnEnter($event,'pickup')" ng-click="radioEvent('delivery')" name="utype" value="delivery">Delivery 
                 </label>
             </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+            <div class="col-sm-12">
+         <div class="form-group" ng-show="dat_show">
+            <label for="address_line1">Please, Enter your delivery Address:<br>
+<span style="font-size:14px;">(Note: Delivery for VIT Student is only till Main Gate and Packaging charges are separately added.)</span>
+</label>      
+            <input type="text" class="form-control" name="address_line1" ng-model="address_line1" id="address_line1" {{required}}>
+        </div>
+    </div>
+</div>
+<div class="row">
+            <div class="col-sm-12">
+         <div class="form-group" ng-show="dat_show">
+            <label for="address_line2">Delivery Address line 2:</label>
+            <input type="text" class="form-control" name="address_line2" ng-model="address_line2" id="address_line2" {{required}}>
         </div>
     </div>
 </div>
@@ -176,7 +178,7 @@ width:60%
                     </span>
                 </div>
             </div>
-            <button class="btn btn-success" ng-show="date_show" name="submit" type="submit">Place Order</button>
+            <button class="btn btn-lg btn-success mobile-btn" ng-show="date_show" name="submit" type="submit">Place Order</button>
         </div>
     </div>
 </form>

@@ -16,7 +16,8 @@ $name->execute();
 <head>
 <title>FoodONZ | Order Food Online in Vellore</title>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, user-scrollable=no,user-scalable=no, minimum-scale=1.0, initial-scale=1">
 <meta name="description" content="Order food online in Vellore. We help in making ordering food so easy you will never have to wait in line ever again."/>
 <meta name="Keywords" content="Restaurants in Vellore, Tamil Nadu, VIT University, Vellore, bihari dhaba, olive kitchen, limra, CMC, Order food online, Home delivery">
 <meta name="robots" content="index,follow">
@@ -24,7 +25,12 @@ $name->execute();
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="google-play-app" content="app-id=com.foodonz.android">
+<meta property="fb:page_id" content="1484248938482224">
 <link rel="alternate" href="https://foodonz.com" hreflang="en-us"/>
+<script type="text/javascript">
+!function(a,b,c,d){a._pcq=a._pcq||[],a._pcq.push(["_currentTime",Date.now()]),c=b.createElement("script"),c.type="text/javascript",c.async=!0,c.src="https://cdn.pushcrew.com/js/77fd86deefe17f24c437b9f5ddbf217b.js",d=b.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}(window,document);
+</script>
 <!-- OG Tags -->
 <meta property="og:title" content="FoodOnz | Order Food Online in Vellore">
 <meta property="og:type" content="website">
@@ -57,15 +63,15 @@ $name->execute();
 <meta name="msapplication-TileColor" content="#D06E28">
 <meta name="msapplication-TileImage" content="https://res.cloudinary.com/dhdglilcj/image/upload/v1461173073/ms-icon-144x144_wrb0va.png">
 <meta name="theme-color" content="#E87E28">
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents=_qevents||[];!function(){var a=document.createElement("script");a.src=("https:"==document.location.protocol?"https://secure":"http://edge")+".quantserve.com/quant.js",a.async=!0,a.type="text/javascript";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}(),_qevents.push({qacct:"p-9ncmtDuktNwK2"});
+</script>
+<!-- End Quantcast tag -->
 
 <!-- Begin Inspectlet Embed Code -->
 <script type="text/javascript" id="inspectletjs">
-window.__insp = window.__insp || [];
-__insp.push(['wid', 461510451]);
-(function() {
-function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
-setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
-})();
+window.__insp=window.__insp||[],__insp.push(["wid",461510451]),function(){function a(){if("undefined"==typeof window.__inspld){window.__inspld=1;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.id="inspsync",a.src=("https:"==document.location.protocol?"https":"http")+"://cdn.inspectlet.com/inspectlet.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}}setTimeout(a,500),"complete"!=document.readyState?window.attachEvent?window.attachEvent("onload",a):window.addEventListener("load",a,!1):a()}();
 </script>
 <!-- End Inspectlet Embed Code -->
 <script type="application/ld+json">
@@ -93,152 +99,10 @@ setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent
   ]
 }
 </script>
-<link rel="stylesheet" type="text/css" href="./stylesheets/index_style.css">
-<style>
-
-#footer-banner {
-    background-repeat: no-repeat !important;
-    background-size: 100% !important;
-    background-position: center !important;
-    color: white !important;
-	background-color: #ecf0f1 !important;
-}
-
-#footer-banner > h1 {
-    padding: 30px 0 !important;
-}
-
-#footer-banner ul li {
-    display: inline !important;
-    padding: 0px 100px !important;
-}
-
-#footer-banner ul li img {
-    background-color: rgba(255, 255, 255, 0.2) !important;
-    transition: all 0.3s ease 0s !important;
-    cursor: pointer !important;
-}
-
-#footer-banner ul li img:hover {
-    background-color: rgba(255, 255, 255, 0.4) !important;
-}
-
-#footer-banner .coating {
-    height: 257px !important;
-}
-
-#footer-banner h1 {
-    font-family: Lato !important;
-    padding-bottom: 30px !important;
-}
-
-#footer {
-    color: #fff !important;
-	    background: #111 !important;
-    padding: 40px 0 60px !important;
-    padding: 50px 0 !important;
-}
-#footer li{
-	margin-bottom:8px !important;
-	font-weight:bold !important;
-}
-#footer h4{
-	font-weight:bold !important;
-}
-#footer h1,
-#footer h1+p {
-    color: rgb(190, 140, 96) !important;
-}
-
-#footer h1+p {
-    margin-bottom: 25px !important;
-}
-
-.footer-bar {
-    background: rgb(79, 58, 51) !important;
-    color: #f4f4f4 !important;
-    padding: 5px !important;
-}
-
-.footer-bar p {
-    margin: 0 !important;
-}
-	.otp{
-		width: 50% !important;
-		margin-left:60px !important;
-	}
-	.otp-tag{
-		font-weight:bold !important;
-		font-size:15px !important;
-		margin-top:3px !important;
-	}
-.otp-msg{
-		font-size:13px !important;
-	}
-	#result{
-		font-weight:bold;
-		margin-top:10px;
-	}
-	.strongpass{
-		color: #006400;
-	}
-	.weakpass{
-		color: #E66C2C;
-	}
-	.goodpass{
-		color: #2D98F3;
-	}
-	.weakpass{
-		color: #FF0000;
-	}
-	label {
-    display: inline-block !important;
-    margin-bottom: 5px !important;
-    font-weight: 700 !important;
-}
-
-</style>
-
-<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-   <script type="text/javascript" src="validation.min.js"></script>
-	<script type="text/javascript" src="script1.js"></script>
-	<script type="text/javascript" src="script.js"></script>
-	<script type="text/javascript" src="script2.js"></script>
 	<link href="./themes/orange/pace-theme-flat-top.css" rel="stylesheet" />
-	 <script src="./pace.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
+<link rel="stylesheet" type="text/css" href="./stylesheets/index_style.css">
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link type="image/x-icon" rel="shortcut icon" href="https://i.imgur.com/xl1WjhW.png"/>
-
-	<script type="text/javascript">
- function verifyotp(){
-	 var data = $("#signup-form").serialize();
-		   $.ajax({
-			   type : 'POST',
-			   url  : 'verifyotp.php',
-			   data : data,
-                        beforeSend: function()
-			{	
-				$("#otperror").fadeOut();
-				$("#mobile").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
-			},
-			   success : function(resp)
-			   {
-				   if(resp == "okay"){
-							setTimeout(' window.location.href = "index.php"; ',4000);
-				   }
-				   else{
-					   $("#otperror").fadeIn(1000, function(){						
-				$("#otperror").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; '+resp+'!</div>');
-						});
-$("#mobile").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Verify Again!');	
-				   }
-				   
-			   }
-		   });
-	   }
-	   </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -249,128 +113,40 @@ $("#mobile").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Verif
   ga('send', 'pageview');
 
 </script>
-<style type="text/css">
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+<style>
+body.modal-open {
+    overflow: hidden !important;
 }
-div#slider { overflow: hidden;
-height: 350px; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite; 
-}
-.main-social {
-	font-size:22px !important;
-	font-weight:650 !important;
-	color: #262626 !important;
-}
-.sosyal {
-  margin: 2px auto !important;
-}
-.facebook {
-  background-color: #2e4a88 !important;
-  box-shadow: 0 4px 0 #1B3D82 !important;
-  text-shadow: 0 -1px -1px #1B3D82 !important;
-  
-  display: inline !important;
-  position: relative !important;
-  font-family: Arial !important;
-  font-size: 14px !important;
-  font-weight: bold !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  color: white !important;
-  border-radius: 5px !important;
-  padding: 14px 80px !important;
-}
-.facebook:hover {
-  background-color: #354F84 !important;
-  color:#fff !important;
-}
-.facebook:active {
-  top: 2px !important;
-	box-shadow: 0 2px 0 #1B3D82 !important;
-}
-.twitter {
-  background-color: #008DDE !important;
-  box-shadow: 0 4px 0 #0078BD !important;
-  
-  display: inline !important;
-  position: relative !important;
-  font-family: Arial !important;
-  font-size: 14px !important;
-  font-weight: bold !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  color: white !important;
-  border-radius: 5px !important;
-  padding: 14px 80px !important;
-}
-.twitter:active {
-  top: 2px !important;
-	box-shadow: 0 2px 0 #0078BD !important;
-} 
-.twitter:hover {
-  background-color: #1397D8 !important;
-    color:#fff !important;
-}
-.google {
-  background-color: #CC3622 !important;
-  box-shadow: 0 4px 0 #BA2714 !important;
-  
-  display: inline !important;
-  position: relative !important;
-  font-family: Arial !important;
-  font-size: 14px !important;
-  font-weight: bold !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  color: white !important;
-  border-radius: 5px !important;
-  padding: 14px 80px !important;
-}
-.google:active {
-  top: 2px !important;
-	box-shadow: 0 2px 0 #BA2714 !important;
-}
-.google:hover {
-  background-color: #D04829 !important;
-    color:#fff !important;
-}
-.otp{
-	width:90px;
+.logo-img {
+    height: 80px !important;
+    margin: 0 auto !important;
+    width: 210px !important;
 }
 </style>
 </head>
 	<body class="landing">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=442861082492923";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		<div id="page-wrapper">
 	<!-- Header -->
 				<header id="header" class="alt">
 					<nav id="nav">
 						<ul>
-							<li><a href="./">Home</a></li>
+							
 							 <?php 
 
                 if(isset($_SESSION['user_login']))
                 {
-						echo '<li><a href="./logout.php">Logout</a></li>';
+						echo '<li><a href="./logout.php">Logout</a></li><li><a href="./settings.php">Settings</a></li>';
 				}
 				?>
-							<li><a href="#top-bar" class="button">+918220034880</a></li>
+							<li>Contact Us <a href="tel:+918220034880" class="button">+918220034880</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -394,7 +170,6 @@ div#slider figure {
 		<span style="color:#777 !important; font-size:22px !important; margin-bottom:10px">Sign Up to Get Started.</span>
                             <div class="form-group">
  <input type="text" name="name" class="form-control margin-signup" style="text-transform: capitalize !important;" id="namesignup" autocomplete="off" placeholder="Enter your full name.">
-
 							   <input type="text" name="username" id="usernamesignup" class="form-control margin-signup" autocomplete="off" placeholder="Username">
 
 								<input type="text" name="email" id="user_email" class="form-control margin-signup" autocomplete="off" placeholder="Email Address">
@@ -419,7 +194,7 @@ div#slider figure {
                 </div>
             </div>
         </div>
-		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="overflow-y:auto;">
             <div class="modal-dialog">
                 <div class="modal-content">
                    <div class="modal-header header-signin" style="text-align:center;">
@@ -490,37 +265,11 @@ div#slider figure {
             </div>
         </div>
 		<script type="text/javascript">
- function verifyotp(){
-	 var data = $("#signup-form").serialize();
-		   $.ajax({
-			   type : 'POST',
-			   url  : 'verifyotp.php',
-			   data : data,
-                        beforeSend: function()
-			{	
-				$("#otperror").fadeOut();
-				$("#mobile").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...');
-			},
-			   success : function(resp)
-			   {
-				   if(resp == "okay"){
-                                                $(".modalsignup").html('<button class="btn btn-default" id="mobile" onclick="verifyotp()"><img src="images/btn-ajax-loader.gif" /> &nbsp; Please Wait ... </button>');
-							setTimeout(' window.location.href = "index.php"; ',4000);
-				   }
-				   else{
-					   $("#otperror").fadeIn(1000, function(){						
-				$("#otperror").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; '+resp+'!</div>');
-						});
-  $(".modalsignup").html('<button class="btn btn-default" id="mobile" onclick="verifyotp()"><span class="glyphicon glyphicon-log-in"></span> Verify Again! </button>');
-				   }
-				   
-			   }
-		   });
-	   }
+ function verifyotp(){var a=$("#signup-form").serialize();$.ajax({type:"POST",url:"verifyotp.php",data:a,beforeSend:function(){$("#otperror").fadeOut(),$("#mobile").html('<span class="glyphicon glyphicon-transfer"></span> &nbsp; sending ...')},success:function(a){"okay"==a?($(".modalsignup").html('<button class="btn btn-default" id="mobile" onclick="verifyotp()"><img src="images/btn-ajax-loader.gif" /> &nbsp; Please Wait ... </button>'),setTimeout(' window.location.href = "index.php"; ',4e3)):($("#otperror").fadeIn(1e3,function(){$("#otperror").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; '+a+"!</div>")}),$(".modalsignup").html('<button class="btn btn-default" id="mobile" onclick="verifyotp()"><span class="glyphicon glyphicon-log-in"></span> Verify Again! </button>'))}})}
 	   </script>
 			<!-- Banner -->
 				<section id="banner">
-					<h2 style="display:inline-block;"><img style="display:inline-block;" alt="FoodOnz" src="https://i.imgur.com/PzeOPHi.png" width="250" height="250"></h2>
+					<h2 style="display:inline-block;"><img style="display:inline-block;user-drag: none; -moz-user-select: none; -webkit-user-drag: none;" alt="FoodOnz" src="https://res.cloudinary.com/dhdglilcj/image/upload/v1461495472/PzeOPHi-min_tegooq.png" width="250" height="250"></h2>
 					<p>Ordering Food in Vellore, made Simple.</p>
 					<ul class="actions">
 					 <?php 
@@ -544,6 +293,9 @@ div#slider figure {
 							<h2>You will never have to wait for your food ever again.</h2>
 							<p>At FoodONZ, we have spent countless hours working in developing products that help you not just order food but 
 							provide such a convienience that has never been provided before.</p>
+<div class="fb-like" data-href="https://facebook.com/fudonz" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+<a href="https://twitter.com/intent/tweet?button_hashtag=Foodonz" class="twitter-hashtag-button" data-url="http://foodonz.com">Tweet #Foodonz</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 						</header>
 					</section>
 
@@ -563,6 +315,22 @@ div#slider figure {
 					</section>
 				</section>
 		</div>
+	<section id="cta">
+
+					<h2>Now experience the best of Vellore on your Mobile and Desktop.</h2>
+					<p>Download The App Now.</p><br>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-lg-6 col-sm-6">
+           
+							<a target="_blank" href='https://play.google.com/store/apps/details?id=com.foodonz.android&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' class="img-responsive logo-img" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+        </div>
+        <div class="col-xs-12 col-lg-6 col-sm-6">
+           <img alt='Get it on App Store' class="img-responsive logo-img" src='https://www.pustaka.co.in/images/app-store-icon.png'/>
+        </div>
+    </div>
+</div>
+				</section>
 <div id="footer">
     <div class="container">
         <div class="row">
@@ -575,7 +343,11 @@ div#slider figure {
 
             <div class="col-md-offset-4 col-md-4">
                 <h4>OUR MOTTO</h4>
-                <p>FoodONZ aims to change the way the food is ordered and delivered in and around Vellore.</p>
+                <p>FoodONZ aims to change the way the food is ordered and delivered in and around Vellore.
+<h4>OUR SPONSORS</h4>
+<a href="https://msg91.com/startups/?utm_source=startup-banner"><img src="https://msg91.com/images/startups/msg91Badge.png" width="120" height="90" title="MSG91 - SMS for Startups" alt="Bulk SMS - MSG91"></a>
+
+</p>
             </div>
         </div>
     </div>
@@ -583,5 +355,12 @@ div#slider figure {
 <div class="footer-bar">
     <p class="text-center">&copy; 2016 FoodONZ All rights reserved.</p>
 </div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	 <script src="./pace.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="validation.min.js"></script>
+	<script type="text/javascript" src="script1.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="script2.js"></script>
 
 	</body>

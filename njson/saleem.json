@@ -1,4 +1,36 @@
 {
+ "Recommended": [
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424751/Saleem%20Punjabi/mysore_veg_biryani.jpg",
+            "itemname": "Mysore Veg Biryani",
+            "itemtype": "veg",
+            "price": "65"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424750/Saleem%20Punjabi/ginger_chicken.jpg",
+            "itemname": "Ginger Chicken",
+            "itemtype": "nonveg",
+            "price": "90"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424746/Saleem%20Punjabi/chicken_shahi_korma.jpg",
+            "itemname": "Chicken Shahi Korma",
+            "itemtype": "nonveg",
+            "price": "85"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424751/Saleem%20Punjabi/schewan_fried_rice.jpg",
+            "itemname": "Schezwan Fried Rice",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424749/Saleem%20Punjabi/veg_manchurien.jpg",
+            "itemname": "Veg Manchurian",
+            "itemtype": "veg",
+            "price": "70"
+      }
+   ],
     "Veg_Starters": [
         {
             "itemname": "Veg Stick Sizzler",

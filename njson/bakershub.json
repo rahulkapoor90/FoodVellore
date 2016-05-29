@@ -1,26 +1,31 @@
 {
     "Recommended": [
         {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461404341/Bakers%20hub/Chocolate_Donut.jpg",
             "itemname": "Chocolate Donut",
             "itemtype": "veg",
             "price": "40"
       },
         {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461404345/Bakers%20hub/Cinnamon_Twist.jpg",
             "itemname": "Cinnamon Twist",
             "itemtype": "veg",
             "price": "50"
       },
         {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461404343/Bakers%20hub/Apple_pie.jpg",
             "itemname": "Apple pie",
             "itemtype": "veg",
             "price": "40"
       },
         {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461404344/Bakers%20hub/Choco_Brownie.jpg",
             "itemname": "Choco Brownie",
             "itemtype": "veg",
             "price": "50"
       },
         {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461404344/Bakers%20hub/Black_Current.jpg",
             "itemname": "Black Current",
             "itemtype": "veg",
             "price": "50"

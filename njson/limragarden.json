@@ -1,0 +1,441 @@
+{
+    "Recommended": [
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457783758/Chandni%20Rec/chandni_chicken_strips.jpg",
+            "itemname": "Veg Cheese Stick",
+            "itemtype": "veg",
+            "price": "50"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457781105/lazeez%20rec/Tandoori-Chicken__lazeez.jpg",
+            "itemname": "Chicken Burger",
+            "itemtype": "nonveg",
+            "price": "60"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448142/foodonz/dishes/d4.jpg",
+            "itemname": "Double Egg Paneer Roll",
+            "itemtype": "nonveg",
+            "price": "55"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448143/foodonz/dishes/d5.jpg",
+            "itemname": "Double Egg Chicken Roll",
+            "itemtype": "nonveg",
+            "price": "65"
+      },
+        {
+            "thumbnail": "http://farm8.staticflickr.com/7390/11919320035_1f6dd4da79_z.jpg",
+            "itemname": "Veg Pasta",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448146/foodonz/dishes/d9.jpg",
+            "itemname": "Garlic Chicken",
+            "itemtype": "veg",
+            "price": "60"
+      },
+        {
+            "thumbnail": "http://farm8.staticflickr.com/7390/11919320035_1f6dd4da79_z.jpg",
+            "itemname": "Chicken Lollipop",
+            "itemtype": "nonveg",
+            "price": "60"
+      }
+   ],
+    "Burgers": [
+                {
+                "itemname": "Veg Cheese Stick",
+                "itemtype": "veg",
+                "price": "50"
+              },
+                {
+                "itemname": "Veg Cheese Stick(With Egg)",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Veg Aalu Tikka",
+                "itemtype": "veg",
+                "price": "50"
+              },
+                {
+                "itemname": "Veg Aalu Tikka(With Egg)",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Veg Burger Patty",
+                "itemtype": "veg",
+                "price": "50"
+              },
+                {
+                "itemname": "Veg Burger Patty(With Egg)",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Veg Cheese Sandwitch",
+                "itemtype": "veg",
+                "price": "50"
+              },
+                {
+                "itemname": "Veg Cheese Sandwitch",
+                "itemtype": "nonveg",
+                "price": "30"
+              }
+            ],
+        "Chicken": [
+                {
+                "itemname": "Chicken Cheese Stick",
+                "itemtype": "nonveg",
+                "price": "50"
+              },
+                {
+                "itemname": "Chicken Cheese Stick(With Egg)",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chicken Burger Patty",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chicken Burger Patty(With Egg)",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Chicken Burger",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chicken Burger(With Egg)",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Chicken Burger Club",
+                "itemtype": "nonveg",
+                "price": "65"
+              },
+                {
+                "itemname": "Chicken Burger Club(With Egg)",
+                "itemtype": "nonveg",
+                "price": "75"
+              },
+                {
+                "itemname": "Chicken Hot Dog",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chicken Hot Dog(With Egg)",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Chicken Suasage",
+                "itemtype": "nonveg",
+                "price": "65"
+              },
+                {
+                "itemname": "Chicken Sausage",
+                "itemtype": "nonveg",
+                "price": "75"
+              },
+                {
+                "itemname": "Chicken Sandwich",
+                "itemtype": "nonveg",
+                "price": "65"
+              }
+            ],
+        "Beef": [
+                {
+                "itemname": "Beef Burger",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Beef Burger(With Egg)",
+                "itemtype": "nonveg",
+                "price": "80"
+              },
+                {
+                "itemname": "Beef Hot Dog",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Beef Hot Dog(With Egg)",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Beef Sausage",
+                "itemtype": "nonveg",
+                "price": "65"
+              },
+                {
+                "itemname": "Beef Sausage(With Egg)",
+                "itemtype": "nonveg",
+                "price": "75"
+              }
+          ],
+        "Tuna": [
+                {
+                "itemname": "Tuna Fish Burger",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Tuna Fish Sandwich",
+                "itemtype": "nonveg",
+                "price": "65"
+              }
+              ],
+        "Omelets": [
+                {
+                "itemname": "Cheese Omelette",
+                "itemtype": "nonveg",
+                "price": "45"
+              },
+                {
+                "itemname": "Cheese Omelette with Bun",
+                "itemtype": "nonveg",
+                "price": "55"
+              },
+                {
+                "itemname": "Sausage Cheese Omelette",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chicken Cheese Omelette",
+                "itemtype": "nonveg",
+                "price": "70"
+              }
+              ],
+    "Rolls": [
+                {
+                "itemname": "Veg Roll",
+                "itemtype": "veg",
+                "price": "30"
+              },
+                {
+                "itemname": "Egg Roll",
+                "itemtype": "nonveg",
+                "price": "40"
+              },
+                {
+                "itemname": "Paneer Roll",
+                "itemtype": "veg",
+                "price": "45"
+              },
+                {
+                "itemname": "Double Egg Paneer Roll",
+                "itemtype": "nonveg",
+                "price": "55"
+              },
+                {
+                "itemname": "Chicken Roll",
+                "itemtype": "nonveg",
+                "price": "55"
+              },
+                {
+                "itemname": "Double Egg Chicken Roll",
+                "itemtype": "nonveg",
+                "price": "65"
+              }
+        ],
+        
+        "Pasta": [
+                {
+                "itemname": "Veg Pasta",
+                "itemtype": "veg",
+                "price": "60"
+              },
+                {
+                "itemname": "Veg Pasta(With Myo)",
+                "itemtype": "veg",
+                "price": "85"
+              },
+                {
+                "itemname": "Egg Pasta",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Egg Pasta(With Myo)",
+                "itemtype": "nonveg",
+                "price": "90"
+              },
+                {
+                "itemname": "Chicken Pasta",
+                "itemtype": "nonveg",
+                "price": "80"
+              },
+                {
+                "itemname": "Chicken Pasta(With Myo)",
+                "itemtype": "nonveg",
+                "price": "100"
+              }
+            ],
+            "Fried_Rice": [
+                {
+                "itemname": "Veg Fried Rice",
+                "itemtype": "veg",
+                "price": "40"
+              },
+                {
+                "itemname": "Veg Fried Rice(Sheswan)",
+                "itemtype": "veg",
+                "price": "45"
+              },
+                {
+                "itemname": "Paneer Fried Rice",
+                "itemtype": "veg",
+                "price": "50"
+              },
+                {
+                "itemname": "Paneer Fried Rice(Sheswan)",
+                "itemtype": "veg",
+                "price": "55"
+              },
+                {
+                "itemname": "Egg Fried Rice",
+                "itemtype": "nonveg",
+                "price": "50"
+              },
+                {
+                "itemname": "Egg Fried Rice(Sheswan)",
+                "itemtype": "nonveg",
+                "price": "55"
+              },
+                {
+                "itemname": "Chicken Fried Rice",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chicken Fried Rice(Sheswan)",
+                "itemtype": "nonveg",
+                "price": "65"
+              }
+            ],
+        "Noodles": [
+                {
+                "itemname": "Veg Noodles",
+                "itemtype": "veg",
+                "price": "40"
+              },
+                {
+                "itemname": "Veg Noodles(Sheswan)",
+                "itemtype": "veg",
+                "price": "45"
+              },
+                {
+                "itemname": "Paneer Noodles",
+                "itemtype": "veg",
+                "price": "50"
+              },
+                {
+                "itemname": "Paneer Noodles(Sheswan)",
+                "itemtype": "veg",
+                "price": "55"
+              },
+                {
+                "itemname": "Egg Noodles",
+                "itemtype": "nonveg",
+                "price": "50"
+              },
+                {
+                "itemname": "Egg Noodles(Sheswan)",
+                "itemtype": "nonveg",
+                "price": "55"
+              },
+                {
+                "itemname": "Chicken Noodles",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chicken Noodles(Sheswan)",
+                "itemtype": "nonveg",
+                "price": "65"
+              }
+            ],
+        "Dry_And_Gravy_Chicken": [
+                {
+                "itemname": "Chilly Chicken(Dry)",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chilly Chicken(Gravy)",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Chicken Lollipop(Dry)",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Chicken Lollipop(Gravy)",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Ginger Chicken(Dry)",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Ginger Chicken(Gravy)",
+                "itemtype": "nonveg",
+                "price": "70"
+              },
+                {
+                "itemname": "Garlic Chicken(Dry)",
+                "itemtype": "nonveg",
+                "price": "60"
+              },
+                {
+                "itemname": "Garlic Chicken(Gravy)",
+                "itemtype": "nonveg",
+                "price": "70"
+              }
+          ],
+        "Dry_And_Gravy_Veg": [
+                {
+                "itemname": "Chilly Aalu(Dry)",
+                "itemtype": "veg",
+                "price": "45"
+              },
+                {
+                "itemname": "Chilly Aalu(Gravy)",
+                "itemtype": "veg",
+                "price": "55"
+              },
+                {
+                "itemname": "Chilly Panner(Dry)",
+                "itemtype": "veg",
+                "price": "55"
+              },
+                {
+                "itemname": "Chilly Panner(Gravy)",
+                "itemtype": "veg",
+                "price": "65"
+              },
+                {
+                "itemname": "French Fry",
+                "itemtype": "veg",
+                "price": "45"
+              }
+              ]      
+        
+    
+}

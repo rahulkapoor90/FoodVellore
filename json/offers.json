@@ -8,20 +8,6 @@
 },
 {
 	"thumbnail":"https://res.cloudinary.com/dhdglilcj/image/upload/v1460335556/tom_s_Diner_nk877r.jpg",
-	"offer_line1":" Get 40% off on a minimum bill amount of 250",
-	"offer_line2":"Use code",
-        "offer_line3":"ADG40",
-        "offer_line4":"*(maximum cashback is 150)"
-},
-{
-	"thumbnail":"https://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457788914/momos-01_i1ohdd.jpg",
-	"offer_line1":" Get 40% off on a minimum bill amount of 250 at CHINA KITCHEN",
-	"offer_line2":"Use code",
-        "offer_line3":"SPECIAL40",
-        "offer_line4":"*(maximum cashback is 150)"
-},
-{
-	"thumbnail":"https://res.cloudinary.com/dhdglilcj/image/upload/v1460335556/tom_s_Diner_nk877r.jpg",
 	"offer_line1":" Get 15% off on a minimum bill amount of 1000 at TOMS DINER",
 	"offer_line2":"Use code",
         "offer_line3":"EAT150",
@@ -69,7 +55,7 @@
 	"offer_line1":"Get 30% off on a minimum bill amount of 300 at CHINA KITCHEN",
 	"offer_line2":"Use code",
         "offer_line3":"CHINA30",
-        "offer_line4":"*(maximum cashback is 150)"
+        "offer_line4":"*(maximum cashback is 100)"
 },
 {
 	"thumbnail":"https://res.cloudinary.com/dhdglilcj/image/upload/c_scale,w_178/v1457788914/momos-01_i1ohdd.jpg",

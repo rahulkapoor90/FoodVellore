@@ -1,21 +1,25 @@
 {
     "Recommended": [
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461395087/Greens%20Kitchen/Gulab_Jamun.jpg",
             "itemname": "Gulab Jamun",
             "itemtype": "veg",
             "price": "10"
       },
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461350825/Greens%20Kitchen/Gajar_Halwa.jpg",
             "itemname": "Gajar Halwa",
             "itemtype": "veg",
             "price": "30"
       },
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461395085/Greens%20Kitchen/RABERI.jpg",
             "itemname": "Rabree",
             "itemtype": "veg",
             "price": "50"
       },
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461395087/Greens%20Kitchen/JALEBI.jpg",
             "itemname": "Jalebi",
             "itemtype": "veg",
             "price": "20"

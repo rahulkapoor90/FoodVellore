@@ -1,0 +1,29 @@
+[30-Apr-2016 17:12:14 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100020 Library:100106 in /home/foodwcpp/public_html/connect1.php on line 6
+[30-Apr-2016 17:12:14 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/foodwcpp/public_html/mini/signin.php on line 8
+[30-Apr-2016 17:13:43 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100020 Library:100106 in /home/foodwcpp/public_html/connect1.php on line 6
+[30-Apr-2016 17:13:43 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/foodwcpp/public_html/mini/signin.php on line 8
+[30-Apr-2016 17:17:39 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100020 Library:100106 in /home/foodwcpp/public_html/connect1.php on line 6
+[30-Apr-2016 17:17:39 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/foodwcpp/public_html/mini/signin.php on line 8
+[30-Apr-2016 17:18:50 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100020 Library:100106 in /home/foodwcpp/public_html/connect1.php on line 6
+[30-Apr-2016 17:18:50 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/foodwcpp/public_html/mini/signin.php on line 8
+[30-Apr-2016 17:19:04 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100020 Library:100106 in /home/foodwcpp/public_html/connect1.php on line 6
+[30-Apr-2016 17:19:04 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/foodwcpp/public_html/mini/signin.php on line 8
+[30-Apr-2016 17:19:28 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100020 Library:100106 in /home/foodwcpp/public_html/connect1.php on line 6
+[30-Apr-2016 17:19:28 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/foodwcpp/public_html/mini/signin.php on line 8
+[30-Apr-2016 17:19:39 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100020 Library:100106 in /home/foodwcpp/public_html/connect1.php on line 6
+[30-Apr-2016 17:19:39 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/foodwcpp/public_html/mini/signin.php on line 8
+[30-Apr-2016 17:19:43 America/New_York] PHP Warning:  mysqli_connect(): Headers and client library minor version mismatch. Headers:100020 Library:100106 in /home/foodwcpp/public_html/connect1.php on line 6
+[30-Apr-2016 17:19:43 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/foodwcpp/public_html/mini/signin.php on line 8
+[30-Apr-2016 17:21:39 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/foodwcpp/public_html/mini/signin.php on line 11
+[30-Apr-2016 17:22:16 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 7
+[30-Apr-2016 17:22:19 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 7
+[30-Apr-2016 17:23:27 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 7
+[30-Apr-2016 17:23:30 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 7
+[30-Apr-2016 17:25:02 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 14
+[30-Apr-2016 17:25:06 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 14
+[30-Apr-2016 17:25:09 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 14
+[30-Apr-2016 17:25:28 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 14
+[30-Apr-2016 17:25:30 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 14
+[30-Apr-2016 17:26:45 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 14
+[02-May-2016 12:44:35 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 16
+[02-May-2016 12:44:39 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/foodwcpp/public_html/mini/signin.php on line 16

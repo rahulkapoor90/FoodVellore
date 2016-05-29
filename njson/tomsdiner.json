@@ -1,31 +1,31 @@
 {
     "Recommended": [
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457783758/Chandni%20Rec/chandni_chicken_strips.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461421524/Toms%20Diner/country_fried_chicken.jpg",
             "itemname": "Country fried chicken",
             "itemtype": "nonveg",
             "price": "190"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1457781105/lazeez%20rec/Tandoori-Chicken__lazeez.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461421527/Toms%20Diner/pasta_fresco.jpg",
             "itemname": "Pasta fresca chicken",
             "itemtype": "nonveg",
             "price": "189"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448142/foodonz/dishes/d4.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461428890/Toms%20Diner/masala_veg.jpg",
             "itemname": "Masala veg",
             "itemtype": "veg",
             "price": "189"
       },
         {
-            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1455448143/foodonz/dishes/d5.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461421527/Toms%20Diner/louisane.jpg",
             "itemname": "Lousiane etoufee pasta",
             "itemtype": "veg",
             "price": "199"
       },
         {
-            "thumbnail": "http://farm8.staticflickr.com/7390/11919320035_1f6dd4da79_z.jpg",
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461421527/Toms%20Diner/BBQ_burger_chicken.jpg",
             "itemname": "BBQ burger chicken",
             "itemtype": "nonveg",
             "price": "179"
@@ -747,7 +747,7 @@
       },
         {
             "itemname": "Mexican wrap veg",
-            "itemtype": "nonveg",
+            "itemtype": "veg",
             "price": "150"
       },
         {

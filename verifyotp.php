@@ -13,7 +13,7 @@ $username = $_SESSION['signupusername'];
 $otp_verify =  $_SESSION['otp'];
 $user_name = $_SESSION['username'];
 if($otp == $otp_verify){
-$query = $conn->prepare("INSERT INTO users(id,name,email,username,password,mobile,verified,address_line1,address_line2) VALUES ('',:name,:email,:username,:pswd,:mobile,'true','','')");
+$query = $conn->prepare("INSERT INTO users(id,name,email,username,password,mobile,verified,address_line1,address_line2) VALUES ('',:name,:email,:username,:pswd,:mobile,'1','','')");
 $query->bindParam(':name', $signupname);
 $query->bindParam(':username', $username);
 $query->bindParam(':email', $signupemail);

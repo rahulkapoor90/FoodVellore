@@ -1,240 +1,1027 @@
 {
-"Soup":
-[
-{"itemtype" : "veg", "itemname" : "Sweet Corn", "price" : "50" },
-{"itemtype" : "nonveg", "itemname" : "Sweet Corn", "price" : "60" },
-{"itemtype" : "nonveg", "itemname" : "Sweet Corn(seafood)", "price" : "70" },
-{"itemtype" : "veg", "itemname" : "Manchow", "price" : "55" },
-{"itemtype" : "nonveg", "itemname" : "Manchow", "price" : "60" },
-{"itemtype" : "nonveg", "itemname" : "Manchow(seafood)", "price" : "70" },    
-{"itemtype" : "veg", "itemname" : "Hot & Sour", "price" : "50" },
-{"itemtype" : "nonveg", "itemname" : "Hot & Sour", "price" : "60" },
-{"itemtype" : "nonveg", "itemname" : "Hot & Sour(seafood)", "price" : "70" },    
-{"itemtype" : "veg", "itemname" : "Lemen Coriander", "price" : "50" },
-{"itemtype" : "nonveg", "itemname" : "Lemen Coriander", "price" : "60" },
-{"itemtype" : "nonveg", "itemname" : "Lemen Coriander(seafood)", "price" : "70" },    
-{"itemtype" : "veg", "itemname" : "Eight Tresure", "price" : "55" },
-{"itemtype" : "nonveg", "itemname" : "Eight Tresure", "price" : "65" },
-{"itemtype" : "nonveg", "itemname" : "Eight Tresure(seafood)", "price" : "70" },
-{"itemtype" : "veg", "itemname" : "Lung Fung", "price" : "50" },
-{"itemtype" : "nonveg", "itemname" : "Lung Fung", "price" : "60" },
-{"itemtype" : "nonveg", "itemname" : "Lung Fung(seafood)", "price" : "70" },    
-{"itemtype" : "veg", "itemname" : "Veg & Noodle Clear Soup", "price" : "50" },
-{"itemtype" : "nonveg", "itemname" : "Tomyum Soup", "price" : "70" },
-{"itemtype" : "nonveg", "itemname" : "Tomyum Soup(seafood)", "price" : "75" },
-{"itemtype" : "nonveg", "itemname" : "Chicken Clear Soup", "price" : "45" }    
-],
-"Veg_starter":
- 
-[
-{"itemname" : "Finger Chips", "price" : "40", "itemtype" : "veg" },
-{"itemname" : "Crisp Chilly Potato", "price" : "60", "itemtype" : "veg" },
-{"itemname" : "Honey Chilly Potato", "price" : "65", "itemtype" : "veg" },
-{"itemname" : "Potato Papper Salt", "price" : "65", "itemtype" : "veg" },
-{"itemname" : "Crispy Chilly Babycorn ", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Sichuan Chilly Babycorn", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Kanjee Crispy Mushroom", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Chilly Mushroom Dry", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Sichuan Mushroom Dry", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Mushroom Papper Salt", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Human Mushroom Dry", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Chilly Garlic Mushroom Dry", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Chilly Paneer Dry", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Paneer Manchurian Dry", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Sichuan Paneer Dry", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Barseque paneere Dry", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Hongkong Paneer Dry", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Paneer Taipal", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Chilly Garlic Paneer Paneer Dry", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Devil's Paneer Dry", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Human Paneer Dry", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Veg Manchurian Dry", "price" : "75", "itemtype" : "veg" }
-],
-    
-"Nonveg_starter":
- [
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Pan Fried Chicken Celery And papper" },
-{"itemtype" : "nonveg", "price" : "120", "itemname" : "Crispy Chicken with Chilly Honey" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Konjee Crispy Chicken" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Crispy Chicken  Sichuan Style" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Dragon Chicken" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Chicken Taipai" },
-{"itemtype" : "nonveg", "price" : "120", "itemname" : "Slice Chicken Chilly Basil Dry" },
-{"itemtype" : "nonveg", "price" : "125", "itemname" : "(China kitchen)Special Chicken" },
-{"itemtype" : "nonveg", "price" : "120", "itemname" : "Barbeque Chicken" },
-{"itemtype" : "nonveg", "price" : "120", "itemname" : "Sweet And Spicy Chicken" },
-{"itemtype" : "nonveg", "price" : "120", "itemname" : "Chilly Garlic Chicken Dry" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Human Chicken Dry" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Chilly Chicken Dry" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Crispy Chilly Chicken" },
-{"itemtype" : "nonveg", "price" : "120", "itemname" : "Lai We Kai" },
-{"itemtype" : "nonveg", "price" : "120", "itemname" : "Chicken Pepper Salt" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Chicken Lolypoop" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Sichuan Chicken Lolypoop" },
-{"itemtype" : "nonveg", "price" : "110", "itemname" : "Hong Kong Lolypoop" } 
-],
-"Sea_food_starters":
-[
-{"itemname" : "Golden Fried Prawn ", "price" : "160", "itemtype" : "nonveg" },
-{"itemname" : "Pan Fried Chilly Fish", "price" : "140", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Cashewnut Dry Chilly", "price" : "180", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Pan Fried ", "price" : "170", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Pan Pepper Salt ", "price" : "170", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Pan Hunan ", "price" : "170", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Pan Hong Kong ", "price" : "170", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Pan Chilly ", "price" : "170", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Pan Oryster ", "price" : "170", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Pan Chilly Mustard", "price" : "170", "itemtype" : "nonveg" }
-],
-"Main_veg_course":
-[
-{"itemname" : "Broccoli,corn & Mushroom", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Four Treasure", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Exotic Vegtable Souce(Hot Garlic)", "price" : "100", "itemtype" : "nveg" },
-{"itemname" : "Exotic Vegtable Souce(Chilly Basil)", "price" : "100", "itemtype" : "veg" },
-{"itemname" : "Exotic Vegtable Souce(Contonese Style)", "price" : "100", "itemtype" : "veg" },
-{"itemname" : "Exotic Vegtable Souce(Beijing)", "price" : "100", "itemtype" : "veg" },
-{"itemname" : "Sweet & Sour Veg", "price" : "85", "itemtype" : "veg" },
-{"itemname" : "Mushroom In Souce(Chilly)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Mushroom In Souce(Manchurian)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Mushroom In Souce(Sichuan)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Mushroom In Souce(Hong Kong)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Mushroom In Souce(Devils)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Mushroom In Souce(Hunan)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Mushroom In Souce(Hot Garlic)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Paneer in Souce(Chilly)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Paneer in Souce(Manchurian)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Paneer in Souce(Sichuan)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Paneer in Souce(Hong Kong)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Paneer in Souce(Dervils)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Paneer in Souce(Hunan)", "price" : "95", "itemtype" : "veg" },
-{"itemname" : "Paneer in Souce(Black pepper)", "price" : "95", "itemtype" : "veg" }
-],
-"Main_course_poultry":
-[
-{"itemname" : "Tainshol Chicken", "price" : "110", "itemtype" : "nonveg" },
-{"itemname" : "Devils Chicken", "price" : "110", "itemtype" : "nonveg" },
-{"itemtype" : "nonveg", "itemname" : "Cantanese Fried Chicken", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "With Chinese Green", "price" : "110" },
-{"itemtype" : "nonveg", "itemname" : "Silce Chicken in Parsley Sauce", "price" : "110" },
-{"itemtype" : "nonveg", "itemname" : "Silce Chicken in Chilly Wine Sauce", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "China Kitchen SPL Chicken ", "price" : "130" },
-{"itemtype" : "nonveg", "itemname" : "Chilly Chicken Sauce", "price" : "110" },
-{"itemtype" : "nonveg", "itemname" : "Chicken Haeking ", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "Chilly Garlic Chicken with Pepper  ", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "Garlic Chicken(White)", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "Kung Pao Chicken", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "Chicken Mandarin", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "Crispy Fired Chicken Lemon Sauce", "price" : "120" }
-],
-"Rice":
-[
-{"itemtype" : "veg", "itemname" : "Steamed Rice", "price" : "45" },
-{"itemtype" : "veg", "itemname" : "Veg Fried Rice", "price" : "65" },
-{"itemtype" : "veg", "itemname" : "Veg & Mushroom Fried Rice", "price" : "75" },
-{"itemtype" : "veg", "itemname" : "Veg & Paneer Fried Rice", "price" : "80" },
-{"itemtype" : "veg", "itemname" : "Veg Mixed Fried Rice", "price" : "80" },
-{"itemtype" : "veg", "itemname" : "Corieander Burnt Garlic Veg Rice", "price" : "80" },
-{"itemtype" : "veg", "itemname" : "Sichan Veg Fried Rice", "price" : "80" },
-{"itemtype" : "veg", "itemname" : "China Kitchen SPL Fried Rice", "price" : "95" }, 
-{"itemtype" : "veg", "itemname" : "Veg Thal Rice ", "price" : "75" },
-{"itemtype" : "nonveg", "itemname" : "Egg Thal Rice", "price" : "85" },
-{"itemtype" : "nonveg", "itemname" : "Chicken Thal Rice", "price" : "95" },
-{"itemtype" : "nonveg", "itemname" : "Prawn Thal Rice", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "Mixed Thal Rice", "price" : "140" },
-{"itemtype" : "nonveg", "itemname" : "Sea Food Thal Rice(prawn/fish)", "price" : "150"},
-{"itemtype" : "nonveg", "itemname" : "Egg Fried Rice", "price" : "75" },
-{"itemtype" : "nonveg", "itemname" : "Chiccken Fried Rice", "price" : "85" },
-{"itemtype" : "nonveg", "itemname" : "Mixed Fried Rice", "price" : "130" },
-{"itemtype" : "nonveg", "itemname" : "Coriender Burunt garlic Egg", "price" : "90" },
-{"itemtype" : "nonveg", "itemname" : "Sichan Ckn Fried rice", "price" : "100" },
-{"itemtype" : "nonveg", "itemname" : "Sichan Mixed Rice", "price" : "140" },
-{"itemtype" : "nonveg", "itemname" : "Seafood Fried Rice", "price" : "160" },
-{"itemtype" : "nonveg", "itemname" : "Prawn Fried Rice", "price" : "120" },
-{"itemtype" : "nonveg", "itemname" : "China Kitchen SPL Fried Rice", "price" : "140" }
-],
-"Fried_Noodles":
-[
-{"price" : "60", "itemtype" : "veg", "itemname" : "Veg " },
-{"price" : "70", "itemtype" : "veg", "itemname" : "Mushroom" },
-{"price" : "80", "itemtype" : "veg", "itemname" : "Paneer" },
-{"price" : "90", "itemtype" : "veg90", "itemname" : "Veg Mixed" },
-{"price" : "90", "itemtype" : "veg", "itemname" : "China Kitchen SPl Noodle " },
-{"price" : "70", "itemtype" : "nonveg", "itemname" : "Egg" },
-{"price" : "85", "itemtype" : "nonveg", "itemname" : "Chicken" },
-{"price" : "100", "itemtype" : "nonveg", "itemname" : "Prawn" },
-{"price" : "130", "itemtype" : "nonveg", "itemname" : "Mixed" },
-{"price" : "150", "itemtype" : "nonveg", "itemname" : "China Kitchen SPL" },    
-{"itemname" : "Veg Padthal ", "price" : "80", "itemtype" : "veg" },
-{"itemname" : "Egg Padthal", "price" : "90", "itemtype" : "nonveg" },
-{"itemname" : "Chicken Padthal", "price" : "100", "itemtype" : "nonveg" },
-{"itemname" : "Mixed Padthal", "price" : "130", "itemtype" : "nonveg" }
-],
-"Noodles":
-[
-{"itemname" : "Veg Sichuan Noodles", "price" : "70", "itemtype" : "veg" },
-{"itemname" : "Mushroom Sichuan Noodles", "price" : "80", "itemtype" : "veg" },
-{"itemname" : "Paneer Sichuan Noodles", "price" : "90", "itemtype" : "veg" },
-{"itemname" : "Veg Mix Sichuan Noodles", "price" : "100", "itemtype" : "veg" },
-{"itemname" : "Egg Sichuan Noodles", "price" : "80", "itemtype" : "nonveg" },
-{"itemname" : "Chicken Sichuan Noodles", "price" : "95", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Sichuan Noodles", "price" : "110", "itemtype" : "nonveg" },
-{"itemname" : "Mixed Sichuan Noodles", "price" : "140", "itemtype" : "nonveg" },
-{"itemname" : "Veg Shanghai Noodles", "price" : "70", "itemtype" : "veg" },
-{"itemname" : "Egg Shanghai Noodles", "price" : "80", "itemtype" : "nonveg" },
-{"itemname" : "Chicken Shanghai Noodles", "price" : "95", "itemtype" : "nonveg" },
-{"itemname" : "Prawn Shanghai Noodles", "price" : "110", "itemtype" : "nonveg" },
-{"itemname" : "Mixed Egg Shanghai Noodles", "price" : "140", "itemtype" : "nonveg" },
-{"itemname" : "Mixed Chicken Shanghai Noodles", "price" : "140", "itemtype" : "nonveg" },    
-{"itemname" : "Mixed Prawn Shanghai Noodles", "price" : "140", "itemtype" : "nonveg" }    
-],
-"Pan_fried_noodles":
-[
-{"itemname" : "Veg Pan Fried Noodles", "itemtype" : "veg", "price" : "90" },
-{"itemname" : "Chicken Pan Fried Noodles", "itemtype" : "nonveg", "price" : "120" },
-{"itemname" : "Prawn Pan Fried Noodles", "itemtype" : "nonveg", "price" : "140" },
-{"itemname" : "Mixed(Chicken+Prawn)", "itemtype" : "nonveg", "price" : "150" }
-],
-"Chopsey":
-[
-{"itemname" : "Veg Chopsey", "itemtype" : "veg", "price" : "90" },
-{"itemname" : "Chicken Chopsey", "itemtype" : "nonveg", "price" : "100" },
-{"itemname" : "Prawn Chopsey", "itemtype" : "nonveg", "price" : "130" },
-{"itemname" : "Mixed Chopsey(Chicken+Prawn)", "itemtype" : "nonveg", "price" : "150" }
-],
-"Momos":
-[
-{"price" : "55", "itemtype" : "veg", "itemname" : "Veg Momo(Steam)" },
-{"price" : "60", "itemtype" : "veg", "itemname" : "Veg Momo(Fied)" },
-{"price" : "70", "itemtype" : "veg", "itemname" : "Veg Momo(Pan Fried)" },
-{"price" : "60", "itemtype" : "nonveg", "itemname" : "Chicken Momo(Steam)" },
-{"price" : "65", "itemtype" : "nonveg", "itemname" : "Chicken Momo(Fried)" },
-{"price" : "80", "itemtype" : "nonveg", "itemname" : "Chicken Momo(Pan Fried)" }
-],
-"Spring_roll":
-[
-{"price" : "55", "itemname" : "Veg Spring Roll", "itemtype" : "veg" },
-{"price" : "65", "itemname" : "Chicken Spring Roll", "itemtype" : "nonveg" }
-],
-"Main_course_sea_food":
-[
-{"itemname" : "Pan Fried Prawn in Chilly Sauce", "itemtype" : "nonveg", "price" : "170" },
-{"itemname" : "Prawn Hubei Style", "itemtype" : "nonveg", "price" : "170" },
-{"itemname" : "Prawn in Sauce(Sichan)", "itemtype" : "nonveg", "price" : "170" },
-{"itemname" : "Prawn in Sauce(Chilly)", "itemtype" : "nonveg", "price" : "170" },    
-{"itemname" : "Prawn in Sauce(Balck Pepper)", "itemtype" : "nonveg", "price" : "170" },
-{"itemname" : "Prawn in Sauce(Chilly Oyster)", "itemtype" : "nonveg", "price" : "170" },
-{"itemname" : "Prawn in Sauce(Hunan)", "itemtype" : "nonveg", "price" : "170" },
-{"itemname" : "Prawn in Sauce(Devils Chilly Wine)", "itemtype" : "nonveg", "price" : "170" },
-{"itemname" : "Butter Garlic Fish with Seasonal Greens", "itemtype" : "nonveg", "price" : "150" },
-{"itemname" : "Fish in Sauce(Sichan)", "itemtype" : "nonveg", "price" : "140" },
-{"itemname" : "Fish in Sauce(Chilly)", "itemtype" : "nonveg", "price" : "140" },
-{"itemname" : "Fish in Sauce(Black Pepper)", "itemtype" : "nonveg", "price" : "140" },
-{"itemname" : "Fish in Sauce(Chilly Oyster)", "itemtype" : "nonveg", "price" : "140" },
-{"itemname" : "Fish in Sauce(Hunan)", "itemtype" : "nonveg", "price" : "140" },
-{"itemname" : "Fish in Sauce(Hot Garlic)", "itemtype" : "nonveg", "price" : "140" },    
-{"itemname" : "Fish in Sauce(Chilly Mustard)", "itemtype" : "nonveg", "price" : "140" },     
-{"itemname" : "Fish in Sauce()", "itemtype" : "nonveg", "price" : "140" }    
-]
+    "Recommended": [
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424985/china%20kitchen/Manchow_seafood.jpg",
+            "itemname": "Manchow(seafood)",
+            "itemtype": "nonveg",
+            "price": "70"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424985/china%20kitchen/Veg_Momos_Steam.jpg",
+            "itemname": "Veg Momos(Steam)",
+            "itemtype": "veg",
+            "price": "55"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424987/china%20kitchen/Honey_Chilli_Potato.jpg",
+            "itemname": "Honey Chilli Potato",
+            "itemtype": "veg",
+            "price": "65"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424979/china%20kitchen/Chicken_Taipai.jpg",
+            "itemname": "Chicken Taipai",
+            "itemtype": "nonveg",
+            "price": "110"
+      },
+        {
+            "thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461424984/china%20kitchen/Lemon_Coriander.jpg",
+            "itemname": "Lemon Coriander(seafood)",
+            "itemtype": "nonveg",
+            "price": "70"
+      }
+   ],
+    "Soup": [
+        {
+            "itemtype": "veg",
+            "itemname": "Sweet Corn",
+            "price": "50"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Sweet Corn",
+            "price": "60"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Sweet Corn(seafood)",
+            "price": "70"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Manchow",
+            "price": "55"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Manchow",
+            "price": "60"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Manchow(seafood)",
+            "price": "70"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Hot & Sour",
+            "price": "50"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Hot & Sour",
+            "price": "60"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Hot & Sour(seafood)",
+            "price": "70"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Lemen Coriander",
+            "price": "50"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Lemen Coriander",
+            "price": "60"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Lemen Coriander(seafood)",
+            "price": "70"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Eight Tresure",
+            "price": "55"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Eight Tresure",
+            "price": "65"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Eight Tresure(seafood)",
+            "price": "70"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Lung Fung",
+            "price": "50"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Lung Fung",
+            "price": "60"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Lung Fung(seafood)",
+            "price": "70"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Veg & Noodle Clear Soup",
+            "price": "50"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Tomyum Soup",
+            "price": "70"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Tomyum Soup(seafood)",
+            "price": "75"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chicken Clear Soup",
+            "price": "45"
+      }
+   ],
+    "Veg_starter": [
+        {
+            "itemname": "Finger Chips",
+            "price": "40",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Crisp Chilly Potato",
+            "price": "60",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Honey Chilly Potato",
+            "price": "65",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Potato Papper Salt",
+            "price": "65",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Crispy Chilly Babycorn ",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Sichuan Chilly Babycorn",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Kanjee Crispy Mushroom",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Chilly Mushroom Dry",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Sichuan Mushroom Dry",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom Papper Salt",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Human Mushroom Dry",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Chilly Garlic Mushroom Dry",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Chilly Paneer Dry",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer Manchurian Dry",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Sichuan Paneer Dry",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Barseque paneere Dry",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Hongkong Paneer Dry",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer Taipal",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Chilly Garlic Paneer Paneer Dry",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Devil's Paneer Dry",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Human Paneer Dry",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Veg Manchurian Dry",
+            "price": "75",
+            "itemtype": "veg"
+      }
+   ],
+    "Nonveg_starter": [
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Pan Fried Chicken Celery And papper"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "120",
+            "itemname": "Crispy Chicken with Chilly Honey"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Konjee Crispy Chicken"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Crispy Chicken  Sichuan Style"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Dragon Chicken"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Chicken Taipai"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "120",
+            "itemname": "Slice Chicken Chilly Basil Dry"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "125",
+            "itemname": "(China kitchen)Special Chicken"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "120",
+            "itemname": "Barbeque Chicken"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "120",
+            "itemname": "Sweet And Spicy Chicken"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "120",
+            "itemname": "Chilly Garlic Chicken Dry"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Human Chicken Dry"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Chilly Chicken Dry"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Crispy Chilly Chicken"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "120",
+            "itemname": "Lai We Kai"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "120",
+            "itemname": "Chicken Pepper Salt"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Chicken Lolypoop"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Sichuan Chicken Lolypoop"
+      },
+        {
+            "itemtype": "nonveg",
+            "price": "110",
+            "itemname": "Hong Kong Lolypoop"
+      }
+   ],
+    "Sea_food_starters": [
+        {
+            "itemname": "Golden Fried Prawn ",
+            "price": "160",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Pan Fried Chilly Fish",
+            "price": "140",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Cashewnut Dry Chilly",
+            "price": "180",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Pan Fried ",
+            "price": "170",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Pan Pepper Salt ",
+            "price": "170",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Pan Hunan ",
+            "price": "170",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Pan Hong Kong ",
+            "price": "170",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Pan Chilly ",
+            "price": "170",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Pan Oryster ",
+            "price": "170",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Pan Chilly Mustard",
+            "price": "170",
+            "itemtype": "nonveg"
+      }
+   ],
+    "Main_veg_course": [
+        {
+            "itemname": "Broccoli,corn & Mushroom",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Four Treasure",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Exotic Vegtable Souce(Hot Garlic)",
+            "price": "100",
+            "itemtype": "nveg"
+      },
+        {
+            "itemname": "Exotic Vegtable Souce(Chilly Basil)",
+            "price": "100",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Exotic Vegtable Souce(Contonese Style)",
+            "price": "100",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Exotic Vegtable Souce(Beijing)",
+            "price": "100",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Sweet & Sour Veg",
+            "price": "85",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom In Souce(Chilly)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom In Souce(Manchurian)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom In Souce(Sichuan)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom In Souce(Hong Kong)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom In Souce(Devils)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom In Souce(Hunan)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom In Souce(Hot Garlic)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer in Souce(Chilly)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer in Souce(Manchurian)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer in Souce(Sichuan)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer in Souce(Hong Kong)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer in Souce(Dervils)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer in Souce(Hunan)",
+            "price": "95",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer in Souce(Black pepper)",
+            "price": "95",
+            "itemtype": "veg"
+      }
+   ],
+    "Main_course_poultry": [
+        {
+            "itemname": "Tainshol Chicken",
+            "price": "110",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Devils Chicken",
+            "price": "110",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Cantanese Fried Chicken",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "With Chinese Green",
+            "price": "110"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Silce Chicken in Parsley Sauce",
+            "price": "110"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Silce Chicken in Chilly Wine Sauce",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "China Kitchen SPL Chicken ",
+            "price": "130"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chilly Chicken Sauce",
+            "price": "110"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chicken Haeking ",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chilly Garlic Chicken with Pepper  ",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Garlic Chicken(White)",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Kung Pao Chicken",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chicken Mandarin",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Crispy Fired Chicken Lemon Sauce",
+            "price": "120"
+      }
+   ],
+    "Rice": [
+        {
+            "itemtype": "veg",
+            "itemname": "Steamed Rice",
+            "price": "45"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Veg Fried Rice",
+            "price": "65"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Veg & Mushroom Fried Rice",
+            "price": "75"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Veg & Paneer Fried Rice",
+            "price": "80"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Veg Mixed Fried Rice",
+            "price": "80"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Corieander Burnt Garlic Veg Rice",
+            "price": "80"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Sichan Veg Fried Rice",
+            "price": "80"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "China Kitchen SPL Fried Rice",
+            "price": "95"
+      },
+        {
+            "itemtype": "veg",
+            "itemname": "Veg Thal Rice ",
+            "price": "75"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Egg Thal Rice",
+            "price": "85"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chicken Thal Rice",
+            "price": "95"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Prawn Thal Rice",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Mixed Thal Rice",
+            "price": "140"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Sea Food Thal Rice(prawn/fish)",
+            "price": "150"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Egg Fried Rice",
+            "price": "75"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Chiccken Fried Rice",
+            "price": "85"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Mixed Fried Rice",
+            "price": "130"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Coriender Burunt garlic Egg",
+            "price": "90"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Sichan Ckn Fried rice",
+            "price": "100"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Sichan Mixed Rice",
+            "price": "140"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Seafood Fried Rice",
+            "price": "160"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "Prawn Fried Rice",
+            "price": "120"
+      },
+        {
+            "itemtype": "nonveg",
+            "itemname": "China Kitchen SPL Fried Rice",
+            "price": "140"
+      }
+   ],
+    "Fried_Noodles": [
+        {
+            "price": "60",
+            "itemtype": "veg",
+            "itemname": "Veg "
+      },
+        {
+            "price": "70",
+            "itemtype": "veg",
+            "itemname": "Mushroom"
+      },
+        {
+            "price": "80",
+            "itemtype": "veg",
+            "itemname": "Paneer"
+      },
+        {
+            "price": "90",
+            "itemtype": "veg90",
+            "itemname": "Veg Mixed"
+      },
+        {
+            "price": "90",
+            "itemtype": "veg",
+            "itemname": "China Kitchen SPl Noodle "
+      },
+        {
+            "price": "70",
+            "itemtype": "nonveg",
+            "itemname": "Egg"
+      },
+        {
+            "price": "85",
+            "itemtype": "nonveg",
+            "itemname": "Chicken"
+      },
+        {
+            "price": "100",
+            "itemtype": "nonveg",
+            "itemname": "Prawn"
+      },
+        {
+            "price": "130",
+            "itemtype": "nonveg",
+            "itemname": "Mixed"
+      },
+        {
+            "price": "150",
+            "itemtype": "nonveg",
+            "itemname": "China Kitchen SPL"
+      },
+        {
+            "itemname": "Veg Padthal ",
+            "price": "80",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Egg Padthal",
+            "price": "90",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Chicken Padthal",
+            "price": "100",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Mixed Padthal",
+            "price": "130",
+            "itemtype": "nonveg"
+      }
+   ],
+    "Noodles": [
+        {
+            "itemname": "Veg Sichuan Noodles",
+            "price": "70",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Mushroom Sichuan Noodles",
+            "price": "80",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Paneer Sichuan Noodles",
+            "price": "90",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Veg Mix Sichuan Noodles",
+            "price": "100",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Egg Sichuan Noodles",
+            "price": "80",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Chicken Sichuan Noodles",
+            "price": "95",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Sichuan Noodles",
+            "price": "110",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Mixed Sichuan Noodles",
+            "price": "140",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Veg Shanghai Noodles",
+            "price": "70",
+            "itemtype": "veg"
+      },
+        {
+            "itemname": "Egg Shanghai Noodles",
+            "price": "80",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Chicken Shanghai Noodles",
+            "price": "95",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Prawn Shanghai Noodles",
+            "price": "110",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Mixed Egg Shanghai Noodles",
+            "price": "140",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Mixed Chicken Shanghai Noodles",
+            "price": "140",
+            "itemtype": "nonveg"
+      },
+        {
+            "itemname": "Mixed Prawn Shanghai Noodles",
+            "price": "140",
+            "itemtype": "nonveg"
+      }
+   ],
+    "Pan_fried_noodles": [
+        {
+            "itemname": "Veg Pan Fried Noodles",
+            "itemtype": "veg",
+            "price": "90"
+      },
+        {
+            "itemname": "Chicken Pan Fried Noodles",
+            "itemtype": "nonveg",
+            "price": "120"
+      },
+        {
+            "itemname": "Prawn Pan Fried Noodles",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Mixed(Chicken+Prawn)",
+            "itemtype": "nonveg",
+            "price": "150"
+      }
+   ],
+    "Chopsey": [
+        {
+            "itemname": "Veg Chopsey",
+            "itemtype": "veg",
+            "price": "90"
+      },
+        {
+            "itemname": "Chicken Chopsey",
+            "itemtype": "nonveg",
+            "price": "100"
+      },
+        {
+            "itemname": "Prawn Chopsey",
+            "itemtype": "nonveg",
+            "price": "130"
+      },
+        {
+            "itemname": "Mixed Chopsey(Chicken+Prawn)",
+            "itemtype": "nonveg",
+            "price": "150"
+      }
+   ],
+    "Momos": [
+        {
+            "price": "55",
+            "itemtype": "veg",
+            "itemname": "Veg Momo(Steam)"
+      },
+        {
+            "price": "60",
+            "itemtype": "veg",
+            "itemname": "Veg Momo(Fied)"
+      },
+        {
+            "price": "70",
+            "itemtype": "veg",
+            "itemname": "Veg Momo(Pan Fried)"
+      },
+        {
+            "price": "60",
+            "itemtype": "nonveg",
+            "itemname": "Chicken Momo(Steam)"
+      },
+        {
+            "price": "65",
+            "itemtype": "nonveg",
+            "itemname": "Chicken Momo(Fried)"
+      },
+        {
+            "price": "80",
+            "itemtype": "nonveg",
+            "itemname": "Chicken Momo(Pan Fried)"
+      }
+   ],
+    "Spring_roll": [
+        {
+            "price": "55",
+            "itemname": "Veg Spring Roll",
+            "itemtype": "veg"
+      },
+        {
+            "price": "65",
+            "itemname": "Chicken Spring Roll",
+            "itemtype": "nonveg"
+      }
+   ],
+    "Main_course_sea_food": [
+        {
+            "itemname": "Pan Fried Prawn in Chilly Sauce",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Prawn Hubei Style",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Prawn in Sauce(Sichan)",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Prawn in Sauce(Chilly)",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Prawn in Sauce(Balck Pepper)",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Prawn in Sauce(Chilly Oyster)",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Prawn in Sauce(Hunan)",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Prawn in Sauce(Devils Chilly Wine)",
+            "itemtype": "nonveg",
+            "price": "170"
+      },
+        {
+            "itemname": "Butter Garlic Fish with Seasonal Greens",
+            "itemtype": "nonveg",
+            "price": "150"
+      },
+        {
+            "itemname": "Fish in Sauce(Sichan)",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Fish in Sauce(Chilly)",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Fish in Sauce(Black Pepper)",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Fish in Sauce(Chilly Oyster)",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Fish in Sauce(Hunan)",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Fish in Sauce(Hot Garlic)",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Fish in Sauce(Chilly Mustard)",
+            "itemtype": "nonveg",
+            "price": "140"
+      },
+        {
+            "itemname": "Fish in Sauce()",
+            "itemtype": "nonveg",
+            "price": "140"
+      }
+   ]
 }
-

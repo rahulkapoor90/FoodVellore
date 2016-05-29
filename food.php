@@ -12,24 +12,35 @@ unset($_SESSION['order_no']);
 }
 ?>
 <meta charset="utf-8" />
+<title>Restaurants | FoodONZ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="FoodOnz,Food,Restaurants,Online order" />
 <meta name="description" content="Foodonz is an online ordering platform through which people can order food and get their food delivered or dine at the respective restaurant."/>
 <meta name="author" content="FoodOnz" />
 <link rel="stylesheet" type="text/css" href="./stylesheets/food_style.css">
 <style>
-.mySpinner{
-	position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto; /* presto! */
-  }
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
    .whole-rest{
 padding-left: 0px !important;
 padding-right: 0px !important;
+}
+.food-name{
+font-size: 16px !important;
+}
+.title-rest{
+font-size: 22px !important;
+}
+.restdesc-text{
+font-size:18px !important;
+margin-top:13px !important;
+}
+.timing{
+font-size: 16px !important;
+}
+.panel img{
+width: 75% !important;
+margin-left: auto !important;
+margin-right:auto !important;
 }
 #search-box{
 width:100% !important;
@@ -41,6 +52,7 @@ padding:20px !important;
 
 }
 </style>
+</head>
 		<script type="text/javascript">
 		$(document).ready(function(){
       $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');

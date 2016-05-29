@@ -1,361 +1,292 @@
 {
-    "Recommended": [
-        {
-            "itemtype": "veg",
-            "itemname": "Mojtos Mint Lemon ",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Paan Mojtos",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Green Apple",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Blue Curacao",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Lemon Tea",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Strawberry",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Raspberry Mint",
-            "price": "60"
-      }
-   ],
-    "Burgers": [
-        {
-            "itemtype": "veg",
-            "price": "40",
-            "itemname": "Veg Burger"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "45",
-            "itemname": "Chicken Burger"
-      },
-        {
-            "itemtype": "veg",
-            "price": "60",
-            "itemname": "Paneer Burger"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "80",
-            "itemname": "Fish Burger"
-      },
-        {
-            "itemtype": "veg",
-            "price": "10",
-            "itemname": "Extra Cheese"
-      }
-   ],
-    "Sandwiches": [
-        {
-            "price": "30",
-            "itemtype": "veg",
-            "itemname": "Veg Sandwich Sandwich"
-      },
-        {
-            "price": "30",
-            "itemtype": "veg",
-            "itemname": "Chessy Chilly Sandwich"
-      },
-        {
-            "price": "40",
-            "itemtype": "veg",
-            "itemname": "Veg Chilli Garlic Sandwich"
-      },
-        {
-            "price": "40",
-            "itemtype": "veg",
-            "itemname": "Paneer Tikka Sandwich"
-      },
-        {
-            "price": "40",
-            "itemtype": "veg",
-            "itemname": "Chilli Paneer Sandwich"
-      },
-        {
-            "price": "40",
-            "itemtype": "veg",
-            "itemname": "Mushroom Sandwich"
-      },
-        {
-            "price": "40",
-            "itemtype": "veg",
-            "itemname": "Veg Salad Sandwich"
-      },
-        {
-            "price": "35",
-            "itemtype": "nonveg",
-            "itemname": "Egg Sandwich Sandwich"
-      },
-        {
-            "price": "45",
-            "itemtype": "nonveg",
-            "itemname": "Chicken Sandwich"
-      },
-        {
-            "price": "50",
-            "itemtype": "nonveg",
-            "itemname": "Chicken Tikka Sandwich"
-      },
-        {
-            "price": "50",
-            "itemtype": "nonveg",
-            "itemname": "Chilly Chicken Sandwich"
-      },
-        {
-            "price": "60",
-            "itemtype": "nonveg",
-            "itemname": "Chicken Salami Sandwich"
-      },
-        {
-            "price": "60",
-            "itemtype": "nonveg",
-            "itemname": "Garlic Chicken Sandwich"
-      }
-   ],
-    "Rolls": [
-        {
-            "itemname": "Veg Roll",
-            "itemtype": "veg",
-            "price": "40"
-      },
-        {
-            "itemname": "Mushroom Roll",
-            "itemtype": "veg",
-            "price": "50"
-      },
-        {
-            "itemname": "Paneer Roll",
-            "itemtype": "veg",
-            "price": "50"
-      },
-        {
-            "itemname": "Chicken Tikka Roll",
-            "itemtype": "veg",
-            "price": "60"
-      },
-        {
-            "itemname": "Chicken Roll",
-            "itemtype": "veg",
-            "price": "50"
-      },
-        {
-            "itemname": "C N C Special Roll",
-            "itemtype": "veg",
-            "price": "70"
-      },
-        {
-            "itemname": "Chilly Special Roll",
-            "itemtype": "veg",
-            "price": "60"
-      }
-   ],
-    "Cakes": [
-        {
-            "itemtype": "veg",
-            "price": "40",
-            "itemname": "Cheese Cake"
-      },
-        {
-            "itemtype": "veg",
-            "price": "40",
-            "itemname": "Mousse"
-      },
-        {
-            "itemtype": "veg",
-            "price": "30",
-            "itemname": "Black Forest"
-      },
-        {
-            "itemtype": "veg",
-            "price": "30",
-            "itemname": "White Forest"
-      },
-        {
-            "itemtype": "veg",
-            "price": "40",
-            "itemname": "Chocolate Triffle"
-      },
-        {
-            "itemtype": "veg",
-            "price": "40",
-            "itemname": "Choco Lava"
-      },
-        {
-            "itemtype": "veg",
-            "price": "30",
-            "itemname": "Donut"
-      },
-        {
-            "itemtype": "veg",
-            "price": "40",
-            "itemname": "Spl. Donut"
-      },
-        {
-            "itemtype": "veg",
-            "price": "40",
-            "itemname": "Apple Pie"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "350",
-            "itemname": "Black Forest"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "400",
-            "itemname": "White Forest"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "400",
-            "itemname": "Chocolate Triffle"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "500",
-            "itemname": "Death By Chocolate"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "450",
-            "itemname": "Choco Almond"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "400",
-            "itemname": "Choco-A-Mocca"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "500",
-            "itemname": "Choco Chips"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "350",
-            "itemname": "Green Apple"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "350",
-            "itemname": "Black Current"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "350",
-            "itemname": "Strawberry "
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "350",
-            "itemname": "BlueBerry"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "350",
-            "itemname": "Butter Scotch"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "450",
-            "itemname": "Cheese Cake"
-      },
-        {
-            "itemtype": "nonveg",
-            "price": "400",
-            "itemname": "Mousse Cake"
-      }
-   ],
-    "Bases": [
-        {
-            "itemname": "Red Tomato Base(Veg)",
-            "price": "100",
-            "itemtype": "veg"
-      },
-        {
-            "itemname": "Red Tomato Base(Nonveg)",
-            "price": "130",
-            "itemtype": "nonveg"
-      },
-        {
-            "itemname": "Creamy Pesto Base(Veg)",
-            "price": "100",
-            "itemtype": "veg"
-      },
-        {
-            "itemname": "Creamy Pesto Base(Nonveg)",
-            "itemtype": "nonveg",
-            "price": "130"
-      },
-        {
-            "itemname": "Cheesy White Base",
-            "itemtype": "veg",
-            "price": "100"
-      },
-        {
-            "itemname": "Cheesy White Base",
-            "itemtype": "veg",
-            "price": "130"
-      },
-        {
-            "itemname": "French Fries",
-            "itemtype": "veg",
-            "price": "40"
-      }
-   ],
-    "Drinks": [
-        {
-            "itemtype": "veg",
-            "itemname": "Mojtos Mint Lemon ",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Paan Mojtos",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Green Apple",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Blue Curacao",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Lemon Tea",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Strawberry",
-            "price": "60"
-      },
-        {
-            "itemtype": "veg",
-            "itemname": "Raspberry Mint",
-            "price": "60"
-      }
-   ]
+	"Recommended": [{
+		"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461423372/Crisp%20n%20creme/mint_lemon.jpg",
+		"itemtype": "veg",
+		"itemname": "Mojitos Mint Lemon ",
+		"price": "60"
+	}, {
+		"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461423362/Crisp%20n%20creme/paan.jpg",
+		"itemtype": "veg",
+		"itemname": "Paan Mojitos",
+		"price": "60"
+	}, {
+		"thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461423370/Crisp%20n%20creme/Green_apple.jpg",
+		"itemtype": "veg",
+		"itemname": "Green Apple",
+		"price": "60"
+	}, {
+		"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461423365/Crisp%20n%20creme/blue.jpg",
+		"itemtype": "veg",
+		"itemname": "Blue Curacao",
+		"price": "60"
+	}, {
+		"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461423368/Crisp%20n%20creme/lemon_te.jpg",
+		"itemtype": "veg",
+		"itemname": "Lemon Tea",
+		"price": "60"
+	}, {
+		"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461423369/Crisp%20n%20creme/strawberry.jpg",
+		"itemtype": "veg",
+		"itemname": "Strawberry",
+		"price": "60"
+	}, {
+		"thumbnail": "http://res.cloudinary.com/dhdglilcj/image/upload/v1461423360/Crisp%20n%20creme/Raspberry_Mint.jpg",
+		"itemtype": "veg",
+		"itemname": "Raspberry Mint",
+		"price": "60"
+	}],
+	"Burgers": [{
+		"itemtype": "veg",
+		"price": "40",
+		"itemname": "Veg Burger"
+	}, {
+		"itemtype": "nonveg",
+		"price": "45",
+		"itemname": "Chicken Burger"
+	}, {
+		"itemtype": "veg",
+		"price": "60",
+		"itemname": "Paneer Burger"
+	}, {
+		"itemtype": "nonveg",
+		"price": "80",
+		"itemname": "Fish Burger"
+	}, {
+		"itemtype": "veg",
+		"price": "10",
+		"itemname": "Extra Cheese"
+	}],
+	"Sandwiches": [{
+		"price": "30",
+		"itemtype": "veg",
+		"itemname": "Veg Sandwich Sandwich"
+	}, {
+		"price": "30",
+		"itemtype": "veg",
+		"itemname": "Chessy Chilly Sandwich"
+	}, {
+		"price": "40",
+		"itemtype": "veg",
+		"itemname": "Veg Chilli Garlic Sandwich"
+	}, {
+		"price": "40",
+		"itemtype": "veg",
+		"itemname": "Paneer Tikka Sandwich"
+	}, {
+		"price": "40",
+		"itemtype": "veg",
+		"itemname": "Chilli Paneer Sandwich"
+	}, {
+		"price": "40",
+		"itemtype": "veg",
+		"itemname": "Mushroom Sandwich"
+	}, {
+		"price": "40",
+		"itemtype": "veg",
+		"itemname": "Veg Salad Sandwich"
+	}, {
+		"price": "35",
+		"itemtype": "nonveg",
+		"itemname": "Egg Sandwich Sandwich"
+	}, {
+		"price": "45",
+		"itemtype": "nonveg",
+		"itemname": "Chicken Sandwich"
+	}, {
+		"price": "50",
+		"itemtype": "nonveg",
+		"itemname": "Chicken Tikka Sandwich"
+	}, {
+		"price": "50",
+		"itemtype": "nonveg",
+		"itemname": "Chilly Chicken Sandwich"
+	}, {
+		"price": "60",
+		"itemtype": "nonveg",
+		"itemname": "Chicken Salami Sandwich"
+	}, {
+		"price": "60",
+		"itemtype": "nonveg",
+		"itemname": "Garlic Chicken Sandwich"
+	}],
+	"Rolls": [{
+		"itemname": "Veg Roll",
+		"itemtype": "veg",
+		"price": "40"
+	}, {
+		"itemname": "Mushroom Roll",
+		"itemtype": "veg",
+		"price": "50"
+	}, {
+		"itemname": "Paneer Roll",
+		"itemtype": "veg",
+		"price": "50"
+	}, {
+		"itemname": "Chicken Tikka Roll",
+		"itemtype": "veg",
+		"price": "60"
+	}, {
+		"itemname": "Chicken Roll",
+		"itemtype": "veg",
+		"price": "50"
+	}, {
+		"itemname": "C N C Special Roll",
+		"itemtype": "veg",
+		"price": "70"
+	}, {
+		"itemname": "Chilly Special Roll",
+		"itemtype": "veg",
+		"price": "60"
+	}],
+	"Cakes": [{
+		"itemtype": "veg",
+		"price": "40",
+		"itemname": "Cheese Cake"
+	}, {
+		"itemtype": "veg",
+		"price": "40",
+		"itemname": "Mousse"
+	}, {
+		"itemtype": "veg",
+		"price": "30",
+		"itemname": "Black Forest"
+	}, {
+		"itemtype": "veg",
+		"price": "30",
+		"itemname": "White Forest"
+	}, {
+		"itemtype": "veg",
+		"price": "40",
+		"itemname": "Chocolate Triffle"
+	}, {
+		"itemtype": "veg",
+		"price": "40",
+		"itemname": "Choco Lava"
+	}, {
+		"itemtype": "veg",
+		"price": "30",
+		"itemname": "Donut"
+	}, {
+		"itemtype": "veg",
+		"price": "40",
+		"itemname": "Spl. Donut"
+	}, {
+		"itemtype": "veg",
+		"price": "40",
+		"itemname": "Apple Pie"
+	}, {
+		"itemtype": "nonveg",
+		"price": "350",
+		"itemname": "Black Forest"
+	}, {
+		"itemtype": "nonveg",
+		"price": "400",
+		"itemname": "White Forest"
+	}, {
+		"itemtype": "nonveg",
+		"price": "400",
+		"itemname": "Chocolate Triffle"
+	}, {
+		"itemtype": "nonveg",
+		"price": "500",
+		"itemname": "Death By Chocolate"
+	}, {
+		"itemtype": "nonveg",
+		"price": "450",
+		"itemname": "Choco Almond"
+	}, {
+		"itemtype": "nonveg",
+		"price": "400",
+		"itemname": "Choco-A-Mocca"
+	}, {
+		"itemtype": "nonveg",
+		"price": "500",
+		"itemname": "Choco Chips"
+	}, {
+		"itemtype": "nonveg",
+		"price": "350",
+		"itemname": "Green Apple"
+	}, {
+		"itemtype": "nonveg",
+		"price": "350",
+		"itemname": "Black Current"
+	}, {
+		"itemtype": "nonveg",
+		"price": "350",
+		"itemname": "Strawberry "
+	}, {
+		"itemtype": "nonveg",
+		"price": "350",
+		"itemname": "BlueBerry"
+	}, {
+		"itemtype": "nonveg",
+		"price": "350",
+		"itemname": "Butter Scotch"
+	}, {
+		"itemtype": "nonveg",
+		"price": "450",
+		"itemname": "Cheese Cake"
+	}, {
+		"itemtype": "nonveg",
+		"price": "400",
+		"itemname": "Mousse Cake"
+	}],
+	"Bases": [{
+		"itemname": "Red Tomato Base(Veg)",
+		"price": "100",
+		"itemtype": "veg"
+	}, {
+		"itemname": "Red Tomato Base(Nonveg)",
+		"price": "130",
+		"itemtype": "nonveg"
+	}, {
+		"itemname": "Creamy Pesto Base(Veg)",
+		"price": "100",
+		"itemtype": "veg"
+	}, {
+		"itemname": "Creamy Pesto Base(Nonveg)",
+		"itemtype": "nonveg",
+		"price": "130"
+	}, {
+		"itemname": "Cheesy White Base",
+		"itemtype": "veg",
+		"price": "100"
+	}, {
+		"itemname": "Cheesy White Base",
+		"itemtype": "veg",
+		"price": "130"
+	}, {
+		"itemname": "French Fries",
+		"itemtype": "veg",
+		"price": "40"
+	}],
+	"Drinks": [{
+		"itemtype": "veg",
+		"itemname": "Mojtos Mint Lemon ",
+		"price": "60"
+	}, {
+		"itemtype": "veg",
+		"itemname": "Paan Mojtos",
+		"price": "60"
+	}, {
+		"itemtype": "veg",
+		"itemname": "Green Apple",
+		"price": "60"
+	}, {
+		"itemtype": "veg",
+		"itemname": "Blue Curacao",
+		"price": "60"
+	}, {
+		"itemtype": "veg",
+		"itemname": "Lemon Tea",
+		"price": "60"
+	}, {
+		"itemtype": "veg",
+		"itemname": "Strawberry",
+		"price": "60"
+	}, {
+		"itemtype": "veg",
+		"itemname": "Raspberry Mint",
+		"price": "60"
+	}]
 }

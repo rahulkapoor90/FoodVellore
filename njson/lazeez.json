@@ -1,21 +1,25 @@
 {
     "Recommended": [
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461415525/Lazeez%20kabab/tandoori_Chicken.jpg",   
             "itemtype": "nonveg",
             "itemname": "Tandoori Chicken(Half)",
             "price": "145"
       },
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461415525/Lazeez%20kabab/afgani_chicken.jpg", 
             "itemtype": "nonveg",
             "itemname": "Afgani Chicken(Half)",
             "price": "160"
       },
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461415525/Lazeez%20kabab/mutton_raan.jpg", 
             "itemtype": "nonveg",
             "itemname": "Mutton Raan",
             "price": "140"
       },
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461415525/Lazeez%20kabab/cheese_paneer_tikka.jpg", 
             "itemtype": "veg",
             "itemname": "Paneer Cheese Tikka",
             "price": "99"

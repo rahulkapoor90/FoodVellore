@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Download | FoodONZ</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/hover.css" rel="stylesheet" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link type="image/x-icon" rel="shortcut icon" href="https://i.imgur.com/xl1WjhW.png"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>						
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+ 	<!---- start-smoth-scrolling---->
+
+</head>
+<body>
+<!---->
+<div id="home" class="banner">
+	 <div class="container">
+		 <div class="col-md-6 banner-info">
+			 <div class="logo">
+				 <a href="#home"><img src="https://i.imgur.com/PzeOPHi.png" width="94" height="84" alt=""/></a>
+			 </div>			 
+			 <!-- start slider -->			 
+			 <div class="flexslider">
+				 <ul class="slides">
+					 <li>
+						 <div class="tittle">
+							 <h1>FoodONZ</h1>
+								<p>Ordering Food in Vellore, Made simple. At FoodONZ, we have spent countless hours working in developing products that help you not just order food but provide such a convienience that has never been provided before.</p>
+							  <a class="hvr-shutter-in-horizontal" href="#">LEARN MORE</a>
+						</div>
+					  </li>	
+					  <li>
+						 <div class="tittle">
+							 <h1>The Most Amazing App</h1>
+							  <a class="hvr-shutter-in-horizontal" href="#">LEARN MORE</a>
+						</div>
+					  </li>	
+				  </ul>
+			 </div>
+			  <!-- end slider -->			
+		 </div>		 
+		 <div class="col-md-6 banner-pic">
+			 <img src="images/phone.png" alt=""/>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+							  <script type="text/javascript">
+								$(function(){
+								  SyntaxHighlighter.all();
+								});
+								$(window).load(function(){
+								  $('.flexslider ').flexslider({
+									animation: "slide",
+									start: function(slider){
+									  $('body').removeClass('loading');
+									}
+								  });
+								});
+							  </script>
+<!---->
+</body>

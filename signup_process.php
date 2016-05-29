@@ -11,12 +11,11 @@ $mobile = strip_tags(@$_POST['mobile']);
 		try
 		{	
 define('SENDERID','FOODON');
-define('AUTHKEY','rohit101293');
-define('PASSWORD','rohitrohit');
+define('AUTHKEY','111347ANDsZtRM1DZu57278d8e');
 function sendOtp($otp, $phone){
  $sms_content = "Your FoodONZ verification code is"." ".$otp;
  $sms_text = urlencode($sms_content);
- $api_url = 'http://login.cheapsmsbazaar.com/vendorsms/pushsms.aspx?user=rohit101293&password=rohitrohit&msisdn='.$phone.'&sid=FOODON&msg='.$sms_text.'&fl=0&gwid=2';
+ $api_url = 'https://control.msg91.com/api/sendhttp.php?authkey='.AUTHKEY.'&mobiles='.$phone.'&message='.$sms_text.'&sender='.SENDERID.'&route=4&response=json';
  $response = file_get_contents($api_url);
  return $response;
  }
@@ -57,6 +56,9 @@ else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
 else if(!preg_match("/^[a-zA-Z ]*$/",$name)){
 	echo "Only letters and white spaces allowed for name";
 }
+else if(!preg_match("/^[a-zA-Z0-9]*$/",$username)){
+	echo "Only letters and numbers allowed for username";
+}
 else if(!preg_match("/^[0-9 ]*$/",$mobile)){
 	echo "Only numbers allowed for mobile";
 }
@@ -81,7 +83,7 @@ $domain = "www.foodonz.com";
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
     'from'    => 'FoodONZ <no-reply@foodonz.com>',
-    'to'      => 'rahulkapoorhooting@gmail.com,shubham.ss122@gmail.com',
+    'to'      => ''.$email.'',
     'subject' => 'Phone Verification at FoodONZ',
     'html'    => '<div bgcolor="#95a5a6" dir="ltr" style="margin:0;padding:0">
 <table width="100%;" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse">
@@ -257,12 +259,12 @@ FoodONZ, Vellore, PO BOX - 632014
 </div>'
 ));
 $postdata = json_decode($res);
-$reply = $postdata->ErrorMessage;
-if($reply == "Success"){
-echo "ok";
+$reply = $postdata->type;
+if($reply == 'success'){
+echo 'ok';
 }
 else{
-echo "A problem with messaging service occurred";
+echo $reply;
 }
 }		
 				

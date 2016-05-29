@@ -86,7 +86,7 @@
   border-radius: 0px;
 }
 
-#img_logo {
-    max-height: 130px;
-    max-width: 130px;
+.img_logo {
+    max-height: 130px !important;
+    max-width: 130px !important;
 }

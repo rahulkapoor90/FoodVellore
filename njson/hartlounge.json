@@ -1,11 +1,13 @@
 {
     "Recommended": [
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461395027/Hart%20Lounge/Chicken_Shawarma.jpg",
             "itemtype": "nonveg",
             "price": "300",
             "itemname": "Chicken Shawarma"
       },
         {
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461395027/Hart%20Lounge/BBQ_Spicy_Chicken.jpg",
             "itemtype": "nonveg",
             "price": "400",
             "itemname": "BBQ Spicy Chicken"

@@ -1,25 +1,24 @@
 {
     "Recommended": [
         {
-            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1460631494/Apna%20dhaba/hyderabadi_chicken_dum_biryani.jpg",
-            "itemtype": "nonveg",
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461410232/Apna%20dhaba/hyderabadi_chicken_dum_biryani.jpg",
             "itemname": "Hyderabadi Chicken Dum Biryani",
             "price": "115"
       },
         {
-            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461153402/small_chicken_tikka_masala_gdkeqa.jpg",         
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461410232/Apna%20dhaba/veg_keema.jpg",         
             "itemtype": "veg",
             "itemname": "Veg Keema",
             "price": "95"
       },
         {
-            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1460631484/Apna%20dhaba/chicken_rogan_josh.jpg",
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461410233/Apna%20dhaba/chicken_rogan_josh.jpg",
             "itemtype": "nonveg",
             "itemname": "Chicken Rogan Josh",
             "price": "160"
       },
         {
-            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1460631492/Apna%20dhaba/chicken_tikka_masala.jpg",
+            "thumbnail":"http://res.cloudinary.com/dhdglilcj/image/upload/v1461410232/Apna%20dhaba/chicken_tikka_masala.jpg",
             "itemtype": "nonveg",
             "itemname": "Chicken Tikka Masala",
             "price": "160"

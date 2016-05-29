@@ -7,7 +7,7 @@ $postdata = file_get_contents("php://input");
 $request = json_decode($postdata);
 $func_status = $request->func_status;
 $coupon = strtoupper($request->coupon);
-if($coupon=="WELCOME100" || $coupon=="WELCOME50" || $coupon=="ADG40"){
+if($coupon=="WELCOME100" || $coupon=="WELCOME50" || $coupon=="TEE5"|| $coupon=="TEE10" || $coupon=="TEE15"){
 $rest_name = "ALL";
 }
 else{
@@ -43,10 +43,15 @@ if($coupche->execute()){
         }
 				if(intval($total)<=intval($amount)){
 				while($row1 = $disc->fetch()){
-				$data[] = $row1;
+				$discount = $row1['discount'];
+                                $cashback = $row1['cashback'];
 				}
 					$_SESSION['coupon'] = $coupon;
-				print json_encode($data);
+				if($discount==0 || $discount==5){
+                                 echo "0".strval($discount).$cashback;
+}else{
+echo $discount.$cashback;
+}
 			}
 			else{
 				echo $total.'bill_error';
